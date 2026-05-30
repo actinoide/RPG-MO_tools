@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>RPG MO Tools</title>
+</head>
+
+<body style="background-color: #1f1b26;">
+  <div style="width: 15%; min-width: 75px;position: fixed;">
+    <nav style="float: left;padding-left: 10px;padding-right: 10px;">
+      <div style="display: table; width: 100%;">
+        <input type="text" placeholder="search" value=""
+          style="margin-top: 10px;margin-bottom: 10px;padding: 5px;width: 80%; box-sizing: border-box;border-radius: 6px; border-bottom-right-radius: 0;border-top-right-radius: 0;border: none;height: 24px; background-color: #373044ff; color: #dddce0;">
+        <button
+          style="border-radius: 6px; border-bottom-left-radius: 0; border-top-left-radius: 0;margin-left: -1px; padding-top: 12px;padding-bottom: 12px; margin-top: 10px;margin-bottom: 10px; border: none; width: 20%; vertical-align: top; background-color: #8777a3;"></button>
+      </div>
+      <div style="width: 100%;">
+        <a style="width: 100%; display: block;" href="#mining">
+          <span
+            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block;">mining</span>
+        </a>
+        <a style="width: 100%; display: block;" href="#fishing">
+          <span
+            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block;">fishing</span>
+        </a>
+        <a style="width: 100%; display: block;" href="#cooking">
+          <span
+            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block;">cooking</span>
+        </a>
+        <a style="width: 100%; display: block;" href="#alchemy">
+          <span
+            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block;">alchemy</span>
+        </a>
+        <a style="width: 100%; display: block;" href="#woodcutting">
+          <span
+            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block;">woodcutting</span>
+        </a>
+        <a style="width: 100%; display: block;" href="#farming">
+          <span
+            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block;">farming</span>
+        </a>
+        <a style="width: 100%; display: block;" href="#fungiculture">
+          <span
+            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block;">fungiculture</span>
+        </a>
+        <a style="width: 100%; display: block;" href="#forging">
+          <span
+            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block;">forging</span>
+        </a>
+        <a style="width: 100%; display: block;" href="#wizardry">
+          <span
+            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block;">wizardry</span>
+        </a>
+        <a style="width: 100%; display: block;" href="#fletching">
+          <span
+            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block;">fletching</span>
+        </a>
+        <a style="width: 100%; display: block;" href="#jewelry">
+          <span
+            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block;">jewelry</span>
+        </a>
+        <a style="width: 100%; display: block;" href="#breeding">
+          <span
+            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block;">breeding</span>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+
+
+  <div style="width: 80px; height: 80px;text-align: center;float: left; display: none;">
+    <div id="test" style="width: 32px;height: 32px; margin: auto;"></div>
+    <span style="color: #dddce0;">name</span>
+  </div>
+  <!-- above is a representation of a single item as element of a list displayed with their respective icon-->
+
+  <div id="static_content_container" style="width: 85%;float: left;margin-left: max(75px,15%);"></div>
+  <div id="table_content_container" style="width: 85%;float: left;margin-left: max(75px,15%);"></div>
+
+  <script src="../JS_Out/Data/image_sheets.js"></script>
+  <script src="../JS_Out/Data/item_bases.js"></script>
+  <script src="../JS_Out/Data/npc_bases.js"></script>
+  <script src="../JS_Out/Data/mining_scripts.js"></script>
+  <script src="../JS_Out/Data/object_bases.js"></script>
+  <script src="../JS_Out/Data/forge_formulas.js"></script>
+  <script src="../JS_Out/Data/fletching_formulas.js"></script>
+  <script src="../JS_Out/Data/pet_bases.js"></script>
+
+  <script src="../JS_Out/src/structs/item_base.js"></script>
+  <script src="../JS_Out/src/structs/object_base.js"></script>
+  <script src="../JS_Out/src/structs/results.js"></script>
+
+  <script src="../JS_Out/src/code/webmain.js"></script>
+  <script src="../JS_Out/src/code/mining.js"></script>
+  <script src="../JS_Out/src/code/fishing.js"></script>
+  <script src="../JS_Out/src/code/cooking.js"></script>
+  <script src="../JS_Out/src/code/alchemy.js"></script>
+  <script src="../JS_Out/src/code/woodcutting.js"></script>
+  <script src="../JS_Out/src/code/farming.js"></script>
+  <script src="../JS_Out/src/code/fungiculture.js"></script>
+  <script src="../JS_Out/src/code/forging.js"></script>
+  <script src="../JS_Out/src/code/wizardry.js"></script>
+  <script src="../JS_Out/src/code/fletching.js"></script>
+  <script src="../JS_Out/src/code/jewelry.js"></script>
+  <script src="../JS_Out/src/code/breeding.js"></script>
+
+  <script src="../Extras/sorttable.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "rpg-mo-tools",
+  "version": "0.1.0",
+  "main": "./JS_Out/src/code/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "actinoide",
+  "devDependencies": {
+    "electron": "^37.2.6"
+  },
+  "dependencies": {
+    "electron": "^37.2.6",
+    "original-fs": "^1.2.0"
+  },
+  "build": {
+    "appId": "app.actinoide.RPG-MO-Tools",
+    "productName": "RPG MO Tools",
+    "extraFiles": [
+    ]
+  }
+}
