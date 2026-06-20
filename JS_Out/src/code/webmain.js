@@ -9,7 +9,15 @@ let total_exp_for_level = (level) => {
 let level_from_exp = (xp) => {
     return Math.floor(Math.log(xp * (1.11 - 1) / 50 + 1) / (Math.log(1.11)) + 1);
 };
+window.addEventListener("DOMContentLoaded", (ev) => {
+    if (window.location.hash == "")
+        return;
+    update_content();
+});
 window.addEventListener("hashchange", (ev) => {
+    update_content();
+});
+let update_content = () => {
     static_content_container.innerHTML = "";
     table_content_container.innerHTML = "";
     switch (window.location.hash) {
@@ -50,7 +58,7 @@ window.addEventListener("hashchange", (ev) => {
             breeding_initialize();
             break;
     }
-});
+};
 let calculate_success = (base_chance, max_chance, level_required, level) => {
     return Math.round(10000 *
         ((level_required <= level) ?

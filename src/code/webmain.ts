@@ -12,7 +12,15 @@ let level_from_exp = (xp: number) => {
   return Math.floor(Math.log(xp * (1.11 - 1) / 50 + 1) / (Math.log(1.11)) + 1);
 };
 
+window.addEventListener("DOMContentLoaded", (ev)=>{
+  if(window.location.hash == "") return;
+  update_content();
+})
 window.addEventListener("hashchange", (ev) => {
+  update_content();
+});
+
+let update_content = ()=>{
   static_content_container.innerHTML = "";
   table_content_container.innerHTML = "";
   switch (window.location.hash) {
@@ -53,7 +61,7 @@ window.addEventListener("hashchange", (ev) => {
       breeding_initialize();
       break;
   }
-});
+}
 
 let calculate_success = (base_chance: number, max_chance: any, level_required: number, level: number): number => {
   return Math.round(10000 *
@@ -71,15 +79,3 @@ let get_image_div = (id: number) => {
   image_string += "></div>";
   return image_string;
 };
-
-/*
-let candy_id = 5401;
-let chance_of_path = 1;
-let outstring = "";
-item_base[candy_id].params.results[0].returns.forEach((value) => {
-  let current_chance = value.base_chance;
-  outstring += get_image_div(value.id) + "    " + current_chance;
-  chance_of_path -= chance_of_path * current_chance;
-});
-static_content_container.innerHTML = outstring;
-*/
