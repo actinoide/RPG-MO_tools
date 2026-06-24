@@ -4,65 +4,53 @@
 <head>
   <meta charset="UTF-8" />
   <title>RPG MO Tools</title>
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="background-color: #1f1b26;">
-  <div style="width: 15%; min-width: 110px; max-width: 200px; position: fixed;">
-    <nav style="float: left;padding-left: 10px;padding-right: 10px; width: -webkit-fill-available;">
-      <div style="display: table; width: 100%;  display: none;">
-        <input type="text" placeholder="search" value=""
-          style="margin-top: 10px;margin-bottom: 10px;padding: 5px;width: 80%; box-sizing: border-box;border-radius: 6px; border-bottom-right-radius: 0;border-top-right-radius: 0;border: none;height: 24px; background-color: #373044ff; color: #dddce0;">
-        <button
-          style="border-radius: 6px; border-bottom-left-radius: 0; border-top-left-radius: 0;margin-left: -1px; padding-top: 12px;padding-bottom: 12px; margin-top: 10px;margin-bottom: 10px; border: none; width: 20%; vertical-align: top; background-color: #8777a3;"></button>
+<body>
+  <div class="menu">
+    <nav class="navbar">
+      <div class="search-div">
+        <input type="text" placeholder="search" value="" class="search-box">
+        <button class="search-button">
       </div>
       <div style="width: 100%;">
         <a style="width: 100%; display: block;" href="#mining">
-          <span
-            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block; text-align: center;">mining</span>
+          <span class="menu-span">mining</span>
         </a>
         <a style="width: 100%; display: block;" href="#fishing">
-          <span
-            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block; text-align: center;">fishing</span>
+          <span class="menu-span">fishing</span>
         </a>
         <a style="width: 100%; display: block;" href="#cooking">
-          <span
-            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block; text-align: center;">cooking</span>
+          <span class="menu-span">cooking</span>
         </a>
         <a style="width: 100%; display: block;" href="#alchemy">
-          <span
-            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block; text-align: center;">alchemy</span>
+          <span class="menu-span">alchemy</span>
         </a>
         <a style="width: 100%; display: block;" href="#woodcutting">
-          <span
-            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block; text-align: center;">woodcutting</span>
+          <span class="menu-span">woodcutting</span>
         </a>
         <a style="width: 100%; display: block;" href="#farming">
-          <span
-            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block; text-align: center;">farming</span>
+          <span class="menu-span">farming</span>
         </a>
         <a style="width: 100%; display: block;" href="#fungiculture">
-          <span
-            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block; text-align: center;">fungiculture</span>
+          <span class="menu-span">fungiculture</span>
         </a>
         <a style="width: 100%; display: block;" href="#forging">
-          <span
-            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block; text-align: center;">forging</span>
+          <span class="menu-span">forging</span>
         </a>
         <a style="width: 100%; display: block;" href="#wizardry">
-          <span
-            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block; text-align: center;">wizardry</span>
+          <span class="menu-span">wizardry</span>
         </a>
         <a style="width: 100%; display: block;" href="#fletching">
-          <span
-            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block; text-align: center;">fletching</span>
+          <span class="menu-span">fletching</span>
         </a>
         <a style="width: 100%; display: block;" href="#jewelry">
-          <span
-            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block; text-align: center;">jewelry</span>
+          <span class="menu-span">jewelry</span>
         </a>
         <a style="width: 100%; display: block;" href="#breeding">
-          <span
-            style="color: #dddce0; background-color: #695b82; border-radius: 6px; padding: 5px; display: block; text-align: center;">breeding</span>
+          <span class="menu-span">breeding</span>
         </a>
       </div>
     </nav>
@@ -76,8 +64,9 @@
   </div>
   <!-- above is a representation of a single item as element of a list displayed with their respective icon-->
 
-  <div id="static_content_container" style="width: 85%;float: left;margin-left: min(max(110px,15%), 200px);"></div>
-  <div id="table_content_container" style="width: 85%;float: left;margin-left: min(max(110px,15%), 200px);"></div>
+  <div id="static_content_container" class="content"></div>
+  <div id="table_content_container" class="content"></div>
+
 
   <script src="./JS_Out/Data/image_sheets.js"></script>
   <script src="./JS_Out/Data/item_bases.js"></script>
