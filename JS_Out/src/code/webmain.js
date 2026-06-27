@@ -2,7 +2,18 @@
 let test = document.getElementById("test");
 let static_content_container = document.getElementById("static_content_container");
 let table_content_container = document.getElementById("table_content_container");
+let menu_button_crafting = document.getElementById("menu_button_crafting");
+let menu_div_crafting = document.getElementById("menu_div_crafting");
 let image_sheet_address = "https://data.mo.ee/";
+menu_button_crafting.addEventListener("click", () => {
+    menu_button_crafting.classList.toggle("menu-button-active");
+    if (menu_div_crafting.style.maxHeight == "0px") {
+        menu_div_crafting.style.maxHeight = menu_div_crafting.scrollHeight.toString() + "px";
+    }
+    else {
+        menu_div_crafting.style.maxHeight = "0px";
+    }
+});
 let total_exp_for_level = (level) => {
     return Math.round(50 * (Math.pow(1.11, level - 1) - 1) / (1.11 - 1));
 };

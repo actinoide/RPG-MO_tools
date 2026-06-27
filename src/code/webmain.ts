@@ -1,8 +1,19 @@
 let test = document.getElementById("test") as HTMLDivElement;
 let static_content_container = document.getElementById("static_content_container") as HTMLDivElement;
 let table_content_container = document.getElementById("table_content_container") as HTMLDivElement;
+let menu_button_crafting = document.getElementById("menu_button_crafting") as HTMLButtonElement;
+let menu_div_crafting = document.getElementById("menu_div_crafting") as HTMLDivElement;
 
 let image_sheet_address = "https://data.mo.ee/";
+
+menu_button_crafting.addEventListener("click", () => {
+  menu_button_crafting.classList.toggle("menu-button-active");
+  if (menu_div_crafting.style.maxHeight == "0px") {
+    menu_div_crafting.style.maxHeight = menu_div_crafting.scrollHeight.toString() + "px"; 
+  } else {
+    menu_div_crafting.style.maxHeight = "0px";
+  }
+});
 
 let total_exp_for_level = (level: number) => {
   return Math.round(50 * (Math.pow(1.11, level - 1) - 1) / (1.11 - 1));
@@ -12,15 +23,15 @@ let level_from_exp = (xp: number) => {
   return Math.floor(Math.log(xp * (1.11 - 1) / 50 + 1) / (Math.log(1.11)) + 1);
 };
 
-window.addEventListener("DOMContentLoaded", (ev)=>{
-  if(window.location.hash == "") return;
+window.addEventListener("DOMContentLoaded", (ev) => {
+  if (window.location.hash == "") return;
   update_content();
-})
+});
 window.addEventListener("hashchange", (ev) => {
   update_content();
 });
 
-let update_content = ()=>{
+let update_content = () => {
   static_content_container.innerHTML = "";
   table_content_container.innerHTML = "";
   switch (window.location.hash) {
@@ -61,7 +72,7 @@ let update_content = ()=>{
       breeding_initialize();
       break;
   }
-}
+};
 
 let calculate_success = (base_chance: number, max_chance: any, level_required: number, level: number): number => {
   return Math.round(10000 *
