@@ -71,6 +71,9 @@ let update_content = () => {
     case "#breeding":
       breeding_initialize();
       break;
+    case "#about":
+      about_initialize();
+      break;
   }
 };
 

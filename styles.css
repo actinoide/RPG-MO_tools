@@ -3,6 +3,18 @@ body {
   background-color: #1f1b26;
 }
 
+a:link {
+  color: #181cff;
+}
+
+a:visited {
+  color: #7118ff;
+}
+
+a:hover {
+  background-color: #6b5496;
+}
+
 /* styling of specific classes*/
 .menu {
   width: 15%;
@@ -93,4 +105,8 @@ body {
   width: 85%;
   float: left;
   margin-left: min(max(110px, 15%), 200px);
+}
+
+.about-link {
+  color: #dddce0;
 }
