@@ -2,17 +2,26 @@
 let test = document.getElementById("test");
 let static_content_container = document.getElementById("static_content_container");
 let table_content_container = document.getElementById("table_content_container");
-let menu_button_crafting = document.getElementById("menu_button_crafting");
-let menu_div_crafting = document.getElementById("menu_div_crafting");
+let menu_button_array = Array.from(document.getElementsByClassName("menu-button"));
+let menu_div_array = Array.from(document.getElementsByClassName("menu-div"));
 let image_sheet_address = "https://data.mo.ee/";
-menu_button_crafting.addEventListener("click", () => {
-    menu_button_crafting.classList.toggle("menu-button-active");
-    if (menu_div_crafting.style.maxHeight == "0px") {
-        menu_div_crafting.style.maxHeight = menu_div_crafting.scrollHeight.toString() + "px";
-    }
-    else {
-        menu_div_crafting.style.maxHeight = "0px";
-    }
+menu_button_array.forEach((menu_button) => {
+    menu_button.addEventListener("click", () => {
+        let menu_div = menu_div_array[menu_button_array.indexOf(menu_button)];
+        menu_button.classList.toggle("menu-button-active");
+        menu_button_array.forEach((button) => {
+            if (button.id != menu_button.id && button.classList.contains("menu-button-active")) {
+                button.classList.toggle("menu-button-active");
+                menu_div_array[menu_button_array.indexOf(button)].style.maxHeight = "0px";
+            }
+        });
+        if (menu_div.style.maxHeight == "0px") {
+            menu_div.style.maxHeight = menu_div.scrollHeight.toString() + "px";
+        }
+        else {
+            menu_div.style.maxHeight = "0px";
+        }
+    });
 });
 let total_exp_for_level = (level) => {
     return Math.round(50 * (Math.pow(1.11, level - 1) - 1) / (1.11 - 1));
@@ -67,6 +76,15 @@ let update_content = () => {
             break;
         case "#breeding":
             breeding_initialize();
+            break;
+        case "#party":
+            party_initialize();
+            break;
+        case "#retaliation":
+            retal_initialize();
+            break;
+        case "#rare_key":
+            rare_key_initialize();
             break;
         case "#about":
             about_initialize();

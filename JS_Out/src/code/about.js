@@ -1,7 +1,7 @@
 "use strict";
 let about_initialize = () => {
     static_content_container.innerHTML = `<div style="width: 33%; margin-left: 33%; margin-right: 33%; text-align: center; color: #dddce0;">
-      <h3>about</h3>
+      <h3>About</h3>
       <p> This tool for the web-game <a href="https://mo.ee"><span class="about-link">RPG MO</span></a> was created primarily because of a lack of accurate
         skilling calculators (<a
           href="https://docs.google.com/spreadsheets/d/1LuCHslHbPeHmJRL2sQw13nD3CZ0jDqrEGTERNHE05dU"><span class="about-link">Zacs

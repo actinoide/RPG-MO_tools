@@ -1,18 +1,28 @@
 let test = document.getElementById("test") as HTMLDivElement;
 let static_content_container = document.getElementById("static_content_container") as HTMLDivElement;
 let table_content_container = document.getElementById("table_content_container") as HTMLDivElement;
-let menu_button_crafting = document.getElementById("menu_button_crafting") as HTMLButtonElement;
-let menu_div_crafting = document.getElementById("menu_div_crafting") as HTMLDivElement;
+let menu_button_array = Array.from(document.getElementsByClassName("menu-button") as HTMLCollectionOf<HTMLButtonElement>);
+let menu_div_array = Array.from(document.getElementsByClassName("menu-div") as HTMLCollectionOf<HTMLDivElement>);
+
 
 let image_sheet_address = "https://data.mo.ee/";
 
-menu_button_crafting.addEventListener("click", () => {
-  menu_button_crafting.classList.toggle("menu-button-active");
-  if (menu_div_crafting.style.maxHeight == "0px") {
-    menu_div_crafting.style.maxHeight = menu_div_crafting.scrollHeight.toString() + "px"; 
-  } else {
-    menu_div_crafting.style.maxHeight = "0px";
-  }
+menu_button_array.forEach((menu_button) => {
+  menu_button.addEventListener("click", () => {
+    let menu_div = menu_div_array[menu_button_array.indexOf(menu_button)];
+    menu_button.classList.toggle("menu-button-active");
+    menu_button_array.forEach((button) => {
+      if (button.id != menu_button.id && button.classList.contains("menu-button-active")) {
+        button.classList.toggle("menu-button-active");
+        menu_div_array[menu_button_array.indexOf(button)].style.maxHeight = "0px";
+      }
+    });
+    if (menu_div.style.maxHeight == "0px") {
+      menu_div.style.maxHeight = menu_div.scrollHeight.toString() + "px";
+    } else {
+      menu_div.style.maxHeight = "0px";
+    }
+  });
 });
 
 let total_exp_for_level = (level: number) => {
@@ -70,6 +80,15 @@ let update_content = () => {
       break;
     case "#breeding":
       breeding_initialize();
+      break;
+    case "#party":
+      party_initialize();
+      break;
+    case "#retaliation":
+      retal_initialize();
+      break;
+    case "#rare_key":
+      rare_key_initialize();
       break;
     case "#about":
       about_initialize();

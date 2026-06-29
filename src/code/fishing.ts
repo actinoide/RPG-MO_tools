@@ -1,12 +1,12 @@
 let fishing_initialize = () => {
   static_content_container.innerHTML = `<div>
-   <input type="number" placeholder="exp" value="" id="fishing_exp_input" style="margin: 10px;padding: 5px;width: 15%;box-sizing: border-box;border-radius: 6px;border: none;height: 24px;background-color: #373044ff;color: #dddce0;min-width:40px;" >
-  <input type="number" placeholder="level" value="" id="fishing_level_input" style="margin: 10px;padding: 5px;width: 15%;box-sizing: border-box;border-radius: 6px;border: none;height: 24px;background-color: #373044ff;color: #dddce0;min-width:40px;"step = "1">
-  <input type="number" placeholder="target level" value="" id="fishing_target_level_input" style="margin: 10px;padding: 5px;width: 15%;box-sizing: border-box;border-radius: 6px;border: none;height: 24px;background-color: #373044ff;color: #dddce0;min-width:40px;"step = "1">
-  <input type="number" placeholder="inventory slots" value="" id="fishing_inventory_input" style="margin: 10px;padding: 5px;width: 15%;box-sizing: border-box;border-radius: 6px;border: none;height: 24px;background-color: #373044ff;color: #dddce0; min-width:40px;"step = "1">
-  <label style="margin:10px;padding:5px;box-sizing:border-box;border:none;color:#dddce0">
-  <input type="checkbox" id="fishing_2x_input" style="height:17px;width:17px;margin:0;vertical-align:middle;"><span style="vertical-align:middle;padding-left:5px;">2x</span></label>  
-  <button id="fishing_input_button" style ="border-radius: 6px;height: 24px;margin-top: 10px;margin-bottom: 10px;border: none;vertical-align: top;background-color: #8777a3;color: #dddce0;padding: 5px;">calculate</button></div>`;
+   <input type="number" placeholder="exp" value="" id="fishing_exp_input" class="input-number" >
+  <input type="number" placeholder="level" value="" id="fishing_level_input" class="input-number"step = "1">
+  <input type="number" placeholder="target level" value="" id="fishing_target_level_input" class="input-number"step = "1">
+  <input type="number" placeholder="inventory slots" value="" id="fishing_inventory_input" class="input-number"step = "1">
+  <label class="input-checkbox-label">
+  <input type="checkbox" id="fishing_2x_input" class="input-checkbox"><span class="input-checkbox-span">2x</span></label>  
+  <button id="fishing_input_button" class="input-button">calculate</button></div>`;
 
   let fishing_exp_input = document.getElementById("fishing_exp_input") as HTMLInputElement;
   let fishing_level_input = document.getElementById("fishing_level_input") as HTMLInputElement;
