@@ -936,3 +936,5 @@ extract_file_segment("FLETCHING_FORMULAS = {", "FLETCHING_FORMULA_IDS = {", "./D
 extract_file_segment("pets[1] = createObject({", "function copyPetLikes() {", "./Data/pet_bases.ts", `//@ts-nocheck
 let pets:any[]=[];
 `, 3);
+
+extract_file_segment("var release_version =", "var release_checksum ", "./Data/version.ts", "", 0);

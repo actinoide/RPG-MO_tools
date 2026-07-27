@@ -8,10 +8,11 @@ let about_initialize = () => {
           spreadsheet</span></a> does exist, however it neglects the change in success rate when levelling, therefore making
         calculations for large level gaps inaccurate), with additional features having been added as deemed necesary.
       </p>
-      <p> Other sources that may prove useful are <a href="motavern.com"><span class="about-link">MO Tavern</span></a>,<a
+      <p> Other sources that may prove useful are <a href="motavern.com"><span class="about-link">MO Tavern</span></a>, <a
           href="rpgmobob.com"><span class="about-link">RPGMOBOB</span></a>, though it is no longer receiving updates, and the <a
           href="rpg-mo.fandom.com"><span class="about-link">wiki</span></a>.</p>
       <p> This tool was created by actinoide, reachable under that name both in game and on the official discord,
         additionally a <a href="https://github.com/actinoide/RPG-MO_tools"><span class="about-link">Github</span></a> for this project exists.</p>
+      <p> The data being utilized stems from version ` + release_version + ` of the game.</p> 
     </div>`;
 };

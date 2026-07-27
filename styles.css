@@ -15,6 +15,14 @@ a:hover {
   background-color: #6b5496;
 }
 
+tr:nth-of-type(odd) {
+  background-color: #2c2538;
+}
+
+tr:nth-of-type(even) {
+  background-color: #1f1b26;
+}
+
 /* styling of specific classes*/
 .menu {
   width: 15%;
