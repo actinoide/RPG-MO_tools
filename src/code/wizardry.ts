@@ -22,6 +22,10 @@ let wizardry_initialize = () => {
   let wizardry_spell_input = document.getElementById("wizardry_spell_input") as HTMLInputElement;
   let wizardry_anvil_input = document.getElementById("wizardry_anvil_input") as HTMLInputElement;
 
+  get_stored_level("wizardry").then((level) => {
+    wizardry_level_input.value = level.toString();
+    if (wizardry_level_input.value == "-1") wizardry_level_input.value = "";
+  });
 
   wizardry_exp_input.addEventListener("focus", () => {
     wizardry_exp_input.value = wizardry_exp_input.value.replace(/[,]/g, "");

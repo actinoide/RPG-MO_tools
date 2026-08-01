@@ -12,8 +12,6 @@ let forging_initialize = () => {
   <input type="checkbox" id="forging_recycling_input" class="input-checkbox"><span class="input-checkbox-span">recycling</span></label>
   <button id="forging_input_button" class="input-button">calculate</button></div>`;
 
-
-
   let forging_exp_input = document.getElementById("forging_exp_input") as HTMLInputElement;
   let forging_level_input = document.getElementById("forging_level_input") as HTMLInputElement;
   let forging_target_level_input = document.getElementById("forging_target_level_input") as HTMLInputElement;
@@ -21,6 +19,11 @@ let forging_initialize = () => {
   let forging_2x_input = document.getElementById("forging_2x_input") as HTMLInputElement;
   let forging_smelting_input = document.getElementById("forging_smelting_input") as HTMLInputElement;
   let forging_recycling_input = document.getElementById("forging_recycling_input") as HTMLInputElement;
+
+  get_stored_level("forging").then((level) => {
+    forging_level_input.value = level.toString();
+    if (forging_level_input.value == "-1") forging_level_input.value = "";
+  });
 
   forging_exp_input.addEventListener("focus", () => {
     forging_exp_input.value = forging_exp_input.value.replace(/[,]/g, "");

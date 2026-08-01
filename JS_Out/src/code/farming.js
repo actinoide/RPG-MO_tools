@@ -22,6 +22,11 @@ let farming_initialize = () => {
     let farming_field_input = document.getElementById("farming_field_input");
     let farming_bush_input = document.getElementById("farming_bush_input");
     let farming_inventory_input = document.getElementById("farming_inventory_input");
+    get_stored_level("farming").then((level) => {
+        farming_level_input.value = level.toString();
+        if (farming_level_input.value == "-1")
+            farming_level_input.value = "";
+    });
     farming_exp_input.addEventListener("focus", () => {
         farming_exp_input.value = farming_exp_input.value.replace(/[,]/g, "");
         farming_exp_input.type = "number";

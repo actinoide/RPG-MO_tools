@@ -17,6 +17,11 @@ let fungiculture_initialize = () => {
     let fungiculture_input_button = document.getElementById("fungiculture_input_button");
     let fungiculture_2x_input = document.getElementById("fungiculture_2x_input");
     let fungiculture_spore_input = document.getElementById("fungiculture_spore_input");
+    get_stored_level("fungiculture").then((level) => {
+        fungiculture_level_input.value = level.toString();
+        if (fungiculture_level_input.value == "-1")
+            fungiculture_level_input.value = "";
+    });
     fungiculture_exp_input.addEventListener("focus", () => {
         fungiculture_exp_input.value = fungiculture_exp_input.value.replace(/[,]/g, "");
         fungiculture_exp_input.type = "number";

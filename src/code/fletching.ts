@@ -13,7 +13,6 @@ let fletching_initialize = () => {
   <input type="checkbox" id="fletching_recycling_input" class="input-checkbox"><span class="input-checkbox-span">recycling</span></label>
   <button id="fletching_input_button" class="input-button">calculate</button></div>`;
 
-
   let fletching_exp_input = document.getElementById("fletching_exp_input") as HTMLInputElement;
   let fletching_level_input = document.getElementById("fletching_level_input") as HTMLInputElement;
   let fletching_target_level_input = document.getElementById("fletching_target_level_input") as HTMLInputElement;
@@ -23,6 +22,10 @@ let fletching_initialize = () => {
   let fletching_arrow_input = document.getElementById("fletching_arrow_input") as HTMLInputElement;
   let fletching_anvil_input = document.getElementById("fletching_anvil_input") as HTMLInputElement;
 
+  get_stored_level("fletching").then((level) => {
+    fletching_level_input.value = level.toString();
+    if (fletching_level_input.value == "-1") fletching_level_input.value = "";
+  });
 
   fletching_exp_input.addEventListener("focus", () => {
     fletching_exp_input.value = fletching_exp_input.value.replace(/[,]/g, "");

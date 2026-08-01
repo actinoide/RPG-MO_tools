@@ -18,6 +18,11 @@ let cooking_initialize = () => {
     let cooking_2x_input = document.getElementById("cooking_2x_input");
     let cooking_campfire_input = document.getElementById("cooking_campfire_input");
     let cooking_kettle_input = document.getElementById("cooking_kettle_input");
+    get_stored_level("cooking").then((level) => {
+        cooking_level_input.value = level.toString();
+        if (cooking_level_input.value == "-1")
+            cooking_level_input.value = "";
+    });
     cooking_exp_input.addEventListener("focus", () => {
         cooking_exp_input.value = cooking_exp_input.value.replace(/[,]/g, "");
         cooking_exp_input.type = "number";

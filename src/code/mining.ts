@@ -15,6 +15,11 @@ let mining_initialize = () => {
   let mining_input_button = document.getElementById("mining_input_button") as HTMLButtonElement;
   let mining_2x_input = document.getElementById("mining_2x_input") as HTMLInputElement;
 
+  get_stored_level("mining").then((level) => {
+    mining_level_input.value = level.toString();
+    if (mining_level_input.value == "-1") mining_level_input.value = "";
+  });
+
   mining_exp_input.addEventListener("focus", () => {
     mining_exp_input.value = mining_exp_input.value.replace(/[,]/g, "");
     mining_exp_input.type = "number";
@@ -51,7 +56,7 @@ let mining_initialize = () => {
       let returns = item.params.results[0].returns;
       let image_string = "";
       returns.forEach((value) => {
-        image_string += get_image_div(value.id)
+        image_string += get_image_div(value.id);
       });
       item_string += "<td>" + image_string + "</td>";
       item_string += "<td>" + returns[returns.length - 1].level + "</td>";
@@ -61,7 +66,7 @@ let mining_initialize = () => {
       let xp_per_tick = 0;
       let chance_of_path = 1;
       returns.forEach((value) => {
-        let current_chance = calculate_success(value.base_chance, value.max_chance, value.level, level)
+        let current_chance = calculate_success(value.base_chance, value.max_chance, value.level, level);
         xp_per_tick += chance_of_path * current_chance * value.xp;
         chance_of_path -= chance_of_path * current_chance;
       });

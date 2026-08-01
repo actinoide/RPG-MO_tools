@@ -14,6 +14,11 @@ let mining_initialize = () => {
     let mining_inventory_input = document.getElementById("mining_inventory_input");
     let mining_input_button = document.getElementById("mining_input_button");
     let mining_2x_input = document.getElementById("mining_2x_input");
+    get_stored_level("mining").then((level) => {
+        mining_level_input.value = level.toString();
+        if (mining_level_input.value == "-1")
+            mining_level_input.value = "";
+    });
     mining_exp_input.addEventListener("focus", () => {
         mining_exp_input.value = mining_exp_input.value.replace(/[,]/g, "");
         mining_exp_input.type = "number";

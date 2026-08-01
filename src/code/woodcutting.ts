@@ -16,6 +16,11 @@ let woodcutting_initialize = () => {
   let woodcutting_input_button = document.getElementById("woodcutting_input_button") as HTMLButtonElement;
   let woodcutting_2x_input = document.getElementById("woodcutting_2x_input") as HTMLInputElement;
 
+  get_stored_level("woodcutting").then((level) => {
+    woodcutting_level_input.value = level.toString();
+    if (woodcutting_level_input.value == "-1") woodcutting_level_input.value = "";
+  });
+
   woodcutting_exp_input.addEventListener("focus", () => {
     woodcutting_exp_input.value = woodcutting_exp_input.value.replace(/[,]/g, "");
     woodcutting_exp_input.type = "number";
@@ -58,7 +63,7 @@ let woodcutting_initialize = () => {
       item_string += "<td>" + image_string + "</td>";
       item_string += "<td>" + returns[returns.length - 1].level + "</td>";
       item_string += "<td>" + (item_base[returns[0].id].name.includes("Log") ? returns[0].base_chance : returns[returns.length - 1].base_chance) + "</td>";
-      item_string += "<td>" + (item_base[returns[0].id].name.includes("Log") ? calculate_success(returns[0].base_chance, returns[0].max_chance, returns[0].level, level):calculate_success(returns[returns.length - 1].base_chance, returns[returns.length - 1].max_chance, returns[returns.length - 1].level, level)) + "</td>";
+      item_string += "<td>" + (item_base[returns[0].id].name.includes("Log") ? calculate_success(returns[0].base_chance, returns[0].max_chance, returns[0].level, level) : calculate_success(returns[returns.length - 1].base_chance, returns[returns.length - 1].max_chance, returns[returns.length - 1].level, level)) + "</td>";
       item_string += "<td>" + returns[returns.length - 1].xp * (1 + (woodcutting_2x_input.checked === true ? 1 : 0)) + "</td>";
       let xp_per_tick = 0;
       let chance_of_path = 1;

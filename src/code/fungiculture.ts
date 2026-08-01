@@ -10,7 +10,6 @@ let fungiculture_initialize = () => {
   <input type="checkbox" id="fungiculture_2x_input" class="input-checkbox"><span class="input-checkbox-span">2x</span></label>       
   <button id="fungiculture_input_button" class="input-button">calculate</button></div>`;
 
-
   let fungiculture_exp_input = document.getElementById("fungiculture_exp_input") as HTMLInputElement;
   let fungiculture_level_input = document.getElementById("fungiculture_level_input") as HTMLInputElement;
   let fungiculture_target_level_input = document.getElementById("fungiculture_target_level_input") as HTMLInputElement;
@@ -18,6 +17,11 @@ let fungiculture_initialize = () => {
   let fungiculture_input_button = document.getElementById("fungiculture_input_button") as HTMLButtonElement;
   let fungiculture_2x_input = document.getElementById("fungiculture_2x_input") as HTMLInputElement;
   let fungiculture_spore_input = document.getElementById("fungiculture_spore_input") as HTMLInputElement;
+
+  get_stored_level("fungiculture").then((level) => {
+    fungiculture_level_input.value = level.toString();
+    if (fungiculture_level_input.value == "-1") fungiculture_level_input.value = "";
+  });
 
   fungiculture_exp_input.addEventListener("focus", () => {
     fungiculture_exp_input.value = fungiculture_exp_input.value.replace(/[,]/g, "");

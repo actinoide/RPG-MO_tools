@@ -13,7 +13,6 @@ let farming_initialize = () => {
   <input type="checkbox" id="farming_bush_input" sclass="input-checkbox"><span class="input-checkbox-span">Bushes</span></label>
   <button id="farming_input_button" class="input-button">calculate</button></div>`;
 
-
   let farming_exp_input = document.getElementById("farming_exp_input") as HTMLInputElement;
   let farming_level_input = document.getElementById("farming_level_input") as HTMLInputElement;
   let farming_target_level_input = document.getElementById("farming_target_level_input") as HTMLInputElement;
@@ -23,6 +22,11 @@ let farming_initialize = () => {
   let farming_field_input = document.getElementById("farming_field_input") as HTMLInputElement;
   let farming_bush_input = document.getElementById("farming_bush_input") as HTMLInputElement;
   let farming_inventory_input = document.getElementById("farming_inventory_input") as HTMLInputElement;
+
+  get_stored_level("farming").then((level) => {
+    farming_level_input.value = level.toString();
+    if (farming_level_input.value == "-1") farming_level_input.value = "";
+  });
 
   farming_exp_input.addEventListener("focus", () => {
     farming_exp_input.value = farming_exp_input.value.replace(/[,]/g, "");

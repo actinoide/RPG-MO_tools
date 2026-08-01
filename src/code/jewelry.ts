@@ -14,8 +14,6 @@ let jewelry_initialize = () => {
   <input type="checkbox" id="jewelry_gemcutting_input" class="input-checkbox"><span class="input-checkbox-span">Gemcutting</span></label>
   <button id="jewelry_input_button" class="input-button">calculate</button></div>`;
 
-
-
   let jewelry_exp_input = document.getElementById("jewelry_exp_input") as HTMLInputElement;
   let jewelry_level_input = document.getElementById("jewelry_level_input") as HTMLInputElement;
   let jewelry_target_level_input = document.getElementById("jewelry_target_level_input") as HTMLInputElement;
@@ -25,7 +23,10 @@ let jewelry_initialize = () => {
   let jewelry_gemcutting_input = document.getElementById("jewelry_gemcutting_input") as HTMLInputElement;
   let jewelry_recursion_input = document.getElementById("jewelry_recursion_input") as HTMLInputElement;
 
-
+  get_stored_level("jewelry").then((level) => {
+    jewelry_level_input.value = level.toString();
+    if (jewelry_level_input.value == "-1") jewelry_level_input.value = "";
+  });
 
   jewelry_exp_input.addEventListener("focus", () => {
     jewelry_exp_input.value = jewelry_exp_input.value.replace(/[,]/g, "");

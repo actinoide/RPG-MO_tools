@@ -14,6 +14,11 @@ let woodcutting_initialize = () => {
     let woodcutting_inventory_input = document.getElementById("woodcutting_inventory_input");
     let woodcutting_input_button = document.getElementById("woodcutting_input_button");
     let woodcutting_2x_input = document.getElementById("woodcutting_2x_input");
+    get_stored_level("woodcutting").then((level) => {
+        woodcutting_level_input.value = level.toString();
+        if (woodcutting_level_input.value == "-1")
+            woodcutting_level_input.value = "";
+    });
     woodcutting_exp_input.addEventListener("focus", () => {
         woodcutting_exp_input.value = woodcutting_exp_input.value.replace(/[,]/g, "");
         woodcutting_exp_input.type = "number";

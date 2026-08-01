@@ -18,6 +18,11 @@ let forging_initialize = () => {
     let forging_2x_input = document.getElementById("forging_2x_input");
     let forging_smelting_input = document.getElementById("forging_smelting_input");
     let forging_recycling_input = document.getElementById("forging_recycling_input");
+    get_stored_level("forging").then((level) => {
+        forging_level_input.value = level.toString();
+        if (forging_level_input.value == "-1")
+            forging_level_input.value = "";
+    });
     forging_exp_input.addEventListener("focus", () => {
         forging_exp_input.value = forging_exp_input.value.replace(/[,]/g, "");
         forging_exp_input.type = "number";

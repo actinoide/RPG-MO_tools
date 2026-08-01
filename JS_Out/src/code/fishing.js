@@ -14,6 +14,11 @@ let fishing_initialize = () => {
     let fishing_inventory_input = document.getElementById("fishing_inventory_input");
     let fishing_input_button = document.getElementById("fishing_input_button");
     let fishing_2x_input = document.getElementById("fishing_2x_input");
+    get_stored_level("fishing").then((level) => {
+        fishing_level_input.value = level.toString();
+        if (fishing_level_input.value == "-1")
+            fishing_level_input.value = "";
+    });
     fishing_exp_input.addEventListener("focus", () => {
         fishing_exp_input.value = fishing_exp_input.value.replace(/[,]/g, "");
         fishing_exp_input.type = "number";

@@ -21,6 +21,11 @@ let fletching_initialize = () => {
     let fletching_recycling_input = document.getElementById("fletching_recycling_input");
     let fletching_arrow_input = document.getElementById("fletching_arrow_input");
     let fletching_anvil_input = document.getElementById("fletching_anvil_input");
+    get_stored_level("fletching").then((level) => {
+        fletching_level_input.value = level.toString();
+        if (fletching_level_input.value == "-1")
+            fletching_level_input.value = "";
+    });
     fletching_exp_input.addEventListener("focus", () => {
         fletching_exp_input.value = fletching_exp_input.value.replace(/[,]/g, "");
         fletching_exp_input.type = "number";

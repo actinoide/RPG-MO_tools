@@ -12,6 +12,11 @@ let breeding_initialize = () => {
     let breeding_target_level_input = document.getElementById("breeding_target_level_input");
     let breeding_input_button = document.getElementById("breeding_input_button");
     let breeding_2x_input = document.getElementById("breeding_2x_input");
+    get_stored_level("breeding").then((level) => {
+        breeding_level_input.value = level.toString();
+        if (breeding_level_input.value == "-1")
+            breeding_level_input.value = "";
+    });
     breeding_exp_input.addEventListener("focus", () => {
         breeding_exp_input.value = breeding_exp_input.value.replace(/[,]/g, "");
         breeding_exp_input.type = "number";

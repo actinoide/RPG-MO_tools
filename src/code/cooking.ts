@@ -11,8 +11,6 @@ let cooking_initialize = () => {
   <input type="checkbox" id="cooking_kettle_input" class="input-checkbox"><span class="input-checkbox-span">Kettle</span></label>
   <button id="cooking_input_button" class="input-button">calculate</button></div>`;
 
-
-
   let cooking_exp_input = document.getElementById("cooking_exp_input") as HTMLInputElement;
   let cooking_level_input = document.getElementById("cooking_level_input") as HTMLInputElement;
   let cooking_target_level_input = document.getElementById("cooking_target_level_input") as HTMLInputElement;
@@ -20,6 +18,11 @@ let cooking_initialize = () => {
   let cooking_2x_input = document.getElementById("cooking_2x_input") as HTMLInputElement;
   let cooking_campfire_input = document.getElementById("cooking_campfire_input") as HTMLInputElement;
   let cooking_kettle_input = document.getElementById("cooking_kettle_input") as HTMLInputElement;
+
+  get_stored_level("cooking").then((level) => {
+    cooking_level_input.value = level.toString();
+    if (cooking_level_input.value == "-1") cooking_level_input.value = "";
+  });
 
   cooking_exp_input.addEventListener("focus", () => {
     cooking_exp_input.value = cooking_exp_input.value.replace(/[,]/g, "");

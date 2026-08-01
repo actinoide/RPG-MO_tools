@@ -21,6 +21,11 @@ let jewelry_initialize = () => {
     let jewelry_furnace_input = document.getElementById("jewelry_furnace_input");
     let jewelry_gemcutting_input = document.getElementById("jewelry_gemcutting_input");
     let jewelry_recursion_input = document.getElementById("jewelry_recursion_input");
+    get_stored_level("jewelry").then((level) => {
+        jewelry_level_input.value = level.toString();
+        if (jewelry_level_input.value == "-1")
+            jewelry_level_input.value = "";
+    });
     jewelry_exp_input.addEventListener("focus", () => {
         jewelry_exp_input.value = jewelry_exp_input.value.replace(/[,]/g, "");
         jewelry_exp_input.type = "number";

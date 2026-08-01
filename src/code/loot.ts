@@ -6,6 +6,11 @@ let party_initialize = () => {
   let hard_input_button = document.getElementById("hard_input_button") as HTMLButtonElement;
   let hell_input_button = document.getElementById("hell_input_button") as HTMLButtonElement;
 
+  get_stored_level("health").then((level) => {
+    party_health_input.value = level.toString();
+    if (party_health_input.value == "-1") party_health_input.value = "";
+  });
+
   easy_input_button.addEventListener("click", () => {
     let health_level = party_health_input.valueAsNumber;
     generate_table(object_base[443], health_level);
@@ -31,6 +36,11 @@ let retal_initialize = () => {
   let rare_input_button = document.getElementById("rare_input_button") as HTMLButtonElement;
   let legendary_input_button = document.getElementById("legendary_input_button") as HTMLButtonElement;
 
+  get_stored_level("health").then((level) => {
+    retal_health_input.value = level.toString();
+    if (retal_health_input.value == "-1") retal_health_input.value = "";
+  });
+
   common_input_button.addEventListener("click", () => {
     let health_level = retal_health_input.valueAsNumber;
     generate_table(object_base[708], health_level);
@@ -47,13 +57,21 @@ let retal_initialize = () => {
 
 let rare_key_initialize = () => {
   static_content_container.innerHTML = '<input type="number" placeholder="health level" value="" id="rare_key_health_input" class="input-number" >';
+
   let rare_key_chest = object_base[726];
   let rare_keys = rare_key_chest.params.results[0].requires_one_from;
   rare_keys.forEach((rare_key) => {
     let key_name = item_base[rare_key].name.replace(/Rare Key \[/, "").replace(/\]/, "");
     static_content_container.innerHTML += "<button id=\"" + key_name + "_input_button\" class=\"input-button\">" + key_name + "</button>";
   }); //altering the html removed handlers so this separation is necesary
+
   let rare_key_health_input = document.getElementById("rare_key_health_input") as HTMLInputElement;
+
+  get_stored_level("health").then((level) => {
+    rare_key_health_input.value = level.toString();
+    if (rare_key_health_input.value == "-1") rare_key_health_input.value = "";
+  });
+  
   rare_keys.forEach((rare_key) => {
     let key_name = item_base[rare_key].name.replace(/Rare Key \[/, "").replace(/\]/, "");
     let key_input_button = document.getElementById(key_name + "_input_button") as HTMLButtonElement;
@@ -63,10 +81,6 @@ let rare_key_initialize = () => {
     });
   });
 };
-
-/*
-rare keys: "Rare Hunting Reward Chest" with id 726, long list of rewards with the consumes deciding where to sort it in
-*/
 
 let generate_table = (object: object_base_struct, health_level: number, filter: number = 0) => {
   let outstring = '<table style="color: #dddce0; width: 100%;" class="sortable"><thead style="position:sticky; top:-1px;background:#1f1b26"><tr><th>item</th><th>level</th><th>base rate</th><th>current rate</th></tr></thead><tbody>';

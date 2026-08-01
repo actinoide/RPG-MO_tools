@@ -6,6 +6,11 @@ let party_initialize = () => {
     let normal_input_button = document.getElementById("normal_input_button");
     let hard_input_button = document.getElementById("hard_input_button");
     let hell_input_button = document.getElementById("hell_input_button");
+    get_stored_level("health").then((level) => {
+        party_health_input.value = level.toString();
+        if (party_health_input.value == "-1")
+            party_health_input.value = "";
+    });
     easy_input_button.addEventListener("click", () => {
         let health_level = party_health_input.valueAsNumber;
         generate_table(object_base[443], health_level);
@@ -29,6 +34,11 @@ let retal_initialize = () => {
     let common_input_button = document.getElementById("common_input_button");
     let rare_input_button = document.getElementById("rare_input_button");
     let legendary_input_button = document.getElementById("legendary_input_button");
+    get_stored_level("health").then((level) => {
+        retal_health_input.value = level.toString();
+        if (retal_health_input.value == "-1")
+            retal_health_input.value = "";
+    });
     common_input_button.addEventListener("click", () => {
         let health_level = retal_health_input.valueAsNumber;
         generate_table(object_base[708], health_level);
@@ -51,6 +61,11 @@ let rare_key_initialize = () => {
         static_content_container.innerHTML += "<button id=\"" + key_name + "_input_button\" class=\"input-button\">" + key_name + "</button>";
     });
     let rare_key_health_input = document.getElementById("rare_key_health_input");
+    get_stored_level("health").then((level) => {
+        rare_key_health_input.value = level.toString();
+        if (rare_key_health_input.value == "-1")
+            rare_key_health_input.value = "";
+    });
     rare_keys.forEach((rare_key) => {
         let key_name = item_base[rare_key].name.replace(/Rare Key \[/, "").replace(/\]/, "");
         let key_input_button = document.getElementById(key_name + "_input_button");

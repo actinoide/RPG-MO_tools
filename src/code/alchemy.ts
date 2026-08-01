@@ -25,6 +25,11 @@ let alchemy_initialize = () => {
   let alchemy_kettle_input = document.getElementById("alchemy_kettle_input") as HTMLInputElement;
   let alchemy_alchemy_table_input = document.getElementById("alchemy_alchemy_table_input") as HTMLInputElement;
 
+  get_stored_level("alchemy").then((level) => {
+    alchemy_level_input.value = level.toString();
+    if (alchemy_level_input.value == "-1") alchemy_level_input.value = "";
+  });
+
   alchemy_exp_input.addEventListener("focus", () => {
     alchemy_exp_input.value = alchemy_exp_input.value.replace(/[,]/g, "");
     alchemy_exp_input.type = "number";
