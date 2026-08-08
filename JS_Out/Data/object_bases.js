@@ -633,7 +633,13 @@ object_base[0] = createObject({
                     2743,
                     5006,
                     5186,
-                    5187
+                    5187,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -1085,6 +1091,62 @@ object_base[35] = createObject({
             },
             {
                 requires: [
+                    3585,
+                    3691
+                ],
+                skill: 'forging',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3586,
+                        level: 120,
+                        base_chance: 0.3,
+                        next: !1,
+                        duration: 2000,
+                        xp: 600,
+                        consumes: [
+                            {
+                                id: 3585,
+                                count: 10
+                            },
+                            {
+                                id: 3691,
+                                count: 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    3585,
+                    5530
+                ],
+                skill: 'forging',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3586,
+                        level: 120,
+                        base_chance: 0.3,
+                        next: !1,
+                        duration: 2000,
+                        xp: 600,
+                        consumes: [
+                            {
+                                id: 3585,
+                                count: 10
+                            },
+                            {
+                                id: 5530,
+                                count: 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
                     3585
                 ],
                 skill: 'forging',
@@ -1262,6 +1324,62 @@ object_base[35] = createObject({
                             {
                                 id: 1887,
                                 count: 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    3584,
+                    3691
+                ],
+                skill: 'jewelry',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3583,
+                        level: 105,
+                        base_chance: 0.3,
+                        next: !1,
+                        duration: 2000,
+                        xp: 140,
+                        consumes: [
+                            {
+                                id: 3584,
+                                count: 4
+                            },
+                            {
+                                id: 3691,
+                                count: 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    3584,
+                    5530
+                ],
+                skill: 'jewelry',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3583,
+                        level: 105,
+                        base_chance: 0.3,
+                        next: !1,
+                        duration: 2000,
+                        xp: 140,
+                        consumes: [
+                            {
+                                id: 3584,
+                                count: 4
+                            },
+                            {
+                                id: 5530,
+                                count: 1
                             }
                         ]
                     }
@@ -7033,7 +7151,13 @@ object_base[41] = createObject({
                     2743,
                     5006,
                     5186,
-                    5187
+                    5187,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -8746,7 +8870,13 @@ object_base[43] = createObject({
                     2743,
                     5006,
                     5186,
-                    5187
+                    5187,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -8810,7 +8940,13 @@ object_base[44] = createObject({
                     2743,
                     5006,
                     5186,
-                    5187
+                    5187,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -8879,7 +9015,13 @@ object_base[45] = createObject({
                     2743,
                     5006,
                     5186,
-                    5187
+                    5187,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -9330,7 +9472,13 @@ object_base[220] = createObject({
                     2743,
                     5006,
                     5186,
-                    5187
+                    5187,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -9390,7 +9538,13 @@ object_base[221] = createObject({
                     3204,
                     3205,
                     3802,
-                    3803
+                    3803,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -9450,7 +9604,13 @@ object_base[222] = createObject({
                     3204,
                     3205,
                     3802,
-                    3803
+                    3803,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -9517,7 +9677,13 @@ object_base[223] = createObject({
                     3204,
                     3205,
                     3802,
-                    3803
+                    3803,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -14444,6 +14610,25 @@ object_base[440] = createObject({
     ],
     fn: {}
 }, 1);
+var party_chest_share = function (a, b) {
+    if (Timers.running('share_chest'))
+        return !1;
+    Timers.set('share_chest', null_function, 2000);
+    var d = parseInt(current_map, 10);
+    if (isNaN(d) || 100 > d || 120 < d)
+        return !1;
+    if ('string' != typeof dungeon_channel || !dungeon_channel)
+        return addChatText(_te('No party channel found.'), null, COLOR.PINK, 'share'),
+            !1;
+    Socket.send('message', {
+        data: _ti('Chest located at {x},{y}', {
+            x: a.i,
+            y: a.j
+        }),
+        lang: dungeon_channel
+    });
+    return !0;
+};
 object_base[442] = createObject({
     b_i: 442,
     b_t: BASE_TYPE.OBJECT,
@@ -14459,9 +14644,11 @@ object_base[442] = createObject({
     },
     activities: [
         ACTIVITIES.OPEN,
+        ACTIVITIES.SHARE,
         ACTIVITIES.INSPECT
     ],
     fn: {
+        share: party_chest_share,
         open: function (a, b) {
             if (players[0].temp.busy)
                 return !1;
@@ -18924,7 +19111,7 @@ for (i = 13; 13 >= i; i++)
 object_base[462] = createObject({
     b_i: 462,
     b_t: BASE_TYPE.OBJECT,
-    name: 'Tombstone',
+    name: 'Spirit Tombstone',
     type: OBJECT_TYPE.DUMMY,
     img: {
         sheet: IMAGE_SHEET.POTS_CRATES,
@@ -18987,7 +19174,7 @@ object_base[464] = createObject({
 object_base[465] = createObject({
     b_i: 465,
     b_t: BASE_TYPE.OBJECT,
-    name: 'Gargoyle Statue',
+    name: 'Broken Gargoyle Statue',
     type: OBJECT_TYPE.DUMMY,
     img: {
         sheet: IMAGE_SHEET.POTS_CRATES,
@@ -19029,7 +19216,7 @@ object_base[466] = createObject({
 object_base[467] = createObject({
     b_i: 467,
     b_t: BASE_TYPE.OBJECT,
-    name: 'Gargoyle Statue',
+    name: 'Kneeling Gargoyle Statue',
     type: OBJECT_TYPE.DUMMY,
     img: {
         sheet: IMAGE_SHEET.POTS_CRATES,
@@ -19050,7 +19237,7 @@ object_base[467] = createObject({
 object_base[468] = createObject({
     b_i: 468,
     b_t: BASE_TYPE.OBJECT,
-    name: 'Small Tombstone',
+    name: 'Chipped Small Tombstone',
     type: OBJECT_TYPE.DUMMY,
     img: {
         sheet: IMAGE_SHEET.POTS_CRATES,
@@ -19071,7 +19258,7 @@ object_base[468] = createObject({
 object_base[469] = createObject({
     b_i: 469,
     b_t: BASE_TYPE.OBJECT,
-    name: 'Small Tombstone',
+    name: 'Unmarked Small Tombstone',
     type: OBJECT_TYPE.DUMMY,
     img: {
         sheet: IMAGE_SHEET.POTS_CRATES,
@@ -19957,8 +20144,12 @@ object_base[541] = createObject({
     type: OBJECT_TYPE.STONE,
     img: {
         sheet: IMAGE_SHEET.POTS_CRATES,
-        x: 20,
-        y: 12
+        x: [
+            12,
+            13,
+            14
+        ],
+        y: 9
     },
     params: dragon_ore_script,
     activities: [
@@ -20407,7 +20598,13 @@ object_base[564] = createObject({
                     3204,
                     3205,
                     3802,
-                    3803
+                    3803,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -20485,7 +20682,13 @@ object_base[565] = createObject({
                     3204,
                     3205,
                     3802,
-                    3803
+                    3803,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -21924,7 +22127,13 @@ object_base[648] = createObject({
                     3204,
                     3205,
                     3802,
-                    3803
+                    3803,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -21975,7 +22184,13 @@ object_base[649] = createObject({
                     3204,
                     3205,
                     3802,
-                    3803
+                    3803,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -32418,8 +32633,15 @@ object_base[660] = createObject({
     type: OBJECT_TYPE.DUMMY,
     img: {
         sheet: IMAGE_SHEET.NEWWORLD,
-        x: 16,
-        y: 8
+        x: [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        y: 16
     },
     activities: [
         ACTIVITIES.INSPECT
@@ -32809,7 +33031,13 @@ object_base[682] = createObject({
                     2743,
                     5006,
                     5186,
-                    5187
+                    5187,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -36025,7 +36253,9 @@ for (i = 0; 1 >= i; i++)
         },
         blocking: !0,
         activities: [
-            ACTIVITIES.PLAY_CARDS
+            ACTIVITIES.PLAY_CARDS,
+            ACTIVITIES.PLAY_BOARD_GAME,
+            ACTIVITIES.INSPECT
         ],
         fn: {}
     }, 1),
@@ -44035,7 +44265,13 @@ object_base[771] = createObject({
                     3204,
                     3205,
                     3802,
-                    3803
+                    3803,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
                 ],
                 skill: 'woodcutting',
                 continuous: !0,
@@ -47526,11 +47762,11 @@ object_base[961] = createObject({
     type: OBJECT_TYPE.DUMMY,
     img: {
         sheet: IMAGE_SHEET.FIRST,
-        x: 3,
-        y: 12
+        x: 4,
+        y: 17
     },
     params: {
-        img_rotates: 9,
+        img_rotates: 29,
         horizontal_flip: !0
     },
     activities: [
@@ -48316,7 +48552,12 @@ object_base[999] = createObject({
     type: OBJECT_TYPE.STONE,
     img: {
         sheet: IMAGE_SHEET.POTS_CRATES,
-        x: 12,
+        x: [
+            12,
+            13,
+            14,
+            15
+        ],
         y: 3
     },
     params: blood_crystal_script,
@@ -50173,9 +50414,1758 @@ object_base[1079] = createObject({
         y: 25
     },
     params: {
-        img_rotates: 7,
+        img_rotates: 1,
         horizontal_flip: !0,
         stores: 4
+    },
+    activities: [
+        ACTIVITIES.ACCESS,
+        ACTIVITIES.ROTATE,
+        ACTIVITIES.TAG,
+        ACTIVITIES.INSPECT
+    ],
+    fn: {
+        access: DEFAULT_FUNCTIONS['access cabinet'],
+        desc: storage_description
+    }
+}, 1);
+object_base[1082] = createObject({
+    b_i: 1082,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Void Tree',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.FIRST,
+        x: [
+            0,
+            1,
+            2,
+            3
+        ],
+        y: 17
+    },
+    activities: [
+        ACTIVITIES.INSPECT
+    ],
+    fn: {}
+}, 1);
+object_base[1083] = createObject({
+    b_i: 1083,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Charon Ice Ship',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BIG_PYRAMID,
+        x: 1,
+        y: 1
+    },
+    activities: [
+        ACTIVITIES.USE,
+        ACTIVITIES.INSPECT
+    ],
+    fn: teleport_script
+}, 1);
+object_base[1084] = createObject({
+    b_i: 1084,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Charon Ice Ship',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BIG_PYRAMID,
+        x: 1,
+        y: 2
+    },
+    activities: [
+        ACTIVITIES.USE,
+        ACTIVITIES.INSPECT
+    ],
+    fn: teleport_script
+}, 1);
+object_base[1085] = createObject({
+    b_i: 1085,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Charon Chaos Ship',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BIG_PYRAMID,
+        x: 0,
+        y: 4
+    },
+    activities: [
+        ACTIVITIES.USE,
+        ACTIVITIES.INSPECT
+    ],
+    fn: teleport_script
+}, 1);
+__id = 1086;
+for (i = 6; 12 >= i; i++)
+    object_base[__id] = createObject({
+        b_i: __id,
+        b_t: BASE_TYPE.OBJECT,
+        type: OBJECT_TYPE.DUMMY,
+        img: {
+            sheet: IMAGE_SHEET.NEWWORLD,
+            x: i,
+            y: 16
+        },
+        blocking: !0
+    }, 1),
+        __id++;
+object_base[1093] = createObject({
+    b_i: 1093,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Charon Fire Ship',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BIG_PYRAMID,
+        x: 0,
+        y: 3
+    },
+    activities: [
+        ACTIVITIES.USE,
+        ACTIVITIES.INSPECT
+    ],
+    fn: teleport_script
+}, 1);
+object_base[1094] = createObject({
+    b_i: 1094,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Charon Fire Ship',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BIG_PYRAMID,
+        x: 1,
+        y: 3
+    },
+    activities: [
+        ACTIVITIES.USE,
+        ACTIVITIES.INSPECT
+    ],
+    fn: teleport_script
+}, 1);
+object_base[1095] = createObject({
+    b_i: 1095,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Magma Furnace',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BIG_STUFF,
+        x: 5,
+        y: 0
+    },
+    params: {
+        desc: 'Furnace enables me to smelt different materials into new ones.',
+        results: [
+            {
+                requires: [
+                    3584,
+                    3691
+                ],
+                skill: 'jewelry',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3583,
+                        level: 105,
+                        base_chance: 0.35,
+                        next: !1,
+                        duration: 2000,
+                        xp: 140,
+                        consumes: [
+                            {
+                                id: 3584,
+                                count: 3
+                            },
+                            {
+                                id: 3691,
+                                count: 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    3584,
+                    5530
+                ],
+                skill: 'jewelry',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3583,
+                        level: 105,
+                        base_chance: 0.35,
+                        next: !1,
+                        duration: 2000,
+                        xp: 140,
+                        consumes: [
+                            {
+                                id: 3584,
+                                count: 2
+                            },
+                            {
+                                id: 5530,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    3585,
+                    3691
+                ],
+                skill: 'forging',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3586,
+                        level: 120,
+                        base_chance: 0.35,
+                        next: !1,
+                        duration: 2000,
+                        xp: 600,
+                        consumes: [
+                            {
+                                id: 3585,
+                                count: 8
+                            },
+                            {
+                                id: 3691,
+                                count: 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    3585,
+                    5530
+                ],
+                skill: 'forging',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3586,
+                        level: 120,
+                        base_chance: 0.35,
+                        next: !1,
+                        duration: 2000,
+                        xp: 600,
+                        consumes: [
+                            {
+                                id: 3585,
+                                count: 6
+                            },
+                            {
+                                id: 5530,
+                                count: 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5461
+                ],
+                skill: 'forging',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5481,
+                        level: 120,
+                        base_chance: 0.3,
+                        next: !1,
+                        duration: 2000,
+                        xp: 550,
+                        consumes: [
+                            {
+                                id: 5483,
+                                count: 1
+                            },
+                            {
+                                id: 5461,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5462
+                ],
+                skill: 'forging',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5481,
+                        level: 120,
+                        base_chance: 0.4,
+                        next: !1,
+                        duration: 2000,
+                        xp: 580,
+                        consumes: [
+                            {
+                                id: 5483,
+                                count: 1
+                            },
+                            {
+                                id: 5462,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5463
+                ],
+                skill: 'forging',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5481,
+                        level: 120,
+                        base_chance: 0.5,
+                        next: !1,
+                        duration: 2000,
+                        xp: 720,
+                        consumes: [
+                            {
+                                id: 5483,
+                                count: 1
+                            },
+                            {
+                                id: 5463,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5464
+                ],
+                skill: 'forging',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5481,
+                        level: 120,
+                        base_chance: 0.6,
+                        next: !1,
+                        duration: 2000,
+                        xp: 850,
+                        consumes: [
+                            {
+                                id: 5483,
+                                count: 1
+                            },
+                            {
+                                id: 5464,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5526
+                ],
+                skill: 'forging',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5481,
+                        level: 120,
+                        base_chance: 0.7,
+                        next: !1,
+                        duration: 2000,
+                        xp: 1000,
+                        consumes: [
+                            {
+                                id: 5483,
+                                count: 1
+                            },
+                            {
+                                id: 5526,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5481,
+                    5530
+                ],
+                skill: 'forging',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5482,
+                        level: 135,
+                        base_chance: 0.2,
+                        next: !1,
+                        duration: 2000,
+                        xp: 1000,
+                        consumes: [
+                            {
+                                id: 5481,
+                                count: 16
+                            },
+                            {
+                                id: 5530,
+                                count: 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5481
+                ],
+                skill: 'forging',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5482,
+                        level: 135,
+                        base_chance: 0.2,
+                        next: !1,
+                        duration: 2000,
+                        xp: 1000,
+                        consumes: [
+                            {
+                                id: 5481,
+                                count: 24
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    activities: [
+        ACTIVITIES.USE,
+        ACTIVITIES.INSPECT
+    ],
+    fn: {
+        use: function (a, b) {
+            selected = obj_g(a);
+            if (needsProximity(b, a, 1, !0)) {
+                var d = Skills.can_perform(b, a.id);
+                d.status ? (addChatText(_ti('You attempt to smelt...'), null, COLOR.YELLOW, 'attempt'),
+                    Socket.send('use_skill', {
+                        target_id: a.id
+                    }),
+                    Inventory.ignore(),
+                    Music.sound_effect('smelt')) : addChatText(_te(d.reason), null, COLOR.PINK, 'cannot');
+            }
+            return !0;
+        }
+    }
+}, 1);
+object_base[1096] = createObject({
+    b_i: 1096,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Obsidian',
+    type: OBJECT_TYPE.STONE,
+    img: {
+        sheet: IMAGE_SHEET.POTS_CRATES,
+        x: [
+            18,
+            19
+        ],
+        y: 13
+    },
+    params: obsidian_ore_script,
+    activities: [
+        ACTIVITIES.MINE,
+        ACTIVITIES.INSPECT
+    ],
+    fn: {}
+}, 1);
+object_base[1097] = createObject({
+    b_i: 1097,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Corrupt Obsidian',
+    type: OBJECT_TYPE.STONE,
+    img: {
+        sheet: IMAGE_SHEET.POTS_CRATES,
+        x: [
+            20,
+            21
+        ],
+        y: 13
+    },
+    params: obsidian_corrupt_ore_script,
+    activities: [
+        ACTIVITIES.MINE,
+        ACTIVITIES.INSPECT
+    ],
+    fn: {}
+}, 1);
+object_base[1100] = createObject({
+    b_i: 1100,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Ember Tree',
+    type: OBJECT_TYPE.TREE,
+    img: {
+        sheet: IMAGE_SHEET.POTS_CRATES,
+        x: [
+            20,
+            21,
+            22,
+            23
+        ],
+        y: 6,
+        pos: {
+            _x: 0,
+            _y: -5
+        }
+    },
+    params: {},
+    activities: [
+        ACTIVITIES.INSPECT
+    ],
+    fn: {}
+}, 1);
+object_base[1101] = createObject({
+    b_i: 1101,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Large Ember Tree',
+    type: OBJECT_TYPE.TREE,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: [
+            9,
+            10
+        ],
+        y: 8,
+        pos: {
+            _x: 0,
+            _y: -24
+        }
+    },
+    params: {
+        results: [
+            {
+                requires_one_from: [
+                    22,
+                    152,
+                    2807,
+                    18,
+                    507,
+                    41,
+                    510,
+                    140,
+                    523,
+                    394,
+                    536,
+                    2742,
+                    2743,
+                    5006,
+                    5186,
+                    5187,
+                    3804,
+                    3805,
+                    5122,
+                    5123,
+                    5124,
+                    5125
+                ],
+                skill: 'woodcutting',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3150,
+                        level: 130,
+                        base_chance: 0.002,
+                        max_chance: 0.002,
+                        next: !0,
+                        duration: 2000,
+                        xp: 350
+                    },
+                    {
+                        id: 5530,
+                        level: 130,
+                        base_chance: 0.08,
+                        next: !1,
+                        duration: 2000,
+                        xp: 350
+                    }
+                ]
+            }
+        ],
+        desc: 'Large Ember tree is used for carpentry and forging. Requires level 140 woodcutting.'
+    },
+    activities: [
+        ACTIVITIES.CHOP,
+        ACTIVITIES.INSPECT
+    ],
+    fn: {}
+}, 1);
+object_base[1102] = createObject({
+    b_i: 1102,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Broken Altar',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BIG_STUFF,
+        x: 14,
+        y: 2
+    },
+    params: {
+        desc: 'The Altar enables me to sacrifice hearts to improve my pet breeding skill.',
+        results: [
+            {
+                requires: [
+                    5546,
+                    5556
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 1,
+                        base_chance: 0.05,
+                        max_chance: 0.05,
+                        next: !0,
+                        duration: 2000,
+                        xp: 285,
+                        consumes: [
+                            {
+                                id: 5556,
+                                count: 1
+                            },
+                            {
+                                id: 5546,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 1,
+                        base_chance: 0.1,
+                        max_chance: 0.1,
+                        next: !0,
+                        duration: 2000,
+                        xp: 150,
+                        consumes: [
+                            {
+                                id: 5556,
+                                count: 1
+                            },
+                            {
+                                id: 5546,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 1,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 75,
+                        consumes: [
+                            {
+                                id: 5556,
+                                count: 1
+                            },
+                            {
+                                id: 5546,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5532,
+                    5546
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 10,
+                        base_chance: 0.05,
+                        max_chance: 0.05,
+                        next: !0,
+                        duration: 2000,
+                        xp: 640,
+                        consumes: [
+                            {
+                                id: 5532,
+                                count: 1
+                            },
+                            {
+                                id: 5546,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 10,
+                        base_chance: 0.1,
+                        max_chance: 0.1,
+                        next: !0,
+                        duration: 2000,
+                        xp: 400,
+                        consumes: [
+                            {
+                                id: 5532,
+                                count: 1
+                            },
+                            {
+                                id: 5546,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 10,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 200,
+                        consumes: [
+                            {
+                                id: 5532,
+                                count: 1
+                            },
+                            {
+                                id: 5546,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5533,
+                    5547
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 20,
+                        base_chance: 0.15,
+                        max_chance: 0.15,
+                        next: !0,
+                        duration: 2000,
+                        xp: 1360,
+                        consumes: [
+                            {
+                                id: 5533,
+                                count: 1
+                            },
+                            {
+                                id: 5547,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 20,
+                        base_chance: 0.2,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 850,
+                        consumes: [
+                            {
+                                id: 5533,
+                                count: 1
+                            },
+                            {
+                                id: 5547,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 20,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 425,
+                        consumes: [
+                            {
+                                id: 5533,
+                                count: 1
+                            },
+                            {
+                                id: 5547,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5534,
+                    5548
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 30,
+                        base_chance: 0.25,
+                        max_chance: 0.25,
+                        next: !0,
+                        duration: 2000,
+                        xp: 2080,
+                        consumes: [
+                            {
+                                id: 5534,
+                                count: 1
+                            },
+                            {
+                                id: 5548,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 30,
+                        base_chance: 0.3,
+                        max_chance: 0.3,
+                        next: !0,
+                        duration: 2000,
+                        xp: 1300,
+                        consumes: [
+                            {
+                                id: 5534,
+                                count: 1
+                            },
+                            {
+                                id: 5548,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 30,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 650,
+                        consumes: [
+                            {
+                                id: 5534,
+                                count: 1
+                            },
+                            {
+                                id: 5548,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    activities: [
+        ACTIVITIES.USE,
+        ACTIVITIES.INSPECT
+    ],
+    fn: {
+        use: function (a, b) {
+            selected = obj_g(a);
+            if (needsProximity(b, a, 1, !0)) {
+                var d = Skills.can_perform(b, a.id);
+                d.status ? (addChatText(_ti('You attempt to sacrifice...'), null, COLOR.YELLOW, 'attempt'),
+                    Socket.send('use_skill', {
+                        target_id: a.id
+                    }),
+                    Inventory.ignore(),
+                    Music.sound_effect('hit')) : addChatText(_te(d.reason), null, COLOR.PINK, 'cannot');
+            }
+            return !0;
+        }
+    }
+}, 1);
+object_base[1103] = createObject({
+    b_i: 1103,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Altar',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BIG_STUFF,
+        x: 15,
+        y: 2
+    },
+    params: {
+        desc: 'The Altar enables me to sacrifice hearts to improve my pet breeding skill.',
+        results: [
+            {
+                requires: [
+                    5535,
+                    5549
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 40,
+                        base_chance: 0.35,
+                        max_chance: 0.35,
+                        next: !0,
+                        duration: 2000,
+                        xp: 2720,
+                        consumes: [
+                            {
+                                id: 5535,
+                                count: 1
+                            },
+                            {
+                                id: 5549,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 40,
+                        base_chance: 0.4,
+                        max_chance: 0.4,
+                        next: !0,
+                        duration: 2000,
+                        xp: 1700,
+                        consumes: [
+                            {
+                                id: 5535,
+                                count: 1
+                            },
+                            {
+                                id: 5549,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 40,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 850,
+                        consumes: [
+                            {
+                                id: 5535,
+                                count: 1
+                            },
+                            {
+                                id: 5549,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5536,
+                    5550
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 50,
+                        base_chance: 0.45,
+                        max_chance: 0.45,
+                        next: !0,
+                        duration: 2000,
+                        xp: 3360,
+                        consumes: [
+                            {
+                                id: 5536,
+                                count: 1
+                            },
+                            {
+                                id: 5550,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 50,
+                        base_chance: 0.5,
+                        max_chance: 0.5,
+                        next: !0,
+                        duration: 2000,
+                        xp: 2100,
+                        consumes: [
+                            {
+                                id: 5536,
+                                count: 1
+                            },
+                            {
+                                id: 5550,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 50,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 1050,
+                        consumes: [
+                            {
+                                id: 5536,
+                                count: 1
+                            },
+                            {
+                                id: 5550,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5537,
+                    5550
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 60,
+                        base_chance: 0.45,
+                        max_chance: 0.45,
+                        next: !0,
+                        duration: 2000,
+                        xp: 5760,
+                        consumes: [
+                            {
+                                id: 5537,
+                                count: 1
+                            },
+                            {
+                                id: 5550,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 60,
+                        base_chance: 0.5,
+                        max_chance: 0.5,
+                        next: !0,
+                        duration: 2000,
+                        xp: 3600,
+                        consumes: [
+                            {
+                                id: 5537,
+                                count: 1
+                            },
+                            {
+                                id: 5550,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 60,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 1800,
+                        consumes: [
+                            {
+                                id: 5537,
+                                count: 1
+                            },
+                            {
+                                id: 5550,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5538,
+                    5551
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 70,
+                        base_chance: 0.55,
+                        max_chance: 0.55,
+                        next: !0,
+                        duration: 2000,
+                        xp: 6720,
+                        consumes: [
+                            {
+                                id: 5538,
+                                count: 1
+                            },
+                            {
+                                id: 5551,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 70,
+                        base_chance: 0.6,
+                        max_chance: 0.6,
+                        next: !0,
+                        duration: 2000,
+                        xp: 4200,
+                        consumes: [
+                            {
+                                id: 5538,
+                                count: 1
+                            },
+                            {
+                                id: 5551,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 70,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 2100,
+                        consumes: [
+                            {
+                                id: 5538,
+                                count: 1
+                            },
+                            {
+                                id: 5551,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5539,
+                    5551
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 80,
+                        base_chance: 0.55,
+                        max_chance: 0.55,
+                        next: !0,
+                        duration: 2000,
+                        xp: 8000,
+                        consumes: [
+                            {
+                                id: 5539,
+                                count: 1
+                            },
+                            {
+                                id: 5551,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 80,
+                        base_chance: 0.6,
+                        max_chance: 0.6,
+                        next: !0,
+                        duration: 2000,
+                        xp: 5000,
+                        consumes: [
+                            {
+                                id: 5539,
+                                count: 1
+                            },
+                            {
+                                id: 5551,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 80,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 2500,
+                        consumes: [
+                            {
+                                id: 5539,
+                                count: 1
+                            },
+                            {
+                                id: 5551,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    activities: [
+        ACTIVITIES.USE,
+        ACTIVITIES.INSPECT
+    ],
+    fn: {
+        use: function (a, b) {
+            selected = obj_g(a);
+            if (needsProximity(b, a, 1, !0)) {
+                var d = Skills.can_perform(b, a.id);
+                d.status ? (addChatText(_ti('You attempt to sacrifice...'), null, COLOR.YELLOW, 'attempt'),
+                    Socket.send('use_skill', {
+                        target_id: a.id
+                    }),
+                    Inventory.ignore(),
+                    Music.sound_effect('hit')) : addChatText(_te(d.reason), null, COLOR.PINK, 'cannot');
+            }
+            return !0;
+        }
+    }
+}, 1);
+object_base[1104] = createObject({
+    b_i: 1104,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Royal Altar',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BIG_STUFF,
+        x: 6,
+        y: 0
+    },
+    params: {
+        desc: 'The Altar enables me to sacrifice hearts to improve my pet breeding skill.',
+        results: [
+            {
+                requires: [
+                    5540,
+                    5552
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 90,
+                        base_chance: 0.65,
+                        max_chance: 0.65,
+                        next: !0,
+                        duration: 2000,
+                        xp: 10880,
+                        consumes: [
+                            {
+                                id: 5540,
+                                count: 1
+                            },
+                            {
+                                id: 5552,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 90,
+                        base_chance: 0.7,
+                        max_chance: 0.7,
+                        next: !0,
+                        duration: 2000,
+                        xp: 6800,
+                        consumes: [
+                            {
+                                id: 5540,
+                                count: 1
+                            },
+                            {
+                                id: 5552,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 90,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 3400,
+                        consumes: [
+                            {
+                                id: 5540,
+                                count: 1
+                            },
+                            {
+                                id: 5552,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5541,
+                    5552
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 100,
+                        base_chance: 0.65,
+                        max_chance: 0.65,
+                        next: !0,
+                        duration: 2000,
+                        xp: 12800,
+                        consumes: [
+                            {
+                                id: 5541,
+                                count: 1
+                            },
+                            {
+                                id: 5552,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 100,
+                        base_chance: 0.7,
+                        max_chance: 0.7,
+                        next: !0,
+                        duration: 2000,
+                        xp: 8000,
+                        consumes: [
+                            {
+                                id: 5541,
+                                count: 1
+                            },
+                            {
+                                id: 5552,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 100,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 4000,
+                        consumes: [
+                            {
+                                id: 5541,
+                                count: 1
+                            },
+                            {
+                                id: 5552,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5542,
+                    5553
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 110,
+                        base_chance: 0.75,
+                        max_chance: 0.75,
+                        next: !0,
+                        duration: 2000,
+                        xp: 14400,
+                        consumes: [
+                            {
+                                id: 5542,
+                                count: 1
+                            },
+                            {
+                                id: 5553,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 110,
+                        base_chance: 0.8,
+                        max_chance: 0.8,
+                        next: !0,
+                        duration: 2000,
+                        xp: 9000,
+                        consumes: [
+                            {
+                                id: 5542,
+                                count: 1
+                            },
+                            {
+                                id: 5553,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 110,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 4500,
+                        consumes: [
+                            {
+                                id: 5542,
+                                count: 1
+                            },
+                            {
+                                id: 5553,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5543,
+                    5553
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 120,
+                        base_chance: 0.75,
+                        max_chance: 0.75,
+                        next: !0,
+                        duration: 2000,
+                        xp: 18160,
+                        consumes: [
+                            {
+                                id: 5543,
+                                count: 1
+                            },
+                            {
+                                id: 5553,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 120,
+                        base_chance: 0.8,
+                        max_chance: 0.8,
+                        next: !0,
+                        duration: 2000,
+                        xp: 11350,
+                        consumes: [
+                            {
+                                id: 5543,
+                                count: 1
+                            },
+                            {
+                                id: 5553,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 120,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 5675,
+                        consumes: [
+                            {
+                                id: 5543,
+                                count: 1
+                            },
+                            {
+                                id: 5553,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5544,
+                    5554
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 130,
+                        base_chance: 0.85,
+                        max_chance: 0.85,
+                        next: !0,
+                        duration: 2000,
+                        xp: 21120,
+                        consumes: [
+                            {
+                                id: 5544,
+                                count: 1
+                            },
+                            {
+                                id: 5554,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 130,
+                        base_chance: 0.9,
+                        max_chance: 0.9,
+                        next: !0,
+                        duration: 2000,
+                        xp: 13200,
+                        consumes: [
+                            {
+                                id: 5544,
+                                count: 1
+                            },
+                            {
+                                id: 5554,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 130,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 6600,
+                        consumes: [
+                            {
+                                id: 5544,
+                                count: 1
+                            },
+                            {
+                                id: 5554,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5545,
+                    5554
+                ],
+                skill: 'breeding',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5555,
+                        level: 140,
+                        base_chance: 0.85,
+                        max_chance: 0.85,
+                        next: !0,
+                        duration: 2000,
+                        xp: 24640,
+                        consumes: [
+                            {
+                                id: 5545,
+                                count: 1
+                            },
+                            {
+                                id: 5554,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 140,
+                        base_chance: 0.9,
+                        max_chance: 0.9,
+                        next: !0,
+                        duration: 2000,
+                        xp: 15400,
+                        consumes: [
+                            {
+                                id: 5545,
+                                count: 1
+                            },
+                            {
+                                id: 5554,
+                                count: 1
+                            }
+                        ]
+                    },
+                    {
+                        id: 5555,
+                        level: 140,
+                        base_chance: 1,
+                        max_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 7700,
+                        consumes: [
+                            {
+                                id: 5545,
+                                count: 1
+                            },
+                            {
+                                id: 5554,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    activities: [
+        ACTIVITIES.USE,
+        ACTIVITIES.INSPECT
+    ],
+    fn: {
+        use: function (a, b) {
+            selected = obj_g(a);
+            if (needsProximity(b, a, 1, !0)) {
+                var d = Skills.can_perform(b, a.id);
+                d.status ? (addChatText(_ti('You attempt to sacrifice...'), null, COLOR.YELLOW, 'attempt'),
+                    Socket.send('use_skill', {
+                        target_id: a.id
+                    }),
+                    Inventory.ignore(),
+                    Music.sound_effect('hit')) : addChatText(_te(d.reason), null, COLOR.PINK, 'cannot');
+            }
+            return !0;
+        }
+    }
+}, 1);
+object_base[1105] = createObject({
+    b_i: 1105,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Fir Bathtub',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.HOUSE,
+        x: 0,
+        y: 30
+    },
+    params: {
+        img_rotates: 7,
+        horizontal_flip: !0,
+        stores: 6
+    },
+    activities: [
+        ACTIVITIES.ACCESS,
+        ACTIVITIES.ROTATE,
+        ACTIVITIES.TAG,
+        ACTIVITIES.INSPECT
+    ],
+    fn: {
+        access: DEFAULT_FUNCTIONS['access cabinet'],
+        desc: storage_description
+    }
+}, 1);
+object_base[1106] = createObject({
+    b_i: 1106,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Fir Shower Cabin',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.HOUSE,
+        x: 14,
+        y: 29
+    },
+    params: {
+        img_rotates: 1,
+        horizontal_flip: !0,
+        stores: 10
     },
     activities: [
         ACTIVITIES.ACCESS,
@@ -53587,6 +55577,577 @@ for (i = 0; 7 > i; i++)
         },
         blocking: !0
     }, 1);
+ground_base[592] = createObject({
+    b_i: 592,
+    name: 'Ice I Damage',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND,
+        x: 12,
+        y: 8
+    },
+    blocking: !1,
+    params: {
+        freeze_damage: 3
+    }
+}, 1);
+ground_base[593] = createObject({
+    b_i: 593,
+    name: 'Ice II Damage',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND,
+        x: 13,
+        y: 8
+    },
+    blocking: !1,
+    params: {
+        freeze_damage: 2
+    }
+}, 1);
+ground_base[594] = createObject({
+    b_i: 594,
+    name: 'Ice III Damage',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND,
+        x: 14,
+        y: 8
+    },
+    blocking: !1,
+    params: {
+        freeze_damage: 3
+    }
+}, 1);
+ground_base[595] = createObject({
+    b_i: 595,
+    name: 'Ice IV Damage',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND,
+        x: 15,
+        y: 8
+    },
+    blocking: !1,
+    params: {
+        freeze_damage: 4
+    }
+}, 1);
+ground_base[596] = createObject({
+    b_i: 596,
+    name: 'Ice Fishing Hole',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND,
+        x: 8,
+        y: 9
+    },
+    blocking: !1
+}, 1);
+ground_base[597] = createObject({
+    b_i: 597,
+    name: 'Purgatory Damage I',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 9,
+        y: 4
+    },
+    blocking: !1,
+    params: {
+        poison_damage: 3
+    }
+}, 1);
+ground_base[598] = createObject({
+    b_i: 598,
+    name: 'Purgatory Damage II',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 10,
+        y: 4
+    },
+    blocking: !1,
+    params: {
+        poison_damage: 4
+    }
+}, 1);
+ground_base[599] = createObject({
+    b_i: 599,
+    name: 'Purgatory Damage III',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 11,
+        y: 4
+    },
+    blocking: !1,
+    params: {
+        poison_damage: 3
+    }
+}, 1);
+ground_base[600] = createObject({
+    b_i: 600,
+    name: 'Purgatory Damage IV',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 12,
+        y: 4
+    },
+    blocking: !1,
+    params: {
+        poison_damage: 2
+    }
+}, 1);
+for (i = 1; 9 > i; i++)
+    ground_base[600 + i] = createObject({
+        b_i: 600 + i,
+        name: 'Toxic water' + (i + 1),
+        b_t: BASE_TYPE.GROUND,
+        img: {
+            sheet: IMAGE_SHEET.NEWLAND2,
+            x: i,
+            y: 3
+        },
+        blocking: !0
+    }, 1);
+for (i = 1; 3 > i; i++)
+    ground_base[608 + i] = createObject({
+        b_i: 608 + i,
+        name: 'Blood River top',
+        b_t: BASE_TYPE.GROUND,
+        img: {
+            sheet: IMAGE_SHEET.NEWLAND,
+            x: 0,
+            y: 17
+        },
+        blocking: !0,
+        top: {
+            sheet: IMAGE_SHEET.NEWLAND_TOPS,
+            x: i,
+            y: 15
+        }
+    }, 1);
+ground_base[611] = createObject({
+    b_i: 611,
+    name: 'Purgatory Ground',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 9,
+        y: 3
+    },
+    blocking: !1
+}, 1);
+ground_base[612] = createObject({
+    b_i: 612,
+    name: 'Purgatory Ground',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 10,
+        y: 3
+    },
+    blocking: !1
+}, 1);
+ground_base[613] = createObject({
+    b_i: 613,
+    name: 'Purgatory Ground',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 11,
+        y: 3
+    },
+    blocking: !1
+}, 1);
+ground_base[614] = createObject({
+    b_i: 614,
+    name: 'Phlegethon 1',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 8,
+        y: 7
+    },
+    blocking: !1
+}, 1);
+ground_base[615] = createObject({
+    b_i: 615,
+    name: 'Phlegethon 2',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 9,
+        y: 7
+    },
+    blocking: !1
+}, 1);
+ground_base[616] = createObject({
+    b_i: 616,
+    name: 'Phlegethon 3',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 10,
+        y: 7
+    },
+    blocking: !1
+}, 1);
+ground_base[617] = createObject({
+    b_i: 617,
+    name: 'Phlegethon 4',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 11,
+        y: 7
+    },
+    blocking: !1
+}, 1);
+ground_base[618] = createObject({
+    b_i: 618,
+    name: 'Phlegethon 5',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 12,
+        y: 7
+    },
+    blocking: !1
+}, 1);
+ground_base[619] = createObject({
+    b_i: 619,
+    name: 'Phlegethon 6',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 13,
+        y: 7
+    },
+    blocking: !1
+}, 1);
+ground_base[620] = createObject({
+    b_i: 620,
+    name: 'Phlegethon 7',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 11,
+        y: 8
+    },
+    blocking: !1
+}, 1);
+ground_base[621] = createObject({
+    b_i: 621,
+    name: 'Phlegethon 8',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 12,
+        y: 8
+    },
+    blocking: !1
+}, 1);
+ground_base[622] = createObject({
+    b_i: 622,
+    name: 'Phlegethon 8',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 13,
+        y: 8
+    },
+    blocking: !1
+}, 1);
+ground_base[623] = createObject({
+    b_i: 623,
+    name: 'Phlegethon 9',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 10,
+        y: 8
+    },
+    blocking: !1
+}, 1);
+ground_base[624] = createObject({
+    b_i: 624,
+    name: 'Phlegethon 10',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 9,
+        y: 8
+    },
+    blocking: !1
+}, 1);
+ground_base[625] = createObject({
+    b_i: 625,
+    name: 'Phlegethon 11',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 8,
+        y: 8
+    },
+    blocking: !1
+}, 1);
+ground_base[626] = createObject({
+    b_i: 626,
+    name: 'Phlegethon 12',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 7,
+        y: 8
+    },
+    blocking: !1
+}, 1);
+ground_base[627] = createObject({
+    b_i: 627,
+    name: 'Phlegethon Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 6,
+        y: 8
+    },
+    blocking: !0
+}, 1);
+ground_base[628] = createObject({
+    b_i: 628,
+    name: 'Phlegethon Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 5,
+        y: 8
+    },
+    blocking: !0
+}, 1);
+ground_base[629] = createObject({
+    b_i: 629,
+    name: 'Phlegethon Damage Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 3,
+        y: 8
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 6
+    }
+}, 1);
+ground_base[630] = createObject({
+    b_i: 630,
+    name: 'Phlegethon Damage Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 4,
+        y: 8
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 6
+    }
+}, 1);
+ground_base[631] = createObject({
+    b_i: 631,
+    name: 'Phlegethon Damage Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 1,
+        y: 8
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 4
+    }
+}, 1);
+ground_base[632] = createObject({
+    b_i: 632,
+    name: 'Phlegethon Damage Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 0,
+        y: 8
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 4
+    }
+}, 1);
+ground_base[633] = createObject({
+    b_i: 633,
+    name: 'Phlegethon 14',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 2,
+        y: 8
+    },
+    blocking: !1
+}, 1);
+ground_base[634] = createObject({
+    b_i: 634,
+    name: 'Phlegethon Damage Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 6,
+        y: 9
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 3
+    }
+}, 1);
+ground_base[635] = createObject({
+    b_i: 635,
+    name: 'Phlegethon Damage Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 7,
+        y: 9
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 3
+    }
+}, 1);
+ground_base[636] = createObject({
+    b_i: 636,
+    name: 'Phlegethon Damage Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 8,
+        y: 9
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 4
+    }
+}, 1);
+ground_base[637] = createObject({
+    b_i: 637,
+    name: 'Phlegethon Damage Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 9,
+        y: 9
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 4
+    }
+}, 1);
+ground_base[638] = createObject({
+    b_i: 638,
+    name: 'Phlegethon Damage Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 10,
+        y: 9
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 4
+    }
+}, 1);
+ground_base[639] = createObject({
+    b_i: 639,
+    name: 'Phlegethon Damage Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 11,
+        y: 9
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 4
+    }
+}, 1);
+ground_base[640] = createObject({
+    b_i: 640,
+    name: 'Phlegethon Damage Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 12,
+        y: 9
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 2
+    }
+}, 1);
+ground_base[641] = createObject({
+    b_i: 641,
+    name: 'Phlegethon Damage Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 13,
+        y: 9
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 2
+    }
+}, 1);
+ground_base[642] = createObject({
+    b_i: 642,
+    name: 'Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 12,
+        y: 2
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 2
+    }
+}, 1);
+ground_base[643] = createObject({
+    b_i: 643,
+    name: 'Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 13,
+        y: 2
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 2
+    }
+}, 1);
+ground_base[644] = createObject({
+    b_i: 644,
+    name: 'Lava',
+    b_t: BASE_TYPE.GROUND,
+    img: {
+        sheet: IMAGE_SHEET.NEWLAND2,
+        x: 0,
+        y: 3
+    },
+    blocking: !1,
+    params: {
+        lava_damage: 2
+    }
+}, 1);
 var ground_images = [];
 function prepareTopImages() {
     for (var a = 0; a < ground_base.length; a++)
@@ -53661,15 +56222,15 @@ function createPlayerMapTopImages() {
             if (!ground_images[e]) {
                 var p = ground_base[h].img;
                 h = Filters.getCanvas(b.number_of_images_per_row * b.sheet_tile_width, b.number_of_rows * b.sheet_tile_height);
-                var l = h.getContext('2d'), k = a, q = b, r = 0, w = 0, u = void 0;
+                var l = h.getContext('2d'), k = a, q = b, r = 0, v = 0, u = void 0;
                 for (u in k)
-                    for (var y = ground_base[k[u]].top, z = 0, H = ground_base[k[u]].params.img_rotates ||
+                    for (var x = ground_base[k[u]].top, z = 0, H = ground_base[k[u]].params.img_rotates ||
                         0; z <= H; z++)
-                        l.drawImage(IMAGE_SHEET[p.sheet].img[0], IMAGE_SHEET[p.sheet].tile_width * p.x, IMAGE_SHEET[p.sheet].tile_height * p.y, IMAGE_SHEET[p.sheet].tile_width, IMAGE_SHEET[p.sheet].tile_height, q.sheet_tile_width * r, q.sheet_tile_height * w + 7, IMAGE_SHEET[p.sheet].tile_width, IMAGE_SHEET[p.sheet].tile_height),
-                            l.drawImage(IMAGE_SHEET[y.sheet].img[0], IMAGE_SHEET[y.sheet].tile_width * (y.x + z), IMAGE_SHEET[y.sheet].tile_height * y.y, IMAGE_SHEET[y.sheet].tile_width, IMAGE_SHEET[y.sheet].tile_height, q.sheet_tile_width * r, q.sheet_tile_height * w - 16, IMAGE_SHEET[y.sheet].tile_width, IMAGE_SHEET[y.sheet].tile_height),
+                        l.drawImage(IMAGE_SHEET[p.sheet].img[0], IMAGE_SHEET[p.sheet].tile_width * p.x, IMAGE_SHEET[p.sheet].tile_height * p.y, IMAGE_SHEET[p.sheet].tile_width, IMAGE_SHEET[p.sheet].tile_height, q.sheet_tile_width * r, q.sheet_tile_height * v + 7, IMAGE_SHEET[p.sheet].tile_width, IMAGE_SHEET[p.sheet].tile_height),
+                            l.drawImage(IMAGE_SHEET[x.sheet].img[0], IMAGE_SHEET[x.sheet].tile_width * (x.x + z), IMAGE_SHEET[x.sheet].tile_height * x.y, IMAGE_SHEET[x.sheet].tile_width, IMAGE_SHEET[x.sheet].tile_height, q.sheet_tile_width * r, q.sheet_tile_height * v - 16, IMAGE_SHEET[x.sheet].tile_width, IMAGE_SHEET[x.sheet].tile_height),
                             r += 1,
                             r >= q.number_of_images_per_row &&
-                                (w += 1, r = 0);
+                                (v += 1, r = 0);
                 ground_images[e] = {
                     sheet: g,
                     x: 0,
@@ -55291,6 +57852,303 @@ object_base[1078] = createObject({
     ],
     fn: {}
 }, 1);
+object_base[1080] = createObject({
+    b_i: 1080,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Sequoia Fishing Rod [Fish Level 122-126]',
+    type: OBJECT_TYPE.FISH,
+    img: IMAGES.EMPTY,
+    params: {
+        desc: 'Requires level 126 fishing and a Sequoia Fishing Rod.',
+        results: [
+            {
+                requires_one_from: [
+                    3750,
+                    2807
+                ],
+                skill: 'fishing',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3755,
+                        level: 126,
+                        base_chance: 0.05,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 330
+                    },
+                    {
+                        id: 3753,
+                        level: 124,
+                        base_chance: 0.05,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 310
+                    },
+                    {
+                        id: 3751,
+                        level: 122,
+                        base_chance: 0.05,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 290
+                    },
+                    {
+                        id: 3833,
+                        level: 122,
+                        base_chance: 0.001,
+                        max_chance: 0.001,
+                        next: !1,
+                        duration: 2000,
+                        xp: 290
+                    }
+                ]
+            }
+        ]
+    },
+    activities: [
+        ACTIVITIES.CATCH,
+        ACTIVITIES.INSPECT
+    ],
+    fn: {}
+}, 1);
+object_base[1081] = createObject({
+    b_i: 1081,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Sequoia Fishing Rod [Fish Level 126-130]',
+    type: OBJECT_TYPE.FISH,
+    img: IMAGES.EMPTY,
+    params: {
+        desc: 'Requires level 122 fishing and a Sequoia Fishing Rod.',
+        results: [
+            {
+                requires_one_from: [
+                    3750,
+                    2807
+                ],
+                skill: 'fishing',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3759,
+                        level: 130,
+                        base_chance: 0.05,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 370
+                    },
+                    {
+                        id: 3757,
+                        level: 128,
+                        base_chance: 0.05,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 350
+                    },
+                    {
+                        id: 3755,
+                        level: 126,
+                        base_chance: 0.05,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 330
+                    },
+                    {
+                        id: 3833,
+                        level: 126,
+                        base_chance: 0.001,
+                        max_chance: 0.001,
+                        next: !1,
+                        duration: 2000,
+                        xp: 290
+                    }
+                ]
+            }
+        ]
+    },
+    activities: [
+        ACTIVITIES.CATCH,
+        ACTIVITIES.INSPECT
+    ],
+    fn: {}
+}, 1);
+object_base[1098] = createObject({
+    b_i: 1098,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Sequoia Fishing Rod [Fish Level 130-140]',
+    type: OBJECT_TYPE.FISH,
+    img: IMAGES.EMPTY,
+    params: {
+        desc: 'Requires level 130 fishing and a Sequoia Fishing Rod.',
+        results: [
+            {
+                requires_one_from: [
+                    3750,
+                    2807
+                ],
+                skill: 'fishing',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5484,
+                        level: 140,
+                        base_chance: 0.03,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 470
+                    },
+                    {
+                        id: 5485,
+                        level: 138,
+                        base_chance: 0.03,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 450
+                    },
+                    {
+                        id: 5486,
+                        level: 136,
+                        base_chance: 0.03,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 430
+                    },
+                    {
+                        id: 5487,
+                        level: 134,
+                        base_chance: 0.03,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 410
+                    },
+                    {
+                        id: 5488,
+                        level: 132,
+                        base_chance: 0.03,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 390
+                    },
+                    {
+                        id: 5489,
+                        level: 130,
+                        base_chance: 0.03,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 370
+                    },
+                    {
+                        id: 3833,
+                        level: 130,
+                        base_chance: 0.001,
+                        max_chance: 0.001,
+                        next: !1,
+                        duration: 2000,
+                        xp: 370
+                    }
+                ]
+            }
+        ]
+    },
+    activities: [
+        ACTIVITIES.CATCH,
+        ACTIVITIES.INSPECT
+    ],
+    fn: {}
+}, 1);
+object_base[1099] = createObject({
+    b_i: 1099,
+    b_t: BASE_TYPE.OBJECT,
+    name: 'Sequoia Fishing Rod [Fish Level 122-130]',
+    type: OBJECT_TYPE.FISH,
+    img: IMAGES.EMPTY,
+    params: {
+        desc: 'Requires level 122 fishing and a Sequoia Fishing Rod.',
+        results: [
+            {
+                requires_one_from: [
+                    3750,
+                    2807
+                ],
+                skill: 'fishing',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 5489,
+                        level: 130,
+                        base_chance: 0.03,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 370
+                    },
+                    {
+                        id: 5490,
+                        level: 128,
+                        base_chance: 0.03,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 350
+                    },
+                    {
+                        id: 5491,
+                        level: 126,
+                        base_chance: 0.03,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 330
+                    },
+                    {
+                        id: 5492,
+                        level: 124,
+                        base_chance: 0.03,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 310
+                    },
+                    {
+                        id: 5493,
+                        level: 122,
+                        base_chance: 0.03,
+                        max_chance: 0.2,
+                        next: !0,
+                        duration: 2000,
+                        xp: 290
+                    },
+                    {
+                        id: 3833,
+                        level: 122,
+                        base_chance: 0.001,
+                        max_chance: 0.001,
+                        next: !1,
+                        duration: 2000,
+                        xp: 290
+                    }
+                ]
+            }
+        ]
+    },
+    activities: [
+        ACTIVITIES.CATCH,
+        ACTIVITIES.INSPECT
+    ],
+    fn: {}
+}, 1);
 object_base[16] = createObject({
     b_i: 16,
     b_t: BASE_TYPE.OBJECT,
@@ -56408,6 +59266,33 @@ object_base[16] = createObject({
             },
             {
                 requires: [
+                    5493
+                ],
+                skill: 'cooking',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3751,
+                        level: 122,
+                        base_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 440,
+                        consumes: [
+                            {
+                                id: 5493,
+                                count: 1
+                            },
+                            {
+                                id: 5494,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
                     3751
                 ],
                 skill: 'cooking',
@@ -56423,6 +59308,33 @@ object_base[16] = createObject({
                         consumes: [
                             {
                                 id: 3751,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5492
+                ],
+                skill: 'cooking',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3753,
+                        level: 124,
+                        base_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 464,
+                        consumes: [
+                            {
+                                id: 5492,
+                                count: 1
+                            },
+                            {
+                                id: 5494,
                                 count: 1
                             }
                         ]
@@ -56454,6 +59366,33 @@ object_base[16] = createObject({
             },
             {
                 requires: [
+                    5491
+                ],
+                skill: 'cooking',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3755,
+                        level: 126,
+                        base_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 488,
+                        consumes: [
+                            {
+                                id: 5491,
+                                count: 1
+                            },
+                            {
+                                id: 5494,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
                     3755
                 ],
                 skill: 'cooking',
@@ -56469,6 +59408,33 @@ object_base[16] = createObject({
                         consumes: [
                             {
                                 id: 3755,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5490
+                ],
+                skill: 'cooking',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3757,
+                        level: 128,
+                        base_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 512,
+                        consumes: [
+                            {
+                                id: 5490,
+                                count: 1
+                            },
+                            {
+                                id: 5494,
                                 count: 1
                             }
                         ]
@@ -56500,6 +59466,33 @@ object_base[16] = createObject({
             },
             {
                 requires: [
+                    5489
+                ],
+                skill: 'cooking',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3759,
+                        level: 130,
+                        base_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 536,
+                        consumes: [
+                            {
+                                id: 5489,
+                                count: 1
+                            },
+                            {
+                                id: 5494,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
                     3759
                 ],
                 skill: 'cooking',
@@ -56515,6 +59508,33 @@ object_base[16] = createObject({
                         consumes: [
                             {
                                 id: 3759,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5488
+                ],
+                skill: 'cooking',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3761,
+                        level: 132,
+                        base_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 560,
+                        consumes: [
+                            {
+                                id: 5488,
+                                count: 1
+                            },
+                            {
+                                id: 5494,
                                 count: 1
                             }
                         ]
@@ -56546,6 +59566,33 @@ object_base[16] = createObject({
             },
             {
                 requires: [
+                    5487
+                ],
+                skill: 'cooking',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3763,
+                        level: 134,
+                        base_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 584,
+                        consumes: [
+                            {
+                                id: 5487,
+                                count: 1
+                            },
+                            {
+                                id: 5494,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
                     3763
                 ],
                 skill: 'cooking',
@@ -56561,6 +59608,33 @@ object_base[16] = createObject({
                         consumes: [
                             {
                                 id: 3763,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5486
+                ],
+                skill: 'cooking',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3765,
+                        level: 136,
+                        base_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 608,
+                        consumes: [
+                            {
+                                id: 5486,
+                                count: 1
+                            },
+                            {
+                                id: 5494,
                                 count: 1
                             }
                         ]
@@ -56592,6 +59666,33 @@ object_base[16] = createObject({
             },
             {
                 requires: [
+                    5485
+                ],
+                skill: 'cooking',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3767,
+                        level: 138,
+                        base_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 632,
+                        consumes: [
+                            {
+                                id: 5485,
+                                count: 1
+                            },
+                            {
+                                id: 5494,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
                     3767
                 ],
                 skill: 'cooking',
@@ -56607,6 +59708,33 @@ object_base[16] = createObject({
                         consumes: [
                             {
                                 id: 3767,
+                                count: 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                requires: [
+                    5484
+                ],
+                skill: 'cooking',
+                continuous: !0,
+                returns: [
+                    {
+                        id: 3769,
+                        level: 140,
+                        base_chance: 1,
+                        next: !1,
+                        duration: 2000,
+                        xp: 656,
+                        consumes: [
+                            {
+                                id: 5484,
+                                count: 1
+                            },
+                            {
+                                id: 5494,
                                 count: 1
                             }
                         ]

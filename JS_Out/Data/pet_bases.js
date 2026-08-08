@@ -213,7 +213,8 @@ pets[5] = createObject({
             397500,
             20
         ],
-        breeding_level: 80
+        breeding_level: 80,
+        likes: []
     }
 }, 1);
 pets[6] = createObject({
@@ -1812,7 +1813,8 @@ pets[43] = createObject({
         level: 3,
         eats: {
             100: 0.05,
-            106: 0.08
+            106: 0.08,
+            981: 0.5
         },
         eat_interval: 20,
         happiness: 40,
@@ -3170,17 +3172,35 @@ pets[79] = createObject({
         inventory_slots: 14,
         level: 1,
         eats: {
-            122: 0.01,
-            222: 0.02
+            186: 0.04,
+            1390: 0.05,
+            657: 0.08
         },
-        eat_interval: 40,
+        eat_interval: 30,
         happiness: 120,
         insurance_cost: [
-            1,
-            1
+            2414110,
+            121
         ],
-        breeding_level: 1,
-        likes: []
+        breeding_level: 124,
+        likes: [
+            {
+                pet_id: 194,
+                xp: 14000,
+                returns: [
+                    {
+                        pet_id: 470,
+                        base_chance: 0.02,
+                        max_chance: 0.02
+                    },
+                    {
+                        pet_id: 479,
+                        base_chance: 0.08,
+                        max_chance: 0.08
+                    }
+                ]
+            }
+        ]
     }
 }, 1);
 pets[80] = createObject({
@@ -3536,17 +3556,44 @@ pets[91] = createObject({
         inventory_slots: 5,
         level: 1,
         eats: {
-            494: 0.015,
-            78: 0.05
+            1378: 0.05,
+            1386: 0.05
         },
-        eat_interval: 15,
-        happiness: 60,
+        eat_interval: 30,
+        happiness: 120,
         insurance_cost: [
-            1,
-            1
+            405438,
+            20
         ],
-        breeding_level: 1,
-        likes: []
+        breeding_level: 126,
+        likes: [
+            {
+                pet_id: 45,
+                xp: 14800,
+                returns: [
+                    {
+                        pet_id: 472,
+                        base_chance: 0.01,
+                        max_chance: 0.01
+                    },
+                    {
+                        pet_id: 478,
+                        base_chance: 0.01,
+                        max_chance: 0.01
+                    },
+                    {
+                        pet_id: 481,
+                        base_chance: 0.02,
+                        max_chance: 0.02
+                    },
+                    {
+                        pet_id: 482,
+                        base_chance: 0.02,
+                        max_chance: 0.02
+                    }
+                ]
+            }
+        ]
     }
 }, 1);
 pets[92] = createObject({
@@ -3564,17 +3611,34 @@ pets[92] = createObject({
         inventory_slots: 6,
         level: 1,
         eats: {
-            245: 0.15,
+            657: 0.05,
             244: 0.2
         },
-        eat_interval: 20,
-        happiness: 70,
+        eat_interval: 30,
+        happiness: 120,
         insurance_cost: [
-            1,
-            1
+            1743050,
+            87
         ],
-        breeding_level: 1,
-        likes: []
+        breeding_level: 122,
+        likes: [
+            {
+                pet_id: 208,
+                xp: 12700,
+                returns: [
+                    {
+                        pet_id: 485,
+                        base_chance: 0.02,
+                        max_chance: 0.02
+                    },
+                    {
+                        pet_id: 480,
+                        base_chance: 0.08,
+                        max_chance: 0.08
+                    }
+                ]
+            }
+        ]
     }
 }, 1);
 pets[93] = createObject({
@@ -5196,17 +5260,35 @@ pets[147] = createObject({
         inventory_slots: 9,
         level: 1,
         eats: {
-            245: 0.05,
-            244: 0.075
+            106: 0.05,
+            236: 0.05,
+            241: 0.08
         },
-        eat_interval: 25,
-        happiness: 90,
+        eat_interval: 30,
+        happiness: 120,
         insurance_cost: [
-            1,
-            1
+            2004507,
+            100
         ],
-        breeding_level: 1,
-        likes: []
+        breeding_level: 128,
+        likes: [
+            {
+                pet_id: 121,
+                xp: 15700,
+                returns: [
+                    {
+                        pet_id: 474,
+                        base_chance: 0.02,
+                        max_chance: 0.02
+                    },
+                    {
+                        pet_id: 483,
+                        base_chance: 0.08,
+                        max_chance: 0.08
+                    }
+                ]
+            }
+        ]
     }
 }, 1);
 pets[148] = createObject({
@@ -13546,18 +13628,35 @@ pets[443] = createObject({
         inventory_slots: 22,
         level: 3,
         eats: {
-            31: 0.05,
-            30: 0.03
+            1447: 0.05,
+            5355: 0.1
         },
-        eat_interval: 6,
-        happiness: 12,
+        eat_interval: 40,
+        happiness: 160,
         animation_speed: 200,
         insurance_cost: [
-            1,
-            1
+            7098000,
+            355
         ],
-        breeding_level: 1,
-        likes: []
+        breeding_level: 130,
+        likes: [
+            {
+                pet_id: 23,
+                xp: 22000,
+                returns: [
+                    {
+                        pet_id: 476,
+                        base_chance: 0.02,
+                        max_chance: 0.02
+                    },
+                    {
+                        pet_id: 484,
+                        base_chance: 0.08,
+                        max_chance: 0.08
+                    }
+                ]
+            }
+        ]
     }
 }, 1);
 pets[444] = createObject({
@@ -14501,21 +14600,51 @@ pets[465] = createObject({
     b_t: BASE_TYPE.PET,
     name: 'Graves Overseer [Ancient]',
     type: OBJECT_TYPE.DUMMY,
-    img: {
-        sheet: IMAGE_SHEET.BOSS,
-        x: 1,
-        y: 5,
-        pos: {
-            _x: 5,
-            _y: -3
+    img: [
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 1,
+            y: 5,
+            pos: {
+                _x: 5,
+                _y: -3
+            }
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 3,
+            y: 6,
+            pos: {
+                _x: 5,
+                _y: -3
+            }
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 4,
+            y: 6,
+            pos: {
+                _x: 5,
+                _y: -3
+            }
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 5,
+            y: 6,
+            pos: {
+                _x: 5,
+                _y: -3
+            }
         }
-    },
+    ],
     params: {
         item_id: 5409,
         requires_stone: !0,
         stones: 4,
         next_pet_item_id: 5410,
         inventory_slots: 20,
+        animation_speed: 200,
         level: 1,
         eats: {
             1421: 0.015,
@@ -14536,22 +14665,867 @@ pets[466] = createObject({
     b_t: BASE_TYPE.PET,
     name: 'Grim Reaper [Ancient]',
     type: OBJECT_TYPE.DUMMY,
-    img: {
-        sheet: IMAGE_SHEET.BOSS,
-        x: 0,
-        y: 5,
-        pos: {
-            _x: 5,
-            _y: -5
+    img: [
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 0,
+            y: 5,
+            pos: {
+                _x: 5,
+                _y: -5
+            }
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 0,
+            y: 6,
+            pos: {
+                _x: 5,
+                _y: -5
+            }
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 1,
+            y: 6,
+            pos: {
+                _x: 5,
+                _y: -5
+            }
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 2,
+            y: 6,
+            pos: {
+                _x: 5,
+                _y: -5
+            }
         }
-    },
+    ],
     params: {
         item_id: 5410,
         inventory_slots: 24,
+        animation_speed: 200,
         level: 2,
         eats: {
             1421: 0.01,
             1424: 0.01
+        },
+        eat_interval: 30,
+        happiness: 60,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[467] = createObject({
+    b_i: 467,
+    b_t: BASE_TYPE.PET,
+    name: 'Krampus [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.HALLOWEEN,
+        x: 8,
+        y: 4,
+        pos: {
+            _x: 3,
+            _y: -2
+        }
+    },
+    params: {
+        item_id: 5468,
+        inventory_slots: 22,
+        level: 1,
+        eats: {
+            1421: 0.015,
+            1424: 0.015
+        },
+        eat_interval: 30,
+        happiness: 60,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[468] = createObject({
+    b_i: 468,
+    b_t: BASE_TYPE.PET,
+    name: 'Christmas Krampus [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.HALLOWEEN,
+        x: 9,
+        y: 4,
+        pos: {
+            _x: 3,
+            _y: -2
+        }
+    },
+    params: {
+        item_id: 5469,
+        inventory_slots: 22,
+        level: 1,
+        eats: {
+            1421: 0.015,
+            1424: 0.015
+        },
+        eat_interval: 30,
+        happiness: 60,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[469] = createObject({
+    b_i: 469,
+    b_t: BASE_TYPE.PET,
+    name: 'Elder Arachnida [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS4,
+        x: 9,
+        y: 2
+    },
+    params: {
+        item_id: 5471,
+        inventory_slots: 24,
+        level: 2,
+        eats: {
+            122: 0.05,
+            222: 0.1
+        },
+        eat_interval: 50,
+        happiness: 150,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 2,
+        likes: []
+    }
+}, 1);
+pets[470] = createObject({
+    b_i: 470,
+    b_t: BASE_TYPE.PET,
+    name: 'Demonic Bear [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS,
+        x: 6,
+        y: 6
+    },
+    params: {
+        item_id: 5472,
+        requires_stone: !0,
+        stones: 15,
+        next_pet_item_id: 5473,
+        inventory_slots: 22,
+        level: 1,
+        eats: {
+            122: 0.05,
+            222: 0.1
+        },
+        eat_interval: 50,
+        happiness: 150,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[471] = createObject({
+    b_i: 471,
+    b_t: BASE_TYPE.PET,
+    name: 'Elder Demonic Bear [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 5,
+        y: 8
+    },
+    params: {
+        item_id: 5473,
+        inventory_slots: 24,
+        level: 2,
+        eats: {
+            122: 0.05,
+            222: 0.1
+        },
+        eat_interval: 50,
+        happiness: 150,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 2,
+        likes: []
+    }
+}, 1);
+pets[472] = createObject({
+    b_i: 472,
+    b_t: BASE_TYPE.PET,
+    name: 'Avolion [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS,
+        x: 7,
+        y: 6
+    },
+    params: {
+        item_id: 5474,
+        requires_stone: !0,
+        stones: 15,
+        next_pet_item_id: 5475,
+        inventory_slots: 22,
+        level: 1,
+        eats: {
+            122: 0.05,
+            222: 0.1
+        },
+        eat_interval: 50,
+        happiness: 150,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[473] = createObject({
+    b_i: 473,
+    b_t: BASE_TYPE.PET,
+    name: 'Elder Avolion [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 4,
+        y: 8
+    },
+    params: {
+        item_id: 5475,
+        inventory_slots: 24,
+        level: 2,
+        eats: {
+            122: 0.05,
+            222: 0.1
+        },
+        eat_interval: 50,
+        happiness: 150,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 2,
+        likes: []
+    }
+}, 1);
+pets[474] = createObject({
+    b_i: 474,
+    b_t: BASE_TYPE.PET,
+    name: 'Chaos Protector [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 0,
+        y: 2
+    },
+    params: {
+        item_id: 5476,
+        requires_stone: !0,
+        stones: 15,
+        next_pet_item_id: 5477,
+        inventory_slots: 22,
+        level: 1,
+        eats: {
+            122: 0.05,
+            222: 0.1
+        },
+        eat_interval: 50,
+        happiness: 150,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[475] = createObject({
+    b_i: 475,
+    b_t: BASE_TYPE.PET,
+    name: 'Elder Chaos Protector [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 0,
+        y: 3
+    },
+    params: {
+        item_id: 5477,
+        inventory_slots: 24,
+        level: 2,
+        eats: {
+            122: 0.05,
+            222: 0.1
+        },
+        eat_interval: 50,
+        happiness: 150,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 2,
+        likes: []
+    }
+}, 1);
+pets[476] = createObject({
+    b_i: 476,
+    b_t: BASE_TYPE.PET,
+    name: 'Saint Golem [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS4,
+        x: 7,
+        y: 2,
+        pos: {
+            _x: 0,
+            _y: -24
+        }
+    },
+    params: {
+        item_id: 5478,
+        requires_stone: !0,
+        stones: 15,
+        next_pet_item_id: 5479,
+        inventory_slots: 22,
+        level: 1,
+        eats: {
+            122: 0.05,
+            222: 0.1
+        },
+        eat_interval: 50,
+        happiness: 150,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[477] = createObject({
+    b_i: 477,
+    b_t: BASE_TYPE.PET,
+    name: 'Elder Saint Golem [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS4,
+        x: 8,
+        y: 2,
+        pos: {
+            _x: 0,
+            _y: -24
+        }
+    },
+    params: {
+        item_id: 5479,
+        inventory_slots: 24,
+        level: 2,
+        eats: {
+            122: 0.05,
+            222: 0.1
+        },
+        eat_interval: 50,
+        happiness: 150,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 2,
+        likes: []
+    }
+}, 1);
+pets[478] = createObject({
+    b_i: 478,
+    b_t: BASE_TYPE.PET,
+    name: 'Sky Charger [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 1,
+        y: 2,
+        pos: {
+            _x: 4,
+            _y: 0
+        }
+    },
+    params: {
+        item_id: 5480,
+        inventory_slots: 23,
+        level: 1,
+        eats: {
+            122: 0.05,
+            222: 0.1
+        },
+        eat_interval: 50,
+        happiness: 150,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 2,
+        likes: []
+    }
+}, 1);
+pets[479] = createObject({
+    b_i: 479,
+    b_t: BASE_TYPE.PET,
+    name: 'Demonic Bear [Egg]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.ALCHEMY,
+        x: 3,
+        y: 8
+    },
+    params: {
+        item_id: 5495,
+        inventory_slots: 0,
+        requires_stone: !0,
+        stones: 7,
+        next_pet_item_id: 5472,
+        level: 1
+    }
+}, 1);
+pets[480] = createObject({
+    b_i: 480,
+    b_t: BASE_TYPE.PET,
+    name: 'Arachnida [Egg]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.ALCHEMY,
+        x: 3,
+        y: 8
+    },
+    params: {
+        item_id: 5496,
+        inventory_slots: 0,
+        requires_stone: !0,
+        stones: 7,
+        next_pet_item_id: 5470,
+        level: 1
+    }
+}, 1);
+pets[481] = createObject({
+    b_i: 481,
+    b_t: BASE_TYPE.PET,
+    name: 'Avolion [Egg]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.ALCHEMY,
+        x: 3,
+        y: 8
+    },
+    params: {
+        item_id: 5497,
+        inventory_slots: 0,
+        requires_stone: !0,
+        stones: 7,
+        next_pet_item_id: 5474,
+        level: 1
+    }
+}, 1);
+pets[482] = createObject({
+    b_i: 482,
+    b_t: BASE_TYPE.PET,
+    name: 'Sky Charger [Egg]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.ALCHEMY,
+        x: 3,
+        y: 8
+    },
+    params: {
+        item_id: 5498,
+        inventory_slots: 0,
+        requires_stone: !0,
+        stones: 8,
+        next_pet_item_id: 5480,
+        level: 1
+    }
+}, 1);
+pets[483] = createObject({
+    b_i: 483,
+    b_t: BASE_TYPE.PET,
+    name: 'Chaos Protector [Egg]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.ALCHEMY,
+        x: 3,
+        y: 8
+    },
+    params: {
+        item_id: 5499,
+        inventory_slots: 0,
+        requires_stone: !0,
+        stones: 8,
+        next_pet_item_id: 5476,
+        level: 1
+    }
+}, 1);
+pets[484] = createObject({
+    b_i: 484,
+    b_t: BASE_TYPE.PET,
+    name: 'Saint Golem [Egg]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.ALCHEMY,
+        x: 3,
+        y: 8
+    },
+    params: {
+        item_id: 5500,
+        inventory_slots: 0,
+        requires_stone: !0,
+        stones: 9,
+        next_pet_item_id: 5478,
+        level: 1
+    }
+}, 1);
+pets[485] = createObject({
+    b_i: 485,
+    b_t: BASE_TYPE.PET,
+    name: 'Arachnida [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 6,
+        y: 8,
+        pos: {
+            _x: 4,
+            _y: 0
+        }
+    },
+    params: {
+        item_id: 5470,
+        requires_stone: !0,
+        stones: 15,
+        next_pet_item_id: 5471,
+        inventory_slots: 22,
+        level: 1,
+        eats: {
+            122: 0.05,
+            222: 0.1
+        },
+        eat_interval: 50,
+        happiness: 150,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[486] = createObject({
+    b_i: 486,
+    b_t: BASE_TYPE.PET,
+    name: 'Honey Guardian [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: [
+        {
+            sheet: IMAGE_SHEET.BOSS3,
+            x: 5,
+            y: 3
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS3,
+            x: 6,
+            y: 3
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS3,
+            x: 7,
+            y: 3
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS3,
+            x: 8,
+            y: 3
+        }
+    ],
+    params: {
+        item_id: 5557,
+        inventory_slots: 24,
+        level: 1,
+        eats: {
+            1421: 0.015,
+            1424: 0.015
+        },
+        eat_interval: 30,
+        happiness: 60,
+        insurance_cost: [
+            1,
+            1
+        ],
+        animation_speed: 200,
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[487] = createObject({
+    b_i: 487,
+    b_t: BASE_TYPE.PET,
+    name: 'Jack Nibbler [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 1,
+        y: 3
+    },
+    params: {
+        item_id: 5558,
+        inventory_slots: 20,
+        level: 1,
+        eats: {
+            1421: 0.015,
+            1424: 0.015
+        },
+        eat_interval: 30,
+        happiness: 60,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[488] = createObject({
+    b_i: 488,
+    b_t: BASE_TYPE.PET,
+    name: 'Agent Pinky [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 2,
+        y: 3
+    },
+    params: {
+        item_id: 5559,
+        inventory_slots: 20,
+        level: 1,
+        eats: {
+            1421: 0.015,
+            1424: 0.015
+        },
+        eat_interval: 30,
+        happiness: 60,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[489] = createObject({
+    b_i: 489,
+    b_t: BASE_TYPE.PET,
+    name: 'Hutch Slick Ears [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 3,
+        y: 3
+    },
+    params: {
+        item_id: 5560,
+        inventory_slots: 20,
+        level: 1,
+        eats: {
+            1421: 0.015,
+            1424: 0.015
+        },
+        eat_interval: 30,
+        happiness: 60,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[490] = createObject({
+    b_i: 490,
+    b_t: BASE_TYPE.PET,
+    name: 'Daisy Hopper [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 4,
+        y: 3
+    },
+    params: {
+        item_id: 5561,
+        inventory_slots: 20,
+        level: 1,
+        eats: {
+            1421: 0.015,
+            1424: 0.015
+        },
+        eat_interval: 30,
+        happiness: 60,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[491] = createObject({
+    b_i: 491,
+    b_t: BASE_TYPE.PET,
+    name: 'Elephant [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS,
+        x: 8,
+        y: 6
+    },
+    params: {
+        item_id: 5580,
+        inventory_slots: 20,
+        level: 1,
+        eats: {
+            1421: 0.015,
+            1424: 0.015
+        },
+        eat_interval: 30,
+        happiness: 60,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[492] = createObject({
+    b_i: 492,
+    b_t: BASE_TYPE.PET,
+    name: 'Fennec Fox [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS,
+        x: 9,
+        y: 6
+    },
+    params: {
+        item_id: 5581,
+        inventory_slots: 20,
+        level: 1,
+        eats: {
+            1421: 0.015,
+            1424: 0.015
+        },
+        eat_interval: 30,
+        happiness: 60,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[493] = createObject({
+    b_i: 493,
+    b_t: BASE_TYPE.PET,
+    name: 'Treasure Chest [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS,
+        x: 11,
+        y: 6
+    },
+    params: {
+        item_id: 5582,
+        inventory_slots: 20,
+        level: 1,
+        eats: {
+            1421: 0.015,
+            1424: 0.015
+        },
+        eat_interval: 30,
+        happiness: 60,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[494] = createObject({
+    b_i: 494,
+    b_t: BASE_TYPE.PET,
+    name: 'Beach Chest [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS,
+        x: 10,
+        y: 6
+    },
+    params: {
+        item_id: 5583,
+        inventory_slots: 24,
+        level: 1,
+        eats: {
+            1421: 0.015,
+            1424: 0.015
+        },
+        eat_interval: 30,
+        happiness: 60,
+        insurance_cost: [
+            1,
+            1
+        ],
+        breeding_level: 1,
+        likes: []
+    }
+}, 1);
+pets[495] = createObject({
+    b_i: 495,
+    b_t: BASE_TYPE.PET,
+    name: 'Sand Chest [Ancient]',
+    type: OBJECT_TYPE.DUMMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS,
+        x: 11,
+        y: 7
+    },
+    params: {
+        item_id: 5584,
+        inventory_slots: 20,
+        level: 1,
+        eats: {
+            1421: 0.015,
+            1424: 0.015
         },
         eat_interval: 30,
         happiness: 60,

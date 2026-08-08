@@ -324,11 +324,6 @@ npc_base[4] = createObject({
                 chance: 0.05
             },
             {
-                id: 5056,
-                chance: 0.025,
-                mon_book_only: !0
-            },
-            {
                 id: 5,
                 chance: 0.05
             },
@@ -371,6 +366,15 @@ npc_base[4] = createObject({
             {
                 id: 1303,
                 chance: 0.005
+            },
+            {
+                id: 2028,
+                chance: 0.04
+            },
+            {
+                id: 5056,
+                chance: 0.025,
+                mon_book_only: !0
             }
         ]
     },
@@ -411,6 +415,11 @@ npc_base[5] = createObject({
             {
                 id: 124,
                 count: 50,
+                spawn: !0
+            },
+            {
+                id: 5494,
+                count: 99,
                 spawn: !0
             },
             {
@@ -873,6 +882,10 @@ npc_base[10] = createObject({
             {
                 id: 27,
                 chance: 0.05
+            },
+            {
+                id: 2028,
+                chance: 0.04
             }
         ]
     },
@@ -1494,16 +1507,6 @@ npc_base[16] = createObject({
                 chance: 0.01
             },
             {
-                id: 1301,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
-                id: 1300,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 42,
                 chance: 0.02
             },
@@ -1542,6 +1545,16 @@ npc_base[16] = createObject({
             {
                 id: 64,
                 chance: 0.005
+            },
+            {
+                id: 1301,
+                chance: 0.0025,
+                mon_book_only: !0
+            },
+            {
+                id: 1300,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -1904,11 +1917,6 @@ npc_base[21] = createObject({
                 chance: 0.0015
             },
             {
-                id: 5130,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 128,
                 chance: 0.005
             },
@@ -1923,6 +1931,11 @@ npc_base[21] = createObject({
             {
                 id: 177,
                 chance: 0.005
+            },
+            {
+                id: 5130,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -2218,11 +2231,6 @@ npc_base[25] = createObject({
                 chance: 0.005
             },
             {
-                id: 5092,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 49,
                 chance: 0.005
             },
@@ -2233,6 +2241,11 @@ npc_base[25] = createObject({
             {
                 id: 1348,
                 chance: 0.0025
+            },
+            {
+                id: 5092,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -2548,11 +2561,6 @@ npc_base[30] = createObject({
                 chance: 0.005
             },
             {
-                id: 5094,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 149,
                 chance: 0.005
             },
@@ -2563,6 +2571,11 @@ npc_base[30] = createObject({
             {
                 id: 173,
                 chance: 0.005
+            },
+            {
+                id: 5094,
+                chance: 0.0025,
+                mon_book_only: !0
             },
             {
                 id: 1801,
@@ -3428,6 +3441,10 @@ npc_base[44] = createObject({
                 chance: 0.05
             },
             {
+                id: 2259,
+                chance: 0.04
+            },
+            {
                 id: 5006,
                 chance: 0.0025,
                 mon_book_only: !0
@@ -3501,6 +3518,10 @@ npc_base[45] = createObject({
             {
                 id: 146,
                 chance: 0.0025
+            },
+            {
+                id: 2267,
+                chance: 0.04
             }
         ]
     },
@@ -3750,16 +3771,6 @@ npc_base[49] = createObject({
                 chance: 0.05
             },
             {
-                id: 996,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
-                id: 1001,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 260,
                 chance: 0.04
             },
@@ -3774,6 +3785,16 @@ npc_base[49] = createObject({
             {
                 id: 42,
                 chance: 0.02
+            },
+            {
+                id: 996,
+                chance: 0.0025,
+                mon_book_only: !0
+            },
+            {
+                id: 1001,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -3879,11 +3900,6 @@ npc_base[51] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5148,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 285,
                 chance: 0.005
             },
@@ -3898,6 +3914,11 @@ npc_base[51] = createObject({
             {
                 id: 418,
                 chance: 0.001
+            },
+            {
+                id: 5148,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -3949,11 +3970,6 @@ npc_base[52] = createObject({
                 chance: 0.005
             },
             {
-                id: 5086,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 225,
                 chance: 0.005
             },
@@ -3968,6 +3984,11 @@ npc_base[52] = createObject({
             {
                 id: 146,
                 chance: 0.0025
+            },
+            {
+                id: 5086,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -4073,11 +4094,6 @@ npc_base[54] = createObject({
                 chance: 0.003
             },
             {
-                id: 5096,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 259,
                 chance: 0.14
             },
@@ -4100,6 +4116,11 @@ npc_base[54] = createObject({
             {
                 id: 173,
                 chance: 0.005
+            },
+            {
+                id: 5096,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -4155,11 +4176,6 @@ npc_base[55] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5074,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 1075,
                 chance: 0.0025
             },
@@ -4182,6 +4198,11 @@ npc_base[55] = createObject({
             {
                 id: 173,
                 chance: 0.005
+            },
+            {
+                id: 5074,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -4443,11 +4464,6 @@ npc_base[59] = createObject({
                 chance: 0.01
             },
             {
-                id: 5088,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 384,
                 chance: 0.005
             },
@@ -4458,6 +4474,11 @@ npc_base[59] = createObject({
             {
                 id: 1031,
                 chance: 0.0015
+            },
+            {
+                id: 5088,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -4979,6 +5000,10 @@ npc_base[67] = createObject({
             {
                 id: 64,
                 chance: 0.005
+            },
+            {
+                id: 2259,
+                chance: 0.04
             }
         ]
     },
@@ -5268,6 +5293,10 @@ npc_base[71] = createObject({
             {
                 id: 302,
                 chance: 0.01
+            },
+            {
+                id: 2267,
+                chance: 0.05
             }
         ]
     },
@@ -5934,95 +5963,95 @@ npc_base[78] = createObject({
         drops: [
             {
                 id: 389,
-                chance: 0.05
+                chance: 0.0025
             },
             {
                 id: 154,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 155,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 143,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 144,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 303,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 174,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 178,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 1305,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 1127,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 952,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 1286,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 129,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 2730,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 558,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 807,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 808,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 488,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 500,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 498,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 454,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 3295,
-                chance: 0.007
+                chance: 0.0007
             },
             {
                 id: 163,
-                chance: 0.025
+                chance: 0.0025
             }
         ]
     },
@@ -6200,6 +6229,11 @@ npc_base[81] = createObject({
             {
                 id: 125,
                 count: 0
+            },
+            {
+                id: 5494,
+                count: 99,
+                spawn: !0
             },
             {
                 id: 946,
@@ -6850,11 +6884,6 @@ npc_base[87] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5146,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 855,
                 chance: 0.002
             },
@@ -6865,6 +6894,11 @@ npc_base[87] = createObject({
             {
                 id: 421,
                 chance: 0.01
+            },
+            {
+                id: 5146,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -7042,11 +7076,6 @@ npc_base[90] = createObject({
                 chance: 0.15
             },
             {
-                id: 5162,
-                chance: 0.001,
-                mon_book_only: !0
-            },
-            {
                 id: 147,
                 chance: 0.01
             },
@@ -7061,6 +7090,11 @@ npc_base[90] = createObject({
             {
                 id: 177,
                 chance: 0.005
+            },
+            {
+                id: 5162,
+                chance: 0.001,
+                mon_book_only: !0
             }
         ]
     },
@@ -7101,11 +7135,6 @@ npc_base[91] = createObject({
                 chance: 0.05
             },
             {
-                id: 5102,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 221,
                 chance: 0.01
             },
@@ -7116,6 +7145,11 @@ npc_base[91] = createObject({
             {
                 id: 163,
                 chance: 0.0025
+            },
+            {
+                id: 5102,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -7496,11 +7530,6 @@ npc_base[97] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5150,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 2656,
                 chance: 0.0025
             },
@@ -7515,6 +7544,11 @@ npc_base[97] = createObject({
             {
                 id: 445,
                 chance: 0.0025
+            },
+            {
+                id: 5150,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -8029,11 +8063,6 @@ npc_base[105] = createObject({
                 chance: 0.002
             },
             {
-                id: 5076,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 983,
                 chance: 0.003
             },
@@ -8048,6 +8077,11 @@ npc_base[105] = createObject({
             {
                 id: 376,
                 chance: 0.0025
+            },
+            {
+                id: 5076,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -8626,11 +8660,6 @@ npc_base[115] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5064,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 368,
                 chance: 0.0025
             },
@@ -8641,6 +8670,11 @@ npc_base[115] = createObject({
             {
                 id: 426,
                 chance: 0.0025
+            },
+            {
+                id: 5064,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -8884,6 +8918,10 @@ npc_base[119] = createObject({
             {
                 id: 473,
                 chance: 0.0025
+            },
+            {
+                id: 2028,
+                chance: 0.04
             }
         ]
     },
@@ -9307,11 +9345,6 @@ npc_base[125] = createObject({
                 chance: 0.05
             },
             {
-                id: 5062,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 198,
                 chance: 0.005
             },
@@ -9326,6 +9359,11 @@ npc_base[125] = createObject({
             {
                 id: 141,
                 chance: 0.01
+            },
+            {
+                id: 5062,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -9516,11 +9554,6 @@ npc_base[128] = createObject({
                 chance: 0.015
             },
             {
-                id: 5159,
-                chance: 0.001,
-                mon_book_only: !0
-            },
-            {
                 id: 177,
                 chance: 0.005
             },
@@ -9535,6 +9568,11 @@ npc_base[128] = createObject({
             {
                 id: 139,
                 chance: 0.0025
+            },
+            {
+                id: 5159,
+                chance: 0.001,
+                mon_book_only: !0
             }
         ]
     },
@@ -9590,11 +9628,6 @@ npc_base[129] = createObject({
                 chance: 0.005
             },
             {
-                id: 5078,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 37,
                 chance: 0.005
             },
@@ -9629,6 +9662,11 @@ npc_base[129] = createObject({
             {
                 id: 139,
                 chance: 0.0025
+            },
+            {
+                id: 5078,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -9759,11 +9797,6 @@ npc_base[131] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5098,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 1031,
                 chance: 0.0015
             },
@@ -9782,6 +9815,11 @@ npc_base[131] = createObject({
             {
                 id: 1304,
                 chance: 0.005
+            },
+            {
+                id: 5098,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -9852,6 +9890,11 @@ npc_base[132] = createObject({
             {
                 id: 1304,
                 chance: 0.005
+            },
+            {
+                id: 5534,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -9906,16 +9949,6 @@ npc_base[133] = createObject({
                 chance: 0.0015
             },
             {
-                id: 150,
-                chance: 0.0015,
-                mon_book_only: !0
-            },
-            {
-                id: 213,
-                chance: 0.03,
-                mon_book_only: !0
-            },
-            {
                 id: 28,
                 chance: 0.0025
             },
@@ -9926,6 +9959,16 @@ npc_base[133] = createObject({
             {
                 id: 176,
                 chance: 0.005
+            },
+            {
+                id: 150,
+                chance: 0.0015,
+                mon_book_only: !0
+            },
+            {
+                id: 213,
+                chance: 0.03,
+                mon_book_only: !0
             }
         ]
     },
@@ -10172,11 +10215,6 @@ npc_base[137] = createObject({
                 chance: 0.025
             },
             {
-                id: 5165,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 61,
                 chance: 0.0025
             },
@@ -10195,6 +10233,11 @@ npc_base[137] = createObject({
             {
                 id: 1304,
                 chance: 0.005
+            },
+            {
+                id: 5165,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -10248,11 +10291,6 @@ npc_base[138] = createObject({
                 chance: 0.005
             },
             {
-                id: 5153,
-                chance: 0.001,
-                mon_book_only: !0
-            },
-            {
                 id: 1031,
                 chance: 0.0015
             },
@@ -10263,6 +10301,11 @@ npc_base[138] = createObject({
             {
                 id: 1304,
                 chance: 0.005
+            },
+            {
+                id: 5153,
+                chance: 0.001,
+                mon_book_only: !0
             },
             {
                 id: 165,
@@ -10475,6 +10518,11 @@ npc_base[140] = createObject({
             {
                 id: 125,
                 count: 0
+            },
+            {
+                id: 5494,
+                count: 99,
+                spawn: !0
             },
             {
                 id: 124,
@@ -11198,6 +11246,7 @@ npc_base[152] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 1600,
         radius: 20,
         move_radius: 10,
@@ -12269,11 +12318,6 @@ npc_base[160] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5068,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 46,
                 chance: 0.0025
             },
@@ -12284,6 +12328,11 @@ npc_base[160] = createObject({
             {
                 id: 153,
                 chance: 0.0025
+            },
+            {
+                id: 5068,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -13989,6 +14038,10 @@ npc_base[185] = createObject({
             {
                 id: 7,
                 chance: 0.01
+            },
+            {
+                id: 2028,
+                chance: 0.03
             }
         ]
     },
@@ -14051,6 +14104,10 @@ npc_base[186] = createObject({
             {
                 id: 0,
                 chance: 0.0025
+            },
+            {
+                id: 2265,
+                chance: 0.03
             },
             {
                 id: 26,
@@ -14135,6 +14192,10 @@ npc_base[187] = createObject({
             {
                 id: 26,
                 chance: 0.0025
+            },
+            {
+                id: 2265,
+                chance: 0.03
             }
         ]
     },
@@ -14255,11 +14316,6 @@ npc_base[189] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5138,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 141,
                 chance: 0.0025
             },
@@ -14274,6 +14330,11 @@ npc_base[189] = createObject({
             {
                 id: 38,
                 chance: 0.0025
+            },
+            {
+                id: 5138,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -14992,11 +15053,6 @@ npc_base[199] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5090,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 479,
                 chance: 0.0025
             },
@@ -15011,6 +15067,11 @@ npc_base[199] = createObject({
             {
                 id: 404,
                 chance: 0.04
+            },
+            {
+                id: 5090,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -15062,11 +15123,6 @@ npc_base[200] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5156,
-                chance: 0.001,
-                mon_book_only: !0
-            },
-            {
                 id: 52,
                 chance: 0.0025
             },
@@ -15085,6 +15141,11 @@ npc_base[200] = createObject({
             {
                 id: 141,
                 chance: 0.0025
+            },
+            {
+                id: 5156,
+                chance: 0.001,
+                mon_book_only: !0
             }
         ]
     },
@@ -15130,11 +15191,6 @@ npc_base[201] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5132,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 188,
                 chance: 0.0025
             },
@@ -15149,6 +15205,11 @@ npc_base[201] = createObject({
             {
                 id: 474,
                 chance: 0.0025
+            },
+            {
+                id: 5132,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -15193,11 +15254,6 @@ npc_base[202] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5171,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 449,
                 chance: 0.0025
             },
@@ -15216,6 +15272,11 @@ npc_base[202] = createObject({
             {
                 id: 411,
                 chance: 0.04
+            },
+            {
+                id: 5171,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -19055,6 +19116,11 @@ npc_base[245] = createObject({
             {
                 id: 866,
                 chance: 0.0025
+            },
+            {
+                id: 5535,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -19312,11 +19378,6 @@ npc_base[248] = createObject({
                 chance: 0.0035
             },
             {
-                id: 5100,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 1126,
                 chance: 0.005
             },
@@ -19335,6 +19396,11 @@ npc_base[248] = createObject({
             {
                 id: 173,
                 chance: 0.005
+            },
+            {
+                id: 5100,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -19557,11 +19623,6 @@ npc_base[251] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5082,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 52,
                 chance: 0.003
             },
@@ -19596,6 +19657,16 @@ npc_base[251] = createObject({
             {
                 id: 500,
                 chance: 0.0025
+            },
+            {
+                id: 5082,
+                chance: 0.0025,
+                mon_book_only: !0
+            },
+            {
+                id: 5536,
+                chance: 0.0015,
+                mon_book_only: !0
             }
         ]
     },
@@ -20393,6 +20464,11 @@ npc_base[256] = createObject({
             {
                 id: 3419,
                 chance: 0.05
+            },
+            {
+                id: 5537,
+                chance: 0.05,
+                mon_book_only: !0
             }
         ]
     },
@@ -21038,11 +21114,6 @@ npc_base[269] = createObject({
                 chance: 0.025
             },
             {
-                id: 5110,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 340,
                 chance: 0.0025
             },
@@ -21061,6 +21132,11 @@ npc_base[269] = createObject({
             {
                 id: 138,
                 chance: 0.0025
+            },
+            {
+                id: 5110,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -21147,7 +21223,8 @@ npc_base[270] = createObject({
         interact: function (a, b) {
             12 != b.map ||
                 0 < Inventory.get_item_count_include_pet(b, 1031) ||
-                Items.give_to_player(b, 1031);
+                (49 < b.temp.coins ||
+                    1 < Private.get(b.id, 'balance') ? Player.send_message_tq(b.id, 'Move to the next room', {}, COLOR.TEAL) : Items.give_to_player(b, 1031));
         }
     }
 }, 1);
@@ -21185,11 +21262,6 @@ npc_base[271] = createObject({
                 chance: 0.0015
             },
             {
-                id: 5058,
-                chance: 0.025,
-                mon_book_only: !0
-            },
-            {
                 id: 976,
                 chance: 0.0025
             },
@@ -21200,6 +21272,11 @@ npc_base[271] = createObject({
             {
                 id: 799,
                 chance: 0.025
+            },
+            {
+                id: 5058,
+                chance: 0.025,
+                mon_book_only: !0
             },
             {
                 id: 5005,
@@ -21251,11 +21328,6 @@ npc_base[272] = createObject({
                 chance: 0.02
             },
             {
-                id: 5060,
-                chance: 0.025,
-                mon_book_only: !0
-            },
-            {
                 id: 426,
                 chance: 0.0025
             },
@@ -21278,6 +21350,11 @@ npc_base[272] = createObject({
             {
                 id: 438,
                 chance: 0.0015
+            },
+            {
+                id: 5060,
+                chance: 0.025,
+                mon_book_only: !0
             }
         ]
     },
@@ -21396,11 +21473,6 @@ npc_base[274] = createObject({
                 chance: 0.025
             },
             {
-                id: 5134,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 259,
                 chance: 0.05
             },
@@ -21427,6 +21499,11 @@ npc_base[274] = createObject({
             {
                 id: 155,
                 chance: 0.0025
+            },
+            {
+                id: 5134,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -21485,11 +21562,6 @@ npc_base[275] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5136,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 298,
                 chance: 0.05
             },
@@ -21508,6 +21580,11 @@ npc_base[275] = createObject({
             {
                 id: 363,
                 chance: 0.0025
+            },
+            {
+                id: 5136,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -21608,7 +21685,7 @@ npc_base[277] = createObject({
     name: 'King',
     type: OBJECT_TYPE.ENEMY,
     img: {
-        hash: '18 0 92 61 28 2 1 33 173 51 11 6'
+        hash: '18 0 92 61 160 2 1 33 173 51 11 6'
     },
     params: {
         health: 290,
@@ -24142,6 +24219,11 @@ npc_base[309] = createObject({
             {
                 id: 3419,
                 chance: 0.03
+            },
+            {
+                id: 5532,
+                chance: 0.1,
+                mon_book_only: !0
             }
         ]
     },
@@ -24654,11 +24736,6 @@ npc_base[317] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5072,
-                chance: 0.0015,
-                mon_book_only: !0
-            },
-            {
                 id: 430,
                 chance: 0.0025
             },
@@ -24681,6 +24758,11 @@ npc_base[317] = createObject({
             {
                 id: 156,
                 chance: 0.003
+            },
+            {
+                id: 5072,
+                chance: 0.0015,
+                mon_book_only: !0
             }
         ]
     },
@@ -24809,11 +24891,6 @@ npc_base[319] = createObject({
                 chance: 0.05
             },
             {
-                id: 5128,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 1073,
                 chance: 0.0025
             },
@@ -24828,6 +24905,11 @@ npc_base[319] = createObject({
             {
                 id: 435,
                 chance: 0.0025
+            },
+            {
+                id: 5128,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -24981,6 +25063,11 @@ npc_base[321] = createObject({
             {
                 id: 435,
                 chance: 0.0025
+            },
+            {
+                id: 5533,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -25111,11 +25198,6 @@ npc_base[323] = createObject({
                 chance: 0.005
             },
             {
-                id: 5112,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 283,
                 chance: 0.05
             },
@@ -25142,6 +25224,11 @@ npc_base[323] = createObject({
             {
                 id: 435,
                 chance: 0.0025
+            },
+            {
+                id: 5112,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -25349,17 +25436,17 @@ npc_base[326] = createObject({
                 chance: 0.005
             },
             {
-                id: 5144,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 1031,
                 chance: 0.0015
             },
             {
                 id: 188,
                 chance: 0.0025
+            },
+            {
+                id: 5144,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -25411,11 +25498,6 @@ npc_base[327] = createObject({
                 chance: 0.05
             },
             {
-                id: 5140,
-                chance: 0.0015,
-                mon_book_only: !0
-            },
-            {
                 id: 498,
                 chance: 0.0025
             },
@@ -25438,6 +25520,11 @@ npc_base[327] = createObject({
             {
                 id: 435,
                 chance: 0.0025
+            },
+            {
+                id: 5140,
+                chance: 0.0015,
+                mon_book_only: !0
             }
         ]
     },
@@ -32584,6 +32671,11 @@ npc_base[438] = createObject({
         total_accuracy: 99,
         content: [
             {
+                id: 5494,
+                count: 99,
+                spawn: !0
+            },
+            {
                 id: 122,
                 count: 0
             },
@@ -33553,6 +33645,11 @@ npc_base[448] = createObject({
             {
                 id: 143,
                 chance: 0.025
+            },
+            {
+                id: 5556,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -33999,11 +34096,6 @@ npc_base[454] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5120,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 258,
                 chance: 0.05
             },
@@ -34026,6 +34118,11 @@ npc_base[454] = createObject({
             {
                 id: 248,
                 chance: 0.05
+            },
+            {
+                id: 5120,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -34819,11 +34916,6 @@ npc_base[460] = createObject({
                 chance: 0.01
             },
             {
-                id: 5118,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 787,
                 chance: 0.01
             },
@@ -34850,6 +34942,11 @@ npc_base[460] = createObject({
             {
                 id: 1697,
                 chance: 0.0015
+            },
+            {
+                id: 5118,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -35118,11 +35215,6 @@ npc_base[463] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5126,
-                chance: 0.0015,
-                mon_book_only: !0
-            },
-            {
                 id: 3685,
                 chance: 0.0025
             },
@@ -35149,6 +35241,11 @@ npc_base[463] = createObject({
             {
                 id: 1602,
                 chance: 0.0015
+            },
+            {
+                id: 5126,
+                chance: 0.0015,
+                mon_book_only: !0
             }
         ]
     },
@@ -35306,11 +35403,6 @@ npc_base[465] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5124,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 1707,
                 chance: 0.0025
             },
@@ -35353,6 +35445,11 @@ npc_base[465] = createObject({
             {
                 id: 1602,
                 chance: 0.0015
+            },
+            {
+                id: 5124,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -35413,11 +35510,6 @@ npc_base[466] = createObject({
                 chance: 0.0015
             },
             {
-                id: 5122,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 1707,
                 chance: 0.0025
             },
@@ -35456,6 +35548,11 @@ npc_base[466] = createObject({
             {
                 id: 1610,
                 chance: 0.0015
+            },
+            {
+                id: 5122,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -36790,11 +36887,6 @@ npc_base[484] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5066,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 165,
                 chance: 0.0025
             },
@@ -36809,6 +36901,11 @@ npc_base[484] = createObject({
             {
                 id: 666,
                 chance: 0.0025
+            },
+            {
+                id: 5066,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -37073,11 +37170,6 @@ npc_base[487] = createObject({
                 chance: 0.0015
             },
             {
-                id: 5142,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 1661,
                 chance: 0.0015
             },
@@ -37104,6 +37196,11 @@ npc_base[487] = createObject({
             {
                 id: 183,
                 chance: 0.0025
+            },
+            {
+                id: 5142,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -55983,11 +56080,6 @@ npc_base[696] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5070,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 154,
                 chance: 0.0025
             },
@@ -56014,6 +56106,11 @@ npc_base[696] = createObject({
             {
                 id: 167,
                 chance: 0.0025
+            },
+            {
+                id: 5070,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -56389,11 +56486,6 @@ npc_base[700] = createObject({
                 chance: 0.0015
             },
             {
-                id: 5108,
-                chance: 0.0025,
-                mon_book_only: !0
-            },
-            {
                 id: 1598,
                 chance: 0.0025
             },
@@ -56412,6 +56504,11 @@ npc_base[700] = createObject({
             {
                 id: 445,
                 chance: 0.0025
+            },
+            {
+                id: 5108,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -56612,11 +56709,6 @@ npc_base[703] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5114,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 661,
                 chance: 0.0025
             },
@@ -56639,6 +56731,11 @@ npc_base[703] = createObject({
             {
                 id: 445,
                 chance: 0.0025
+            },
+            {
+                id: 5114,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -56781,11 +56878,6 @@ npc_base[705] = createObject({
                 chance: 0.0025
             },
             {
-                id: 5084,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 661,
                 chance: 0.0025
             },
@@ -56816,6 +56908,11 @@ npc_base[705] = createObject({
             {
                 id: 446,
                 chance: 0.0015
+            },
+            {
+                id: 5084,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -56874,11 +56971,6 @@ npc_base[706] = createObject({
                 chance: 0.005
             },
             {
-                id: 5116,
-                chance: 0.002,
-                mon_book_only: !0
-            },
-            {
                 id: 2746,
                 chance: 0.0025
             },
@@ -56909,6 +57001,11 @@ npc_base[706] = createObject({
             {
                 id: 182,
                 chance: 0.0025
+            },
+            {
+                id: 5116,
+                chance: 0.002,
+                mon_book_only: !0
             }
         ]
     },
@@ -56997,6 +57094,11 @@ npc_base[707] = createObject({
             {
                 id: 182,
                 chance: 0.0025
+            },
+            {
+                id: 5538,
+                chance: 0.0025,
+                mon_book_only: !0
             }
         ]
     },
@@ -58262,11 +58364,6 @@ npc_base[725] = createObject({
                 chance: 0.0015
             },
             {
-                id: 5104,
-                chance: 0.0015,
-                mon_book_only: !0
-            },
-            {
                 id: 140,
                 chance: 0.0025
             },
@@ -58285,6 +58382,11 @@ npc_base[725] = createObject({
             {
                 id: 190,
                 chance: 0.0025
+            },
+            {
+                id: 5104,
+                chance: 0.0015,
+                mon_book_only: !0
             }
         ]
     },
@@ -59214,11 +59316,6 @@ npc_base[739] = createObject({
                 chance: 0.03
             },
             {
-                id: 5080,
-                chance: 0.02,
-                mon_book_only: !0
-            },
-            {
                 id: 1602,
                 chance: 0.025
             },
@@ -59309,6 +59406,11 @@ npc_base[739] = createObject({
             {
                 id: 3419,
                 chance: 0.07
+            },
+            {
+                id: 5080,
+                chance: 0.02,
+                mon_book_only: !0
             }
         ]
     },
@@ -60235,6 +60337,7 @@ npc_base[755] = createObject({
     img: cow_image,
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 80,
         radius: 9,
         move_radius: 10,
@@ -60272,6 +60375,7 @@ npc_base[756] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 310,
         radius: 9,
         move_radius: 10,
@@ -60311,6 +60415,7 @@ npc_base[757] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 608,
         radius: 9,
         move_radius: 10,
@@ -60348,6 +60453,7 @@ npc_base[758] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 60,
         radius: 9,
         move_radius: 10,
@@ -60355,6 +60461,10 @@ npc_base[758] = createObject({
         speed: 100,
         att_anim: HIT_ANIMATION.PUNCH,
         drops: [
+            {
+                id: 5532,
+                chance: 0.05
+            },
             {
                 id: 3411,
                 chance: 1
@@ -60385,6 +60495,7 @@ npc_base[759] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 230,
         radius: 9,
         move_radius: 10,
@@ -60392,6 +60503,10 @@ npc_base[759] = createObject({
         speed: 100,
         att_anim: HIT_ANIMATION.BITE_ATTACK,
         drops: [
+            {
+                id: 5533,
+                chance: 0.05
+            },
             {
                 id: 3412,
                 chance: 1
@@ -60420,6 +60535,7 @@ npc_base[760] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 380,
         radius: 9,
         move_radius: 10,
@@ -60427,6 +60543,10 @@ npc_base[760] = createObject({
         speed: 100,
         att_anim: HIT_ANIMATION.SMALL_WEAPON,
         drops: [
+            {
+                id: 5534,
+                chance: 0.05
+            },
             {
                 id: 3424,
                 chance: 1
@@ -60457,6 +60577,7 @@ npc_base[761] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 480,
         radius: 9,
         move_radius: 10,
@@ -60464,6 +60585,10 @@ npc_base[761] = createObject({
         speed: 100,
         att_anim: HIT_ANIMATION.BITE_ATTACK,
         drops: [
+            {
+                id: 5537,
+                chance: 0.05
+            },
             {
                 id: 3425,
                 chance: 1
@@ -60492,6 +60617,7 @@ npc_base[762] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 900,
         radius: 9,
         move_radius: 10,
@@ -60528,6 +60654,7 @@ npc_base[763] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 800,
         radius: 9,
         move_radius: 10,
@@ -60567,6 +60694,7 @@ npc_base[764] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 1800,
         radius: 9,
         move_radius: 10,
@@ -60574,6 +60702,10 @@ npc_base[764] = createObject({
         speed: 100,
         att_anim: HIT_ANIMATION.BITE_ATTACK,
         drops: [
+            {
+                id: 5535,
+                chance: 0.05
+            },
             {
                 id: 3429,
                 chance: 1
@@ -60605,6 +60737,7 @@ npc_base[765] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 1000,
         radius: 9,
         move_radius: 10,
@@ -60640,6 +60773,7 @@ npc_base[766] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 440,
         radius: 9,
         move_radius: 10,
@@ -60678,6 +60812,7 @@ npc_base[767] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 700,
         radius: 9,
         move_radius: 10,
@@ -60713,12 +60848,17 @@ npc_base[768] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 1000,
         radius: 9,
         move_radius: 10,
         aggressive: !1,
         speed: 100,
         drops: [
+            {
+                id: 5538,
+                chance: 0.05
+            },
             {
                 id: 3433,
                 chance: 1
@@ -60755,6 +60895,7 @@ npc_base[769] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 1200,
         radius: 9,
         move_radius: 10,
@@ -60762,6 +60903,10 @@ npc_base[769] = createObject({
         speed: 100,
         att_anim: HIT_ANIMATION.CLAW_ATTACK,
         drops: [
+            {
+                id: 5536,
+                chance: 0.05
+            },
             {
                 id: 3434,
                 chance: 1
@@ -60793,6 +60938,7 @@ npc_base[770] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 1600,
         radius: 9,
         move_radius: 10,
@@ -60830,6 +60976,7 @@ npc_base[771] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 550,
         radius: 9,
         move_radius: 10,
@@ -60867,6 +61014,7 @@ npc_base[772] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 600,
         radius: 9,
         move_radius: 10,
@@ -60904,6 +61052,7 @@ npc_base[773] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 450,
         radius: 9,
         move_radius: 10,
@@ -60941,12 +61090,17 @@ npc_base[774] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 85,
         radius: 9,
         move_radius: 10,
         aggressive: !1,
         speed: 100,
         drops: [
+            {
+                id: 5556,
+                chance: 0.05
+            },
             {
                 id: 3421,
                 chance: 1
@@ -60981,6 +61135,7 @@ npc_base[775] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 125,
         radius: 9,
         move_radius: 10,
@@ -61018,6 +61173,7 @@ npc_base[776] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 920,
         radius: 9,
         move_radius: 10,
@@ -61060,6 +61216,7 @@ npc_base[777] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 72,
         radius: 9,
         move_radius: 10,
@@ -61095,6 +61252,7 @@ npc_base[778] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 1488,
         radius: 9,
         move_radius: 10,
@@ -61137,6 +61295,7 @@ npc_base[779] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 3600,
         radius: 9,
         move_radius: 10,
@@ -61176,6 +61335,7 @@ npc_base[780] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 150,
         radius: 9,
         move_radius: 10,
@@ -61211,6 +61371,7 @@ npc_base[781] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 900,
         radius: 9,
         move_radius: 10,
@@ -61248,6 +61409,7 @@ npc_base[782] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 1300,
         radius: 9,
         move_radius: 10,
@@ -61555,6 +61717,7 @@ npc_base[785] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 2300,
         radius: 9,
         move_radius: 10,
@@ -61774,6 +61937,7 @@ npc_base[786] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 2300,
         radius: 9,
         move_radius: 10,
@@ -61991,6 +62155,7 @@ npc_base[787] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 5,
         radius: 9,
         move_radius: 10,
@@ -62028,6 +62193,7 @@ npc_base[788] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 5,
         radius: 9,
         move_radius: 10,
@@ -62084,11 +62250,6 @@ npc_base[789] = createObject({
                 chance: 0.02
             },
             {
-                id: 5106,
-                chance: 0.0015,
-                mon_book_only: !0
-            },
-            {
                 id: 342,
                 chance: 0.0025
             },
@@ -62107,6 +62268,11 @@ npc_base[789] = createObject({
             {
                 id: 198,
                 chance: 0.0025
+            },
+            {
+                id: 5106,
+                chance: 0.0015,
+                mon_book_only: !0
             }
         ]
     },
@@ -62205,23 +62371,23 @@ npc_base[791] = createObject({
         drops: [
             {
                 id: 149,
-                chance: 0.05
+                chance: 0.0025
             },
             {
                 id: 190,
-                chance: 0.1
+                chance: 0.0025
             },
             {
                 id: 981,
-                chance: 0.003
+                chance: 0.0025
             },
             {
                 id: 266,
-                chance: 0.025
+                chance: 0.0025
             },
             {
                 id: 983,
-                chance: 0.003
+                chance: 0.0025
             },
             {
                 id: 153,
@@ -62241,55 +62407,55 @@ npc_base[791] = createObject({
             },
             {
                 id: 173,
-                chance: 0.005
+                chance: 0.0025
             },
             {
                 id: 59,
-                chance: 0.008
+                chance: 0.0025
             },
             {
                 id: 2141,
-                chance: 0.05
+                chance: 0.0025
             },
             {
                 id: 437,
-                chance: 0.05
+                chance: 0.0025
             },
             {
                 id: 2167,
-                chance: 0.05
+                chance: 0.0025
             },
             {
                 id: 2644,
-                chance: 0.05
+                chance: 0.0025
             },
             {
                 id: 2193,
-                chance: 0.05
+                chance: 0.0025
             },
             {
                 id: 807,
-                chance: 0.05
+                chance: 0.0025
             },
             {
                 id: 808,
-                chance: 0.05
+                chance: 0.0025
             },
             {
                 id: 488,
-                chance: 0.05
+                chance: 0.0025
             },
             {
                 id: 498,
-                chance: 0.05
+                chance: 0.0025
             },
             {
                 id: 3295,
-                chance: 0.015
+                chance: 0.0025
             },
             {
                 id: 138,
-                chance: 0.15
+                chance: 0.0025
             }
         ]
     },
@@ -62743,16 +62909,6 @@ npc_base[796] = createObject({
                 chance: 0.02
             },
             {
-                id: 5218,
-                chance: 0.0015,
-                mon_book_only: !0
-            },
-            {
-                id: 5219,
-                chance: 0.03,
-                mon_book_only: !0
-            },
-            {
                 id: 344,
                 chance: 0.0025
             },
@@ -62771,6 +62927,16 @@ npc_base[796] = createObject({
             {
                 id: 1916,
                 chance: 0.0025
+            },
+            {
+                id: 5218,
+                chance: 0.0015,
+                mon_book_only: !0
+            },
+            {
+                id: 5219,
+                chance: 0.03,
+                mon_book_only: !0
             }
         ]
     },
@@ -62894,6 +63060,7 @@ npc_base[798] = createObject({
     params: {
         no_dungeon: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 33000,
         radius: 9,
         move_radius: 10,
@@ -63674,6 +63841,7 @@ npc_base[803] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 50,
         radius: 9,
         move_radius: 10,
@@ -63715,6 +63883,7 @@ npc_base[804] = createObject({
     },
     params: {
         no_dungeon: !0,
+        map_random_respawn: !0,
         health: 50,
         radius: 9,
         move_radius: 10,
@@ -65486,6 +65655,7 @@ npc_base[826] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 4500,
         radius: 9,
         move_radius: 10,
@@ -65543,6 +65713,7 @@ npc_base[827] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 2700,
         radius: 9,
         move_radius: 10,
@@ -65622,7 +65793,8 @@ npc_base[828] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
-        health: 5000,
+        map_random_respawn: !0,
+        health: 6000,
         radius: 9,
         move_radius: 10,
         aggressive: !0,
@@ -65643,7 +65815,7 @@ npc_base[828] = createObject({
         animation_speed: 230
     },
     temp: {
-        health: 5000,
+        health: 6000,
         busy: !1,
         magics: [
             {
@@ -65678,6 +65850,7 @@ npc_base[829] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 4500,
         radius: 9,
         move_radius: 10,
@@ -65728,6 +65901,7 @@ npc_base[830] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 3000,
         radius: 9,
         move_radius: 10,
@@ -65785,6 +65959,7 @@ npc_base[831] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 4000,
         radius: 9,
         move_radius: 10,
@@ -65835,6 +66010,7 @@ npc_base[832] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 700,
         radius: 9,
         move_radius: 10,
@@ -65888,6 +66064,7 @@ npc_base[833] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 2700,
         radius: 9,
         move_radius: 10,
@@ -65941,6 +66118,7 @@ npc_base[834] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 100,
         radius: 9,
         move_radius: 10,
@@ -65983,6 +66161,7 @@ npc_base[835] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 100,
         radius: 9,
         move_radius: 10,
@@ -66186,6 +66365,7 @@ npc_base[839] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 3500,
         radius: 9,
         move_radius: 10,
@@ -66229,11 +66409,6 @@ npc_base[839] = createObject({
             {
                 id: 340,
                 chance: 0.03
-            },
-            {
-                id: 5192,
-                chance: 0.03,
-                mon_book_only: !0
             },
             {
                 id: 1602,
@@ -66326,6 +66501,11 @@ npc_base[839] = createObject({
             {
                 id: 3419,
                 chance: 0.07
+            },
+            {
+                id: 5192,
+                chance: 0.03,
+                mon_book_only: !0
             }
         ]
     },
@@ -66361,6 +66541,7 @@ npc_base[840] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 2600,
         radius: 9,
         move_radius: 10,
@@ -67394,6 +67575,7 @@ npc_base[850] = createObject({
         health: 120,
         radius: 9,
         no_dungeon: !0,
+        map_random_respawn: !0,
         move_radius: 10,
         aggressive: !1,
         speed: 100,
@@ -67631,6 +67813,7 @@ npc_base[855] = createObject({
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
         health: 90,
         radius: 9,
         move_radius: 10,
@@ -67695,19 +67878,50 @@ npc_base[856] = createObject({
     b_t: BASE_TYPE.NPC,
     name: '[BOSS] Graves Overseer',
     type: OBJECT_TYPE.ENEMY,
-    img: {
-        sheet: IMAGE_SHEET.BOSS,
-        x: 1,
-        y: 5,
-        pos: {
-            _x: 5,
-            _y: -3
+    img: [
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 1,
+            y: 5,
+            pos: {
+                _x: 5,
+                _y: -3
+            }
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 3,
+            y: 6,
+            pos: {
+                _x: 5,
+                _y: -3
+            }
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 4,
+            y: 6,
+            pos: {
+                _x: 5,
+                _y: -3
+            }
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 5,
+            y: 6,
+            pos: {
+                _x: 5,
+                _y: -3
+            }
         }
-    },
+    ],
     params: {
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        map_random_respawn: !0,
+        animation_speed: 200,
         health: 1300,
         radius: 20,
         move_radius: 10,
@@ -67740,19 +67954,49 @@ npc_base[857] = createObject({
     b_t: BASE_TYPE.NPC,
     name: '[BOSS] Grim Reaper',
     type: OBJECT_TYPE.ENEMY,
-    img: {
-        sheet: IMAGE_SHEET.BOSS,
-        x: 0,
-        y: 5,
-        pos: {
-            _x: 5,
-            _y: -5
+    img: [
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 0,
+            y: 5,
+            pos: {
+                _x: 5,
+                _y: -5
+            }
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 0,
+            y: 6,
+            pos: {
+                _x: 5,
+                _y: -5
+            }
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 1,
+            y: 6,
+            pos: {
+                _x: 5,
+                _y: -5
+            }
+        },
+        {
+            sheet: IMAGE_SHEET.BOSS,
+            x: 2,
+            y: 6,
+            pos: {
+                _x: 5,
+                _y: -5
+            }
         }
-    },
+    ],
     params: {
         no_dungeon: !0,
         random_respawn: !0,
         multi_combat: !0,
+        animation_speed: 200,
         health: 11000,
         radius: 9,
         move_radius: 10,
@@ -67782,6 +68026,5856 @@ npc_base[857] = createObject({
         magic_block: 80,
         melee_block: 50,
         archery_block: 90
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[858] = createObject({
+    b_i: 858,
+    b_t: BASE_TYPE.NPC,
+    name: '[Rare Elite] Capricorn',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.HALLOWEEN,
+        x: 9,
+        y: 3
+    },
+    params: {
+        health: 600,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        no_dungeon: !0,
+        map_random_respawn: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 149,
+                chance: 0.05
+            },
+            {
+                id: 190,
+                chance: 0.1
+            },
+            {
+                id: 981,
+                chance: 0.003
+            },
+            {
+                id: 266,
+                chance: 0.025
+            },
+            {
+                id: 983,
+                chance: 0.003
+            },
+            {
+                id: 153,
+                chance: 0.0025
+            },
+            {
+                id: 188,
+                chance: 0.0025
+            },
+            {
+                id: 161,
+                chance: 0.0025
+            },
+            {
+                id: 376,
+                chance: 0.0025
+            },
+            {
+                id: 173,
+                chance: 0.005
+            },
+            {
+                id: 59,
+                chance: 0.008
+            },
+            {
+                id: 2141,
+                chance: 0.05
+            },
+            {
+                id: 437,
+                chance: 0.05
+            },
+            {
+                id: 2167,
+                chance: 0.05
+            },
+            {
+                id: 2644,
+                chance: 0.05
+            },
+            {
+                id: 2193,
+                chance: 0.05
+            },
+            {
+                id: 807,
+                chance: 0.05
+            },
+            {
+                id: 808,
+                chance: 0.05
+            },
+            {
+                id: 488,
+                chance: 0.05
+            },
+            {
+                id: 498,
+                chance: 0.05
+            },
+            {
+                id: 3295,
+                chance: 0.03
+            },
+            {
+                id: 138,
+                chance: 0.15
+            }
+        ]
+    },
+    temp: {
+        health: 600,
+        busy: !1,
+        total_defense: 150,
+        magics: [
+            {
+                id: 15
+            }
+        ],
+        magic: 78,
+        cooldown: 0.5,
+        total_strength: 90,
+        total_accuracy: 390,
+        magic_block: 65,
+        archery_block: 40
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[859] = createObject({
+    b_i: 859,
+    b_t: BASE_TYPE.NPC,
+    name: '[Rare Elite] Tomb Guardian',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        hash: '74 0 111 103 227 37 19 0 0 0 0 0'
+    },
+    params: {
+        health: 1000,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        no_dungeon: !0,
+        map_random_respawn: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 389,
+                chance: 0.05
+            },
+            {
+                id: 154,
+                chance: 0.025
+            },
+            {
+                id: 1127,
+                chance: 0.03
+            },
+            {
+                id: 155,
+                chance: 0.025
+            },
+            {
+                id: 1305,
+                chance: 0.03
+            },
+            {
+                id: 143,
+                chance: 0.025
+            },
+            {
+                id: 144,
+                chance: 0.025
+            },
+            {
+                id: 303,
+                chance: 0.025
+            },
+            {
+                id: 174,
+                chance: 0.03
+            },
+            {
+                id: 952,
+                chance: 0.025
+            },
+            {
+                id: 1286,
+                chance: 0.025
+            },
+            {
+                id: 178,
+                chance: 0.03
+            },
+            {
+                id: 129,
+                chance: 0.025
+            },
+            {
+                id: 2730,
+                chance: 0.025
+            },
+            {
+                id: 558,
+                chance: 0.025
+            },
+            {
+                id: 807,
+                chance: 0.025
+            },
+            {
+                id: 808,
+                chance: 0.025
+            },
+            {
+                id: 488,
+                chance: 0.025
+            },
+            {
+                id: 500,
+                chance: 0.025
+            },
+            {
+                id: 498,
+                chance: 0.025
+            },
+            {
+                id: 454,
+                chance: 0.025
+            },
+            {
+                id: 3295,
+                chance: 0.007
+            },
+            {
+                id: 163,
+                chance: 0.025
+            },
+            {
+                id: 5539,
+                chance: 0.03,
+                mon_book_only: !0
+            }
+        ]
+    },
+    temp: {
+        health: 1000,
+        busy: !1,
+        magics: [
+            {
+                id: 22
+            }
+        ],
+        magic: 700,
+        total_defense: 790,
+        total_strength: 160,
+        total_accuracy: 790,
+        magic_block: 40,
+        melee_block: 40,
+        archery_block: 50
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[860] = createObject({
+    b_i: 860,
+    b_t: BASE_TYPE.NPC,
+    name: '[Rare Elite] King',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        hash: '18 0 92 61 112 2 1 33 173 51 11 6'
+    },
+    params: {
+        health: 900,
+        radius: 9,
+        move_radius: 10,
+        no_dungeon: !0,
+        aggressive: !0,
+        map_random_respawn: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.LARGE_WEAPON,
+        drops: [
+            {
+                id: 3332,
+                chance: 0.1
+            },
+            {
+                id: 1435,
+                chance: 0.025
+            },
+            {
+                id: 183,
+                chance: 0.025
+            },
+            {
+                id: 1128,
+                chance: 0.025
+            },
+            {
+                id: 379,
+                chance: 0.025
+            },
+            {
+                id: 4673,
+                chance: 0.025
+            },
+            {
+                id: 477,
+                chance: 0.025
+            },
+            {
+                id: 169,
+                chance: 0.025
+            },
+            {
+                id: 180,
+                chance: 0.025
+            },
+            {
+                id: 378,
+                chance: 0.025
+            },
+            {
+                id: 257,
+                chance: 0.025
+            },
+            {
+                id: 363,
+                chance: 0.025
+            },
+            {
+                id: 467,
+                chance: 0.025
+            },
+            {
+                id: 907,
+                chance: 0.015
+            },
+            {
+                id: 5541,
+                chance: 0.03,
+                mon_book_only: !0
+            }
+        ]
+    },
+    temp: {
+        health: 900,
+        busy: !1,
+        total_defense: 650,
+        total_strength: 150,
+        total_accuracy: 450,
+        melee_block: 30,
+        magic_block: 30,
+        archery_block: 40
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[861] = createObject({
+    b_i: 861,
+    b_t: BASE_TYPE.NPC,
+    name: '[Rare Elite] Core',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.MONSTER332,
+        x: 6,
+        y: 0,
+        pos: {
+            _x: 0,
+            _y: -3
+        }
+    },
+    params: {
+        health: 1100,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        map_random_respawn: !0,
+        no_dungeon: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.BITE_ATTACK,
+        drops: [
+            {
+                id: 3206,
+                chance: 0.12
+            },
+            {
+                id: 3307,
+                chance: 0.1
+            },
+            {
+                id: 265,
+                chance: 0.1
+            },
+            {
+                id: 266,
+                chance: 0.12
+            },
+            {
+                id: 1012,
+                chance: 0.09
+            },
+            {
+                id: 1007,
+                chance: 0.05
+            },
+            {
+                id: 1008,
+                chance: 0.05
+            },
+            {
+                id: 1009,
+                chance: 0.05
+            },
+            {
+                id: 1010,
+                chance: 0.05
+            },
+            {
+                id: 1011,
+                chance: 0.05
+            },
+            {
+                id: 1362,
+                chance: 0.05
+            }
+        ]
+    },
+    temp: {
+        health: 1100,
+        busy: !1,
+        magics: [
+            {
+                id: 14
+            }
+        ],
+        magic: 1200,
+        total_defense: 450,
+        total_strength: 70,
+        total_accuracy: 650,
+        magic_block: 50,
+        archery_block: 60
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[862] = createObject({
+    b_i: 862,
+    b_t: BASE_TYPE.NPC,
+    name: 'Frost Spirit',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.HALLOWEEN,
+        x: 5,
+        y: 4
+    },
+    params: {
+        health: 330,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        multi_combat: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5463,
+                chance: 0.005
+            },
+            {
+                id: 1376,
+                chance: 0.02
+            },
+            {
+                id: 968,
+                chance: 0.0006
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 2510,
+                chance: 0.005
+            },
+            {
+                id: 1582,
+                chance: 0.0025
+            },
+            {
+                id: 1478,
+                chance: 0.0025
+            },
+            {
+                id: 3689,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 1707,
+                chance: 0.0025
+            },
+            {
+                id: 835,
+                chance: 0.0025
+            },
+            {
+                id: 3481,
+                chance: 0.008
+            },
+            {
+                id: 1500,
+                chance: 0.0025
+            },
+            {
+                id: 3180,
+                chance: 0.005
+            },
+            {
+                id: 225,
+                chance: 0.01
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 1489,
+                chance: 0.0025
+            },
+            {
+                id: 3690,
+                chance: 0.0025
+            },
+            {
+                id: 5462,
+                chance: 0.35
+            }
+        ]
+    },
+    temp: {
+        health: 330,
+        busy: !1,
+        magics: [
+            {
+                id: 23
+            }
+        ],
+        magic: 600,
+        total_defense: 1235,
+        total_strength: 220,
+        total_accuracy: 1130,
+        magic_block: 40,
+        melee_block: 55
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[863] = createObject({
+    b_i: 863,
+    b_t: BASE_TYPE.NPC,
+    name: '[BOSS] Ice Dragon',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.HALLOWEEN,
+        x: 4,
+        y: 4,
+        pos: {
+            _x: 0,
+            _y: -2
+        }
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 58000,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        animation_speed: 230,
+        speed: 100,
+        att_anim: HIT_ANIMATION.CLAW_ATTACK,
+        drops: [
+            {
+                id: 968,
+                chance: 0.08
+            },
+            {
+                id: 593,
+                chance: 0.05
+            },
+            {
+                id: 1068,
+                chance: 0.01
+            },
+            {
+                id: 3796,
+                chance: 0.005
+            },
+            {
+                id: 966,
+                chance: 0.01
+            },
+            {
+                id: 3689,
+                chance: 0.15
+            },
+            {
+                id: 4315,
+                chance: 0.005
+            },
+            {
+                id: 1702,
+                chance: 0.01
+            },
+            {
+                id: 3797,
+                chance: 0.005
+            },
+            {
+                id: 3206,
+                chance: 0.05
+            },
+            {
+                id: 2590,
+                chance: 0.01
+            },
+            {
+                id: 3798,
+                chance: 0.005
+            },
+            {
+                id: 4318,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 2588,
+                chance: 0.01
+            },
+            {
+                id: 3799,
+                chance: 0.005
+            },
+            {
+                id: 3690,
+                chance: 0.15
+            },
+            {
+                id: 5542,
+                chance: 0.05,
+                mon_book_only: !0
+            },
+            {
+                id: 5467,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 58000,
+        busy: !1,
+        magics: [
+            {
+                id: 33
+            }
+        ],
+        magic: 800,
+        total_defense: 1260,
+        total_strength: 100,
+        total_accuracy: 1150,
+        cooldown: 0.6
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[864] = createObject({
+    b_i: 864,
+    b_t: BASE_TYPE.NPC,
+    name: 'Ice Rat',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.MONSTER732,
+        x: 2,
+        y: 4,
+        pos: {
+            _x: 0,
+            _y: -2
+        }
+    },
+    params: {
+        health: 315,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        multi_combat: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5463,
+                chance: 0.005
+            },
+            {
+                id: 1376,
+                chance: 0.02
+            },
+            {
+                id: 1900,
+                chance: 0.005
+            },
+            {
+                id: 2139,
+                chance: 0.005
+            },
+            {
+                id: 968,
+                chance: 0.0006
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 2165,
+                chance: 0.005
+            },
+            {
+                id: 1582,
+                chance: 0.0025
+            },
+            {
+                id: 498,
+                chance: 0.005
+            },
+            {
+                id: 2191,
+                chance: 0.005
+            },
+            {
+                id: 1478,
+                chance: 0.0025
+            },
+            {
+                id: 1901,
+                chance: 0.005
+            },
+            {
+                id: 2217,
+                chance: 0.005
+            },
+            {
+                id: 3689,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 2044,
+                chance: 0.005
+            },
+            {
+                id: 1707,
+                chance: 0.0025
+            },
+            {
+                id: 3481,
+                chance: 0.008
+            },
+            {
+                id: 1500,
+                chance: 0.0025
+            },
+            {
+                id: 225,
+                chance: 0.01
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 1489,
+                chance: 0.0025
+            },
+            {
+                id: 3690,
+                chance: 0.0025
+            },
+            {
+                id: 5462,
+                chance: 0.3
+            }
+        ]
+    },
+    temp: {
+        health: 315,
+        busy: !1,
+        magics: [
+            {
+                id: 23
+            }
+        ],
+        magic: 800,
+        total_defense: 1160,
+        total_strength: 190,
+        total_accuracy: 1060,
+        magic_block: 45,
+        melee_block: 30,
+        archery_block: 35
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[865] = createObject({
+    b_i: 865,
+    b_t: BASE_TYPE.NPC,
+    name: 'Frozen Mountain',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.HALLOWEEN,
+        x: 0,
+        y: 4,
+        pos: {
+            _x: -2,
+            _y: -2
+        }
+    },
+    params: {
+        health: 330,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        multi_combat: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5463,
+                chance: 0.005
+            },
+            {
+                id: 1376,
+                chance: 0.02
+            },
+            {
+                id: 968,
+                chance: 0.0006
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 5412,
+                chance: 0.005
+            },
+            {
+                id: 1582,
+                chance: 0.0025
+            },
+            {
+                id: 1478,
+                chance: 0.0025
+            },
+            {
+                id: 3689,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 1707,
+                chance: 0.0025
+            },
+            {
+                id: 3481,
+                chance: 0.008
+            },
+            {
+                id: 1500,
+                chance: 0.0025
+            },
+            {
+                id: 225,
+                chance: 0.01
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 951,
+                chance: 0.005
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 1489,
+                chance: 0.0025
+            },
+            {
+                id: 3690,
+                chance: 0.0025
+            },
+            {
+                id: 5462,
+                chance: 0.33
+            }
+        ]
+    },
+    temp: {
+        health: 330,
+        busy: !1,
+        magics: [
+            {
+                id: 23
+            }
+        ],
+        magic: 400,
+        total_defense: 1210,
+        total_strength: 210,
+        total_accuracy: 1105,
+        magic_block: 55,
+        melee_block: 40,
+        archery_block: 35
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[866] = createObject({
+    b_i: 866,
+    b_t: BASE_TYPE.NPC,
+    name: 'Wailing Soul',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.HALLOWEEN,
+        x: 2,
+        y: 4,
+        pos: {
+            _x: 0,
+            _y: -4
+        }
+    },
+    params: {
+        health: 345,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        multi_combat: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5463,
+                chance: 0.005
+            },
+            {
+                id: 1376,
+                chance: 0.02
+            },
+            {
+                id: 968,
+                chance: 0.002
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 1582,
+                chance: 0.0025
+            },
+            {
+                id: 1478,
+                chance: 0.0025
+            },
+            {
+                id: 1906,
+                chance: 0.01
+            },
+            {
+                id: 3689,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 1909,
+                chance: 0.01
+            },
+            {
+                id: 1707,
+                chance: 0.0025
+            },
+            {
+                id: 1912,
+                chance: 0.01
+            },
+            {
+                id: 3481,
+                chance: 0.008
+            },
+            {
+                id: 1500,
+                chance: 0.0025
+            },
+            {
+                id: 225,
+                chance: 0.01
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 1915,
+                chance: 0.01
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 1489,
+                chance: 0.0025
+            },
+            {
+                id: 3690,
+                chance: 0.0025
+            },
+            {
+                id: 5462,
+                chance: 0.37
+            },
+            {
+                id: 5539,
+                chance: 0.0025,
+                mon_book_only: !0
+            }
+        ]
+    },
+    temp: {
+        health: 345,
+        busy: !1,
+        magics: [
+            {
+                id: 23
+            }
+        ],
+        magic: 400,
+        total_defense: 1260,
+        total_strength: 230,
+        total_accuracy: 1160,
+        magic_block: 55,
+        melee_block: 40,
+        archery_block: 35
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[867] = createObject({
+    b_i: 867,
+    b_t: BASE_TYPE.NPC,
+    name: 'Crystal Golem',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.HALLOWEEN,
+        x: 6,
+        y: 4
+    },
+    params: {
+        health: 315,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        multi_combat: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5463,
+                chance: 0.005
+            },
+            {
+                id: 1376,
+                chance: 0.02
+            },
+            {
+                id: 968,
+                chance: 0.0006
+            },
+            {
+                id: 2327,
+                chance: 0.008
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 1582,
+                chance: 0.0025
+            },
+            {
+                id: 3342,
+                chance: 0.01
+            },
+            {
+                id: 1478,
+                chance: 0.0025
+            },
+            {
+                id: 3689,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 1707,
+                chance: 0.0025
+            },
+            {
+                id: 2323,
+                chance: 0.008
+            },
+            {
+                id: 1500,
+                chance: 0.0025
+            },
+            {
+                id: 2349,
+                chance: 0.008
+            },
+            {
+                id: 225,
+                chance: 0.01
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 3343,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 2361,
+                chance: 0.008
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 1489,
+                chance: 0.0025
+            },
+            {
+                id: 3690,
+                chance: 0.0025
+            },
+            {
+                id: 5462,
+                chance: 0.32
+            }
+        ]
+    },
+    temp: {
+        health: 315,
+        busy: !1,
+        magics: [
+            {
+                id: 23
+            }
+        ],
+        magic: 600,
+        total_defense: 1185,
+        total_strength: 200,
+        total_accuracy: 1090,
+        magic_block: 30,
+        melee_block: 55
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[868] = createObject({
+    b_i: 868,
+    b_t: BASE_TYPE.NPC,
+    name: '[BOSS] Ice Dragon',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.HALLOWEEN,
+        x: 3,
+        y: 4,
+        pos: {
+            _x: 0,
+            _y: -2
+        }
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        map_random_respawn: !0,
+        health: 58000,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.CLAW_ATTACK,
+        drops: [
+            {
+                id: 968,
+                chance: 0.08
+            },
+            {
+                id: 593,
+                chance: 0.05
+            },
+            {
+                id: 1068,
+                chance: 0.005
+            },
+            {
+                id: 3796,
+                chance: 0.005
+            },
+            {
+                id: 966,
+                chance: 0.005
+            },
+            {
+                id: 3689,
+                chance: 0.05
+            },
+            {
+                id: 4315,
+                chance: 0.005
+            },
+            {
+                id: 1702,
+                chance: 0.005
+            },
+            {
+                id: 3797,
+                chance: 0.005
+            },
+            {
+                id: 3206,
+                chance: 0.05
+            },
+            {
+                id: 2590,
+                chance: 0.005
+            },
+            {
+                id: 3798,
+                chance: 0.005
+            },
+            {
+                id: 4318,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 2588,
+                chance: 0.005
+            },
+            {
+                id: 3799,
+                chance: 0.005
+            },
+            {
+                id: 3690,
+                chance: 0.05
+            },
+            {
+                id: 5542,
+                chance: 0.05,
+                mon_book_only: !0
+            },
+            {
+                id: 5467,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 58000,
+        busy: !1,
+        magics: [
+            {
+                id: 33
+            }
+        ],
+        magic: 800,
+        cooldown: 0.6,
+        total_defense: 1060,
+        total_strength: 100,
+        total_accuracy: 1050
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[869] = createObject({
+    b_i: 869,
+    b_t: BASE_TYPE.NPC,
+    name: 'Charon’s Ice Warden',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 19,
+        y: 1
+    },
+    params: {
+        health: 285,
+        radius: 9,
+        move_radius: 10,
+        multi_combat: !0,
+        aggressive: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5462,
+                chance: 0.008
+            },
+            {
+                id: 1376,
+                chance: 0.02
+            },
+            {
+                id: 968,
+                chance: 0.0005
+            },
+            {
+                id: 1582,
+                chance: 0.0025
+            },
+            {
+                id: 1269,
+                chance: 0.005
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 1478,
+                chance: 0.0025
+            },
+            {
+                id: 3687,
+                chance: 0.0025
+            },
+            {
+                id: 1707,
+                chance: 0.0025
+            },
+            {
+                id: 2500,
+                chance: 0.005
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 3206,
+                chance: 0.005
+            },
+            {
+                id: 3477,
+                chance: 0.008
+            },
+            {
+                id: 2744,
+                chance: 0.005
+            },
+            {
+                id: 1500,
+                chance: 0.0025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 225,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 1489,
+                chance: 0.0025
+            },
+            {
+                id: 462,
+                chance: 0.005
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 3688,
+                chance: 0.0025
+            },
+            {
+                id: 5461,
+                chance: 0.35
+            }
+        ]
+    },
+    temp: {
+        health: 285,
+        busy: !1,
+        magics: [
+            {
+                id: 23
+            }
+        ],
+        magic: 500,
+        total_defense: 1085,
+        total_strength: 160,
+        total_accuracy: 985,
+        magic_block: 30,
+        melee_block: 45,
+        archery_block: 5
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[870] = createObject({
+    b_i: 870,
+    b_t: BASE_TYPE.NPC,
+    name: 'Charon’s Flame Warden',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 12,
+        y: 2
+    },
+    params: {
+        health: 300,
+        radius: 9,
+        move_radius: 10,
+        multi_combat: !0,
+        aggressive: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5462,
+                chance: 0.008
+            },
+            {
+                id: 1376,
+                chance: 0.02
+            },
+            {
+                id: 968,
+                chance: 0.0005
+            },
+            {
+                id: 2500,
+                chance: 0.005
+            },
+            {
+                id: 1582,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 2744,
+                chance: 0.005
+            },
+            {
+                id: 1478,
+                chance: 0.0025
+            },
+            {
+                id: 3687,
+                chance: 0.0025
+            },
+            {
+                id: 1707,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 3206,
+                chance: 0.005
+            },
+            {
+                id: 3477,
+                chance: 0.008
+            },
+            {
+                id: 1500,
+                chance: 0.0025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 225,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 469,
+                chance: 0.005
+            },
+            {
+                id: 1489,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 3688,
+                chance: 0.0025
+            },
+            {
+                id: 5461,
+                chance: 0.36
+            }
+        ]
+    },
+    temp: {
+        health: 300,
+        busy: !1,
+        magics: [
+            {
+                id: 21
+            }
+        ],
+        magic: 500,
+        total_defense: 1110,
+        total_strength: 170,
+        total_accuracy: 1010,
+        magic_block: 45,
+        melee_block: 30,
+        archery_block: 35
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[871] = createObject({
+    b_i: 871,
+    b_t: BASE_TYPE.NPC,
+    name: 'Charon’s Chaos Warden',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 19,
+        y: 2
+    },
+    params: {
+        health: 300,
+        radius: 9,
+        move_radius: 10,
+        multi_combat: !0,
+        aggressive: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5462,
+                chance: 0.008
+            },
+            {
+                id: 1376,
+                chance: 0.02
+            },
+            {
+                id: 968,
+                chance: 0.0005
+            },
+            {
+                id: 1582,
+                chance: 0.0025
+            },
+            {
+                id: 2500,
+                chance: 0.005
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 1478,
+                chance: 0.0025
+            },
+            {
+                id: 3687,
+                chance: 0.0025
+            },
+            {
+                id: 1707,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 3206,
+                chance: 0.005
+            },
+            {
+                id: 2744,
+                chance: 0.005
+            },
+            {
+                id: 3477,
+                chance: 0.008
+            },
+            {
+                id: 1500,
+                chance: 0.0025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 225,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 470,
+                chance: 0.005
+            },
+            {
+                id: 1489,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 3688,
+                chance: 0.0025
+            },
+            {
+                id: 5461,
+                chance: 0.37
+            }
+        ]
+    },
+    temp: {
+        health: 300,
+        busy: !1,
+        magics: [
+            {
+                id: 24
+            }
+        ],
+        magic: 500,
+        total_defense: 1135,
+        total_strength: 180,
+        total_accuracy: 1035,
+        magic_block: 30,
+        melee_block: 45,
+        archery_block: 10
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[872] = createObject({
+    b_i: 872,
+    b_t: BASE_TYPE.NPC,
+    name: 'Marrow Eel',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 13,
+        y: 2
+    },
+    params: {
+        health: 270,
+        radius: 9,
+        move_radius: 10,
+        multi_combat: !0,
+        aggressive: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5462,
+                chance: 0.008
+            },
+            {
+                id: 1376,
+                chance: 0.02
+            },
+            {
+                id: 968,
+                chance: 0.0005
+            },
+            {
+                id: 1582,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 5009,
+                chance: 0.02
+            },
+            {
+                id: 1478,
+                chance: 0.0025
+            },
+            {
+                id: 3687,
+                chance: 0.0025
+            },
+            {
+                id: 1707,
+                chance: 0.0025
+            },
+            {
+                id: 692,
+                chance: 0.005
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 3206,
+                chance: 0.005
+            },
+            {
+                id: 3477,
+                chance: 0.008
+            },
+            {
+                id: 1500,
+                chance: 0.0025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 225,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 1489,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 3688,
+                chance: 0.0025
+            },
+            {
+                id: 5461,
+                chance: 0.32
+            }
+        ]
+    },
+    temp: {
+        health: 270,
+        busy: !1,
+        magics: [
+            {
+                id: 22
+            }
+        ],
+        magic: 700,
+        total_defense: 1060,
+        total_strength: 150,
+        total_accuracy: 970,
+        magic_block: 30,
+        melee_block: 45,
+        archery_block: 10
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[873] = createObject({
+    b_i: 873,
+    b_t: BASE_TYPE.NPC,
+    name: 'Erebos',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 16,
+        y: 2
+    },
+    params: {
+        health: 285,
+        radius: 9,
+        move_radius: 10,
+        multi_combat: !0,
+        aggressive: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5462,
+                chance: 0.008
+            },
+            {
+                id: 1376,
+                chance: 0.02
+            },
+            {
+                id: 968,
+                chance: 0.0005
+            },
+            {
+                id: 1582,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 1478,
+                chance: 0.0025
+            },
+            {
+                id: 3687,
+                chance: 0.0025
+            },
+            {
+                id: 1707,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 3206,
+                chance: 0.005
+            },
+            {
+                id: 3477,
+                chance: 0.008
+            },
+            {
+                id: 1500,
+                chance: 0.0025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 225,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 1489,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 3688,
+                chance: 0.0025
+            },
+            {
+                id: 5461,
+                chance: 0.34
+            }
+        ]
+    },
+    temp: {
+        health: 285,
+        busy: !1,
+        magics: [
+            {
+                id: 22
+            }
+        ],
+        magic: 500,
+        total_defense: 1085,
+        total_strength: 160,
+        total_accuracy: 985,
+        magic_block: 45,
+        melee_block: 30,
+        archery_block: 35
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[874] = createObject({
+    b_i: 874,
+    b_t: BASE_TYPE.NPC,
+    name: 'Ghast Of The Toll',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 14,
+        y: 2
+    },
+    params: {
+        health: 270,
+        radius: 9,
+        move_radius: 10,
+        multi_combat: !0,
+        aggressive: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5462,
+                chance: 0.008
+            },
+            {
+                id: 1376,
+                chance: 0.02
+            },
+            {
+                id: 968,
+                chance: 0.0005
+            },
+            {
+                id: 1582,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 1478,
+                chance: 0.0025
+            },
+            {
+                id: 3152,
+                chance: 0.02
+            },
+            {
+                id: 3687,
+                chance: 0.0025
+            },
+            {
+                id: 1707,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 3206,
+                chance: 0.005
+            },
+            {
+                id: 3153,
+                chance: 0.02
+            },
+            {
+                id: 3477,
+                chance: 0.008
+            },
+            {
+                id: 1500,
+                chance: 0.0025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 225,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 1489,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 3688,
+                chance: 0.0025
+            },
+            {
+                id: 5461,
+                chance: 0.3
+            }
+        ]
+    },
+    temp: {
+        health: 270,
+        busy: !1,
+        magics: [
+            {
+                id: 19
+            }
+        ],
+        magic: 600,
+        total_defense: 1060,
+        total_strength: 150,
+        total_accuracy: 970,
+        magic_block: 45,
+        melee_block: 30,
+        archery_block: 35
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[875] = createObject({
+    b_i: 875,
+    b_t: BASE_TYPE.NPC,
+    name: '[BOSS] Charon',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 11,
+        y: 2
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 50000,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        animation_speed: 230,
+        speed: 100,
+        att_anim: HIT_ANIMATION.CLAW_ATTACK,
+        drops: [
+            {
+                id: 968,
+                chance: 0.08
+            },
+            {
+                id: 593,
+                chance: 0.05
+            },
+            {
+                id: 1068,
+                chance: 0.0075
+            },
+            {
+                id: 3796,
+                chance: 0.005
+            },
+            {
+                id: 966,
+                chance: 0.0075
+            },
+            {
+                id: 3687,
+                chance: 0.15
+            },
+            {
+                id: 4315,
+                chance: 0.005
+            },
+            {
+                id: 1702,
+                chance: 0.0075
+            },
+            {
+                id: 3797,
+                chance: 0.005
+            },
+            {
+                id: 3206,
+                chance: 0.05
+            },
+            {
+                id: 2590,
+                chance: 0.0075
+            },
+            {
+                id: 3798,
+                chance: 0.005
+            },
+            {
+                id: 4318,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 2588,
+                chance: 0.0075
+            },
+            {
+                id: 3799,
+                chance: 0.005
+            },
+            {
+                id: 3688,
+                chance: 0.15
+            },
+            {
+                id: 5543,
+                chance: 0.05,
+                mon_book_only: !0
+            },
+            {
+                id: 5466,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 50000,
+        busy: !1,
+        magics: [
+            {
+                id: 32
+            }
+        ],
+        magic: 800,
+        total_defense: 1135,
+        total_strength: 100,
+        total_accuracy: 1030,
+        cooldown: 0.6
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[876] = createObject({
+    b_i: 876,
+    b_t: BASE_TYPE.NPC,
+    name: 'Soul Guide',
+    type: OBJECT_TYPE.SHOP,
+    img: {
+        hash: '18 0 305 267 72 0 0 0 0 259 148 116'
+    },
+    params: {
+        health: 99,
+        no_dungeon: !0,
+        map_random_respawn: !0
+    },
+    temp: {
+        health: 99,
+        total_defense: 99,
+        total_strength: 99,
+        total_accuracy: 99,
+        content: [
+            {
+                id: 5461,
+                count: 0
+            },
+            {
+                id: 5462,
+                count: 0
+            },
+            {
+                id: 5463,
+                count: 0
+            },
+            {
+                id: 5464,
+                count: 0
+            }
+        ]
+    },
+    activities: [
+        ACTIVITIES.TRADE_WITH,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[877] = createObject({
+    b_i: 877,
+    b_t: BASE_TYPE.NPC,
+    name: 'Stygian Nymph',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 3,
+        y: 2
+    },
+    params: {
+        health: 390,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        multi_combat: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5464,
+                chance: 0.05
+            },
+            {
+                id: 1384,
+                chance: 0.02
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 5005,
+                chance: 0.006
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 968,
+                chance: 0.0007
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 2835,
+                chance: 0.0025
+            },
+            {
+                id: 3494,
+                chance: 0.008
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 5004,
+                chance: 0.006
+            },
+            {
+                id: 225,
+                chance: 0.005
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 2834,
+                chance: 0.0025
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5463,
+                chance: 0.3
+            }
+        ]
+    },
+    temp: {
+        health: 390,
+        busy: !1,
+        magics: [
+            {
+                id: 23
+            }
+        ],
+        magic: 600,
+        total_defense: 1410,
+        total_strength: 260,
+        total_accuracy: 1300,
+        magic_block: 60,
+        melee_block: 40,
+        archery_block: 40
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[878] = createObject({
+    b_i: 878,
+    b_t: BASE_TYPE.NPC,
+    name: 'Rebellious Angel',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 7,
+        y: 2
+    },
+    params: {
+        health: 360,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        multi_combat: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5464,
+                chance: 0.05
+            },
+            {
+                id: 1384,
+                chance: 0.02
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 968,
+                chance: 0.0007
+            },
+            {
+                id: 359,
+                chance: 0.005
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 3494,
+                chance: 0.008
+            },
+            {
+                id: 360,
+                chance: 0.005
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 225,
+                chance: 0.005
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 952,
+                chance: 0.005
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5463,
+                chance: 0.33
+            }
+        ]
+    },
+    temp: {
+        health: 360,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 600,
+        total_defense: 1335,
+        total_strength: 240,
+        total_accuracy: 1300,
+        magic_block: 40,
+        melee_block: 60
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[879] = createObject({
+    b_i: 879,
+    b_t: BASE_TYPE.NPC,
+    name: 'Ascalaphus',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 6,
+        y: 2
+    },
+    params: {
+        health: 375,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        multi_combat: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5464,
+                chance: 0.05
+            },
+            {
+                id: 1384,
+                chance: 0.02
+            },
+            {
+                id: 1627,
+                chance: 0.005
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 968,
+                chance: 0.0007
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 417,
+                chance: 0.01
+            },
+            {
+                id: 3494,
+                chance: 0.008
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 1002,
+                chance: 0.005
+            },
+            {
+                id: 225,
+                chance: 0.005
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 1003,
+                chance: 0.005
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 1004,
+                chance: 0.005
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 1006,
+                chance: 0.005
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5463,
+                chance: 0.3
+            },
+            {
+                id: 5540,
+                chance: 0.003,
+                mon_book_only: !0
+            }
+        ]
+    },
+    temp: {
+        health: 375,
+        busy: !1,
+        magics: [
+            {
+                id: 24
+            }
+        ],
+        magic: 600,
+        total_defense: 1360,
+        total_strength: 250,
+        total_accuracy: 1250,
+        magic_block: 60,
+        melee_block: 40,
+        archery_block: 40
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[880] = createObject({
+    b_i: 880,
+    b_t: BASE_TYPE.NPC,
+    name: 'The Wrathful',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 8,
+        y: 2
+    },
+    params: {
+        health: 375,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        multi_combat: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5464,
+                chance: 0.05
+            },
+            {
+                id: 1384,
+                chance: 0.02
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 1011,
+                chance: 0.005
+            },
+            {
+                id: 968,
+                chance: 0.0007
+            },
+            {
+                id: 2381,
+                chance: 0.01
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 3494,
+                chance: 0.008
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 225,
+                chance: 0.005
+            },
+            {
+                id: 1199,
+                chance: 0.0025
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 2378,
+                chance: 0.01
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5463,
+                chance: 0.3
+            }
+        ]
+    },
+    temp: {
+        health: 375,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 600,
+        total_defense: 1385,
+        total_strength: 250,
+        total_accuracy: 1280,
+        magic_block: 40,
+        melee_block: 60
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[881] = createObject({
+    b_i: 881,
+    b_t: BASE_TYPE.NPC,
+    name: 'Unburied Soul',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 5,
+        y: 2
+    },
+    params: {
+        health: 345,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        multi_combat: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5464,
+                chance: 0.05
+            },
+            {
+                id: 1384,
+                chance: 0.02
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 968,
+                chance: 0.0007
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 3494,
+                chance: 0.008
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 225,
+                chance: 0.005
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5463,
+                chance: 0.3
+            }
+        ]
+    },
+    temp: {
+        health: 345,
+        busy: !1,
+        magics: [
+            {
+                id: 19
+            }
+        ],
+        magic: 700,
+        total_defense: 1285,
+        total_strength: 230,
+        total_accuracy: 1180,
+        magic_block: 40,
+        melee_block: 55
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[882] = createObject({
+    b_i: 882,
+    b_t: BASE_TYPE.NPC,
+    name: 'Chaos Titanspawn',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 10,
+        y: 2
+    },
+    params: {
+        health: 360,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        multi_combat: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5464,
+                chance: 0.05
+            },
+            {
+                id: 1384,
+                chance: 0.02
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 1766,
+                chance: 0.005
+            },
+            {
+                id: 968,
+                chance: 0.0007
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 3494,
+                chance: 0.008
+            },
+            {
+                id: 1913,
+                chance: 0.005
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 225,
+                chance: 0.005
+            },
+            {
+                id: 1934,
+                chance: 0.0025
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5463,
+                chance: 0.32
+            }
+        ]
+    },
+    temp: {
+        health: 360,
+        busy: !1,
+        magics: [
+            {
+                id: 22
+            }
+        ],
+        magic: 600,
+        total_defense: 1310,
+        total_strength: 240,
+        total_accuracy: 1200,
+        magic_block: 55,
+        melee_block: 40,
+        archery_block: 35
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[883] = createObject({
+    b_i: 883,
+    b_t: BASE_TYPE.NPC,
+    name: 'Styx Minion',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 15,
+        y: 2
+    },
+    params: {
+        health: 390,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        multi_combat: !0,
+        speed: 100,
+        drops: [
+            {
+                id: 5464,
+                chance: 0.015
+            },
+            {
+                id: 5462,
+                chance: 0.2
+            },
+            {
+                id: 5463,
+                chance: 0.45
+            }
+        ]
+    },
+    temp: {
+        health: 390,
+        busy: !1,
+        magics: [
+            {
+                id: 32
+            }
+        ],
+        magic: 600,
+        total_defense: 1435,
+        total_strength: 260,
+        total_accuracy: 1320,
+        magic_block: 40,
+        melee_block: 65
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[884] = createObject({
+    b_i: 884,
+    b_t: BASE_TYPE.NPC,
+    name: '[Rare Elite] Stygian Nymph',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 4,
+        y: 2,
+        pos: {
+            _x: 0,
+            _y: -3
+        }
+    },
+    params: {
+        health: 1950,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        map_random_respawn: !0,
+        multi_combat: !0,
+        no_dungeon: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.BITE_ATTACK,
+        drops: [
+            {
+                id: 5464,
+                chance: 0.3
+            },
+            {
+                id: 1384,
+                chance: 0.1
+            },
+            {
+                id: 2153,
+                chance: 0.025
+            },
+            {
+                id: 5005,
+                chance: 0.06
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 968,
+                chance: 0.007
+            },
+            {
+                id: 2179,
+                chance: 0.025
+            },
+            {
+                id: 2835,
+                chance: 0.025
+            },
+            {
+                id: 3494,
+                chance: 0.08
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 5004,
+                chance: 0.06
+            },
+            {
+                id: 225,
+                chance: 0.05
+            },
+            {
+                id: 2205,
+                chance: 0.005
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 2834,
+                chance: 0.025
+            },
+            {
+                id: 4313,
+                chance: 0.025
+            },
+            {
+                id: 3219,
+                chance: 0.025
+            },
+            {
+                id: 2231,
+                chance: 0.025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 4574,
+                chance: 0.025
+            },
+            {
+                id: 5540,
+                chance: 0.03,
+                mon_book_only: !0
+            },
+            {
+                id: 5463,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 1950,
+        busy: !1,
+        magics: [
+            {
+                id: 23
+            }
+        ],
+        magic: 600,
+        total_defense: 1680,
+        total_strength: 260,
+        total_accuracy: 1500
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[885] = createObject({
+    b_i: 885,
+    b_t: BASE_TYPE.NPC,
+    name: '[Rare Elite] Crystal Golem',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.HALLOWEEN,
+        x: 7,
+        y: 4,
+        pos: {
+            _x: 0,
+            _y: -3
+        }
+    },
+    params: {
+        health: 1575,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        no_dungeon: !0,
+        map_random_respawn: !0,
+        multi_combat: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.MEDIUM_WEAPON,
+        drops: [
+            {
+                id: 5463,
+                chance: 0.05
+            },
+            {
+                id: 1376,
+                chance: 0.1
+            },
+            {
+                id: 968,
+                chance: 0.006
+            },
+            {
+                id: 2327,
+                chance: 0.08
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 1582,
+                chance: 0.025
+            },
+            {
+                id: 3342,
+                chance: 0.01
+            },
+            {
+                id: 1478,
+                chance: 0.025
+            },
+            {
+                id: 3689,
+                chance: 0.025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 1707,
+                chance: 0.025
+            },
+            {
+                id: 2323,
+                chance: 0.08
+            },
+            {
+                id: 1500,
+                chance: 0.025
+            },
+            {
+                id: 2349,
+                chance: 0.08
+            },
+            {
+                id: 225,
+                chance: 0.1
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 3343,
+                chance: 0.05
+            },
+            {
+                id: 4313,
+                chance: 0.025
+            },
+            {
+                id: 3219,
+                chance: 0.025
+            },
+            {
+                id: 2361,
+                chance: 0.08
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 1489,
+                chance: 0.025
+            },
+            {
+                id: 3690,
+                chance: 0.025
+            },
+            {
+                id: 5542,
+                chance: 0.03,
+                mon_book_only: !0
+            },
+            {
+                id: 5462,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 1575,
+        busy: !1,
+        magics: [
+            {
+                id: 23
+            }
+        ],
+        magic: 600,
+        total_defense: 1420,
+        total_strength: 200,
+        total_accuracy: 1300
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[886] = createObject({
+    b_i: 886,
+    b_t: BASE_TYPE.NPC,
+    name: '[Rare Elite] Marrow Eel',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 2,
+        y: 2,
+        pos: {
+            _x: 0,
+            _y: -3
+        }
+    },
+    params: {
+        health: 1350,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        multi_combat: !0,
+        map_random_respawn: !0,
+        no_dungeon: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.BITE_ATTACK,
+        drops: [
+            {
+                id: 5462,
+                chance: 0.08
+            },
+            {
+                id: 1376,
+                chance: 0.02
+            },
+            {
+                id: 968,
+                chance: 0.005
+            },
+            {
+                id: 1582,
+                chance: 0.025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 5009,
+                chance: 0.2
+            },
+            {
+                id: 1478,
+                chance: 0.025
+            },
+            {
+                id: 3687,
+                chance: 0.025
+            },
+            {
+                id: 1707,
+                chance: 0.025
+            },
+            {
+                id: 692,
+                chance: 0.05
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 3206,
+                chance: 0.05
+            },
+            {
+                id: 3477,
+                chance: 0.08
+            },
+            {
+                id: 1500,
+                chance: 0.025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 225,
+                chance: 0.05
+            },
+            {
+                id: 4313,
+                chance: 0.025
+            },
+            {
+                id: 1489,
+                chance: 0.025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 3688,
+                chance: 0.025
+            },
+            {
+                id: 5543,
+                chance: 0.03,
+                mon_book_only: !0
+            },
+            {
+                id: 5461,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 1350,
+        busy: !1,
+        magics: [
+            {
+                id: 22
+            }
+        ],
+        magic: 700,
+        total_defense: 1270,
+        total_strength: 150,
+        total_accuracy: 1160
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[887] = createObject({
+    b_i: 887,
+    b_t: BASE_TYPE.NPC,
+    name: '[BOSS] Bone Collector',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 18,
+        y: 2
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        map_random_respawn: !0,
+        health: 70000,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.CLAW_ATTACK,
+        drops: [
+            {
+                id: 968,
+                chance: 0.08
+            },
+            {
+                id: 593,
+                chance: 0.05
+            },
+            {
+                id: 1068,
+                chance: 0.01
+            },
+            {
+                id: 3796,
+                chance: 0.005
+            },
+            {
+                id: 966,
+                chance: 0.01
+            },
+            {
+                id: 1702,
+                chance: 0.01
+            },
+            {
+                id: 3797,
+                chance: 0.005
+            },
+            {
+                id: 3206,
+                chance: 0.05
+            },
+            {
+                id: 2590,
+                chance: 0.01
+            },
+            {
+                id: 4315,
+                chance: 0.005
+            },
+            {
+                id: 3798,
+                chance: 0.005
+            },
+            {
+                id: 4318,
+                chance: 0.005
+            },
+            {
+                id: 4314,
+                chance: 0.0025
+            },
+            {
+                id: 2588,
+                chance: 0.01
+            },
+            {
+                id: 3799,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 4574,
+                chance: 0.15
+            },
+            {
+                id: 5544,
+                chance: 0.1,
+                mon_book_only: !0
+            },
+            {
+                id: 5465,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 70000,
+        busy: !1,
+        magics: [
+            {
+                id: 22
+            }
+        ],
+        magic: 800,
+        total_defense: 1335,
+        total_strength: 200,
+        total_accuracy: 1220,
+        cooldown: 0.5,
+        magic_block: 25,
+        melee_block: 25,
+        archery_block: 60
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[888] = createObject({
+    b_i: 888,
+    b_t: BASE_TYPE.NPC,
+    name: '[BOSS] Agony Sentinel',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 17,
+        y: 2
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        map_random_respawn: !0,
+        health: 50000,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        animation_speed: 230,
+        speed: 100,
+        att_anim: HIT_ANIMATION.CLAW_ATTACK,
+        drops: [
+            {
+                id: 968,
+                chance: 0.08
+            },
+            {
+                id: 593,
+                chance: 0.05
+            },
+            {
+                id: 1068,
+                chance: 0.005
+            },
+            {
+                id: 3796,
+                chance: 0.005
+            },
+            {
+                id: 966,
+                chance: 0.005
+            },
+            {
+                id: 3687,
+                chance: 0.15
+            },
+            {
+                id: 4315,
+                chance: 0.005
+            },
+            {
+                id: 1702,
+                chance: 0.005
+            },
+            {
+                id: 3797,
+                chance: 0.005
+            },
+            {
+                id: 3206,
+                chance: 0.05
+            },
+            {
+                id: 2590,
+                chance: 0.005
+            },
+            {
+                id: 3798,
+                chance: 0.005
+            },
+            {
+                id: 4318,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 2588,
+                chance: 0.005
+            },
+            {
+                id: 3799,
+                chance: 0.005
+            },
+            {
+                id: 3688,
+                chance: 0.15
+            },
+            {
+                id: 5543,
+                chance: 0.05,
+                mon_book_only: !0
+            },
+            {
+                id: 5466,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 50000,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 800,
+        total_defense: 1035,
+        total_strength: 120,
+        total_accuracy: 980,
+        cooldown: 0.5
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[889] = createObject({
+    b_i: 889,
+    b_t: BASE_TYPE.NPC,
+    name: '[BOSS] Styx',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS3,
+        x: 9,
+        y: 2
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 70000,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.CLAW_ATTACK,
+        drops: [
+            {
+                id: 968,
+                chance: 0.08
+            },
+            {
+                id: 593,
+                chance: 0.05
+            },
+            {
+                id: 1068,
+                chance: 0.015
+            },
+            {
+                id: 3796,
+                chance: 0.005
+            },
+            {
+                id: 966,
+                chance: 0.01
+            },
+            {
+                id: 1702,
+                chance: 0.015
+            },
+            {
+                id: 3797,
+                chance: 0.005
+            },
+            {
+                id: 3206,
+                chance: 0.05
+            },
+            {
+                id: 2590,
+                chance: 0.015
+            },
+            {
+                id: 4315,
+                chance: 0.005
+            },
+            {
+                id: 3798,
+                chance: 0.005
+            },
+            {
+                id: 4318,
+                chance: 0.005
+            },
+            {
+                id: 4314,
+                chance: 0.0025
+            },
+            {
+                id: 2588,
+                chance: 0.015
+            },
+            {
+                id: 3799,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 4574,
+                chance: 0.3
+            },
+            {
+                id: 5544,
+                chance: 0.1,
+                mon_book_only: !0
+            },
+            {
+                id: 5465,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 70000,
+        busy: !1,
+        magics: [
+            {
+                id: 32
+            }
+        ],
+        magic: 800,
+        total_defense: 1435,
+        total_strength: 200,
+        total_accuracy: 1320,
+        cooldown: 0.6,
+        magic_block: 35,
+        melee_block: 35,
+        archery_block: 50
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[890] = createObject({
+    b_i: 890,
+    b_t: BASE_TYPE.NPC,
+    name: 'Cornugon',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 12,
+        y: 0
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 420,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.QUICK_WEAPON,
+        drops: [
+            {
+                id: 5526,
+                chance: 0.05
+            },
+            {
+                id: 1390,
+                chance: 0.08
+            },
+            {
+                id: 225,
+                chance: 0.05
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 421,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 3950,
+                chance: 0.0025
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 461,
+                chance: 0.0025
+            },
+            {
+                id: 2920,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 5481,
+                chance: 0.0025
+            },
+            {
+                id: 257,
+                chance: 0.0025
+            },
+            {
+                id: 4688,
+                chance: 0.00001
+            },
+            {
+                id: 895,
+                chance: 0.0021
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 262,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 5482,
+                chance: 0.0025
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5464,
+                chance: 0.23
+            }
+        ]
+    },
+    temp: {
+        health: 420,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 600,
+        total_defense: 1535,
+        total_strength: 280,
+        total_accuracy: 1417,
+        magic_block: 40,
+        melee_block: 40,
+        archery_block: 80
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[891] = createObject({
+    b_i: 891,
+    b_t: BASE_TYPE.NPC,
+    name: 'Osyluth',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 12,
+        y: 1
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 420,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.CLAW_ATTACK,
+        drops: [
+            {
+                id: 5526,
+                chance: 0.05
+            },
+            {
+                id: 1390,
+                chance: 0.02
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 421,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 3950,
+                chance: 0.0025
+            },
+            {
+                id: 207,
+                chance: 0.01
+            },
+            {
+                id: 2921,
+                chance: 0.0025
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 461,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 485,
+                chance: 0.005
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 5481,
+                chance: 0.0025
+            },
+            {
+                id: 257,
+                chance: 0.0025
+            },
+            {
+                id: 895,
+                chance: 0.0021
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4581,
+                chance: 0.00001
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 262,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 5482,
+                chance: 0.0025
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5464,
+                chance: 0.22
+            }
+        ]
+    },
+    temp: {
+        health: 420,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 600,
+        total_defense: 1510,
+        total_strength: 280,
+        total_accuracy: 1393,
+        magic_block: 50,
+        melee_block: 30,
+        archery_block: 80
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[892] = createObject({
+    b_i: 892,
+    b_t: BASE_TYPE.NPC,
+    name: 'Obsidian Imp',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 12,
+        y: 2
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 405,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.CLAW_ATTACK,
+        drops: [
+            {
+                id: 5526,
+                chance: 0.05
+            },
+            {
+                id: 1390,
+                chance: 0.02
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 421,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 3950,
+                chance: 0.0025
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 461,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 5481,
+                chance: 0.0035
+            },
+            {
+                id: 257,
+                chance: 0.0025
+            },
+            {
+                id: 895,
+                chance: 0.0021
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 262,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 5482,
+                chance: 0.003
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5464,
+                chance: 0.2
+            }
+        ]
+    },
+    temp: {
+        health: 405,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 600,
+        total_defense: 1460,
+        total_strength: 270,
+        total_accuracy: 1345,
+        magic_block: 50,
+        melee_block: 30,
+        archery_block: 80
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[893] = createObject({
+    b_i: 893,
+    b_t: BASE_TYPE.NPC,
+    name: 'Magma Mephit',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 12,
+        y: 3
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 405,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.CLAW_ATTACK,
+        drops: [
+            {
+                id: 5526,
+                chance: 0.05
+            },
+            {
+                id: 1390,
+                chance: 0.02
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 421,
+                chance: 0.0025
+            },
+            {
+                id: 1011,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 186,
+                chance: 0.01
+            },
+            {
+                id: 4575,
+                chance: 0.00001
+            },
+            {
+                id: 3950,
+                chance: 0.0025
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 461,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 5481,
+                chance: 0.0025
+            },
+            {
+                id: 257,
+                chance: 0.0025
+            },
+            {
+                id: 895,
+                chance: 0.0021
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 262,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 5482,
+                chance: 0.0025
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5464,
+                chance: 0.21
+            }
+        ]
+    },
+    temp: {
+        health: 405,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 600,
+        total_defense: 1485,
+        total_strength: 270,
+        total_accuracy: 1369,
+        magic_block: 40,
+        melee_block: 40,
+        archery_block: 80
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[894] = createObject({
+    b_i: 894,
+    b_t: BASE_TYPE.NPC,
+    name: 'Obsidian Golem',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 12,
+        y: 4
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 435,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.PUNCH,
+        drops: [
+            {
+                id: 5526,
+                chance: 0.05
+            },
+            {
+                id: 1390,
+                chance: 0.1
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 3950,
+                chance: 0.0025
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 461,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 5481,
+                chance: 0.02
+            },
+            {
+                id: 257,
+                chance: 0.0025
+            },
+            {
+                id: 895,
+                chance: 0.0021
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 262,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 5482,
+                chance: 0.01
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5464,
+                chance: 0.25
+            },
+            {
+                id: 5541,
+                chance: 0.0025,
+                mon_book_only: !0
+            }
+        ]
+    },
+    temp: {
+        health: 435,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 600,
+        total_defense: 1585,
+        total_strength: 290,
+        total_accuracy: 1465,
+        magic_block: 40,
+        melee_block: 40,
+        archery_block: 80
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[895] = createObject({
+    b_i: 895,
+    b_t: BASE_TYPE.NPC,
+    name: 'Magma Gegenees',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 12,
+        y: 5
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 435,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        animation_speed: 230,
+        speed: 100,
+        att_anim: HIT_ANIMATION.LARGE_WEAPON,
+        drops: [
+            {
+                id: 5526,
+                chance: 0.05
+            },
+            {
+                id: 1390,
+                chance: 0.07
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 421,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 3950,
+                chance: 0.0025
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 461,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 2920,
+                chance: 0.0025
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 5481,
+                chance: 0.0025
+            },
+            {
+                id: 2921,
+                chance: 0.0025
+            },
+            {
+                id: 2865,
+                chance: 0.0015
+            },
+            {
+                id: 257,
+                chance: 0.0025
+            },
+            {
+                id: 895,
+                chance: 0.0021
+            },
+            {
+                id: 2922,
+                chance: 0.0025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 262,
+                chance: 0.0025
+            },
+            {
+                id: 2923,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 5482,
+                chance: 0.0025
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5464,
+                chance: 0.24
+            }
+        ]
+    },
+    temp: {
+        health: 435,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 600,
+        total_defense: 1560,
+        total_strength: 290,
+        total_accuracy: 1441,
+        magic_block: 50,
+        melee_block: 30,
+        archery_block: 80
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[896] = createObject({
+    b_i: 896,
+    b_t: BASE_TYPE.NPC,
+    name: 'Phlegethon Sentinel',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 12,
+        y: 6
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 465,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.LARGE_WEAPON,
+        drops: [
+            {
+                id: 5526,
+                chance: 0.05
+            },
+            {
+                id: 1390,
+                chance: 0.02
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 421,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 3950,
+                chance: 0.0025
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 461,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 5481,
+                chance: 0.0025
+            },
+            {
+                id: 257,
+                chance: 0.0025
+            },
+            {
+                id: 895,
+                chance: 0.0021
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 262,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 5482,
+                chance: 0.0025
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5464,
+                chance: 0.28
+            }
+        ]
+    },
+    temp: {
+        health: 465,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 600,
+        total_defense: 1660,
+        total_strength: 310,
+        total_accuracy: 1537,
+        magic_block: 50,
+        melee_block: 30,
+        archery_block: 80
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[897] = createObject({
+    b_i: 897,
+    b_t: BASE_TYPE.NPC,
+    name: '[BOSS] Elder Phlegethon Sentinel',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 12,
+        y: 7
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        map_random_respawn: !0,
+        health: 55000,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.CLAW_ATTACK,
+        drops: [
+            {
+                id: 593,
+                chance: 0.05
+            },
+            {
+                id: 5425,
+                chance: 0.005
+            },
+            {
+                id: 3796,
+                chance: 0.005
+            },
+            {
+                id: 3535,
+                chance: 0.005
+            },
+            {
+                id: 3591,
+                chance: 0.005
+            },
+            {
+                id: 3637,
+                chance: 0.005
+            },
+            {
+                id: 3798,
+                chance: 0.005
+            },
+            {
+                id: 3797,
+                chance: 0.005
+            },
+            {
+                id: 3206,
+                chance: 0.05
+            },
+            {
+                id: 3537,
+                chance: 0.005
+            },
+            {
+                id: 3639,
+                chance: 0.005
+            },
+            {
+                id: 3587,
+                chance: 0.005
+            },
+            {
+                id: 4315,
+                chance: 0.005
+            },
+            {
+                id: 4318,
+                chance: 0.005
+            },
+            {
+                id: 4314,
+                chance: 0.0025
+            },
+            {
+                id: 3539,
+                chance: 0.005
+            },
+            {
+                id: 3589,
+                chance: 0.005
+            },
+            {
+                id: 3635,
+                chance: 0.005
+            },
+            {
+                id: 3799,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.005
+            },
+            {
+                id: 4574,
+                chance: 0.08
+            },
+            {
+                id: 5545,
+                chance: 0.1,
+                mon_book_only: !0
+            },
+            {
+                id: 5528,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 55000,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 700,
+        total_defense: 1335,
+        total_strength: 220,
+        total_accuracy: 1320,
+        cooldown: 0.5,
+        archery_block: 90
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[898] = createObject({
+    b_i: 898,
+    b_t: BASE_TYPE.NPC,
+    name: '[BOSS] Elder Phlegethon Sentinel',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 11,
+        y: 7
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 60000,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.CLAW_ATTACK,
+        drops: [
+            {
+                id: 593,
+                chance: 0.05
+            },
+            {
+                id: 5425,
+                chance: 0.007
+            },
+            {
+                id: 3796,
+                chance: 0.005
+            },
+            {
+                id: 3535,
+                chance: 0.007
+            },
+            {
+                id: 3591,
+                chance: 0.007
+            },
+            {
+                id: 3637,
+                chance: 0.007
+            },
+            {
+                id: 3798,
+                chance: 0.005
+            },
+            {
+                id: 3797,
+                chance: 0.005
+            },
+            {
+                id: 3206,
+                chance: 0.05
+            },
+            {
+                id: 3537,
+                chance: 0.007
+            },
+            {
+                id: 3639,
+                chance: 0.007
+            },
+            {
+                id: 3587,
+                chance: 0.007
+            },
+            {
+                id: 4315,
+                chance: 0.005
+            },
+            {
+                id: 4318,
+                chance: 0.005
+            },
+            {
+                id: 4314,
+                chance: 0.0025
+            },
+            {
+                id: 3539,
+                chance: 0.007
+            },
+            {
+                id: 3589,
+                chance: 0.007
+            },
+            {
+                id: 3635,
+                chance: 0.007
+            },
+            {
+                id: 3799,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.005
+            },
+            {
+                id: 4574,
+                chance: 0.08
+            },
+            {
+                id: 5545,
+                chance: 0.1,
+                mon_book_only: !0
+            },
+            {
+                id: 5528,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 60000,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 700,
+        total_defense: 1435,
+        total_strength: 250,
+        total_accuracy: 1220,
+        cooldown: 0.5,
+        magic_block: 10,
+        melee_block: 10,
+        archery_block: 90
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[899] = createObject({
+    b_i: 899,
+    b_t: BASE_TYPE.NPC,
+    name: 'Magma Golem',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 8,
+        y: 8
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 450,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.BURN,
+        drops: [
+            {
+                id: 5526,
+                chance: 0.05
+            },
+            {
+                id: 1390,
+                chance: 0.1
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 421,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 3950,
+                chance: 0.0025
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 461,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 5481,
+                chance: 0.01
+            },
+            {
+                id: 257,
+                chance: 0.0025
+            },
+            {
+                id: 895,
+                chance: 0.0025
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 262,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 5482,
+                chance: 0.0075
+            },
+            {
+                id: 4574,
+                chance: 0.003
+            },
+            {
+                id: 5464,
+                chance: 0.26
+            }
+        ]
+    },
+    temp: {
+        health: 450,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 600,
+        total_defense: 1610,
+        total_strength: 300,
+        total_accuracy: 1489,
+        magic_block: 50,
+        melee_block: 30,
+        archery_block: 80
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[900] = createObject({
+    b_i: 900,
+    b_t: BASE_TYPE.NPC,
+    name: '[BOSS] Underworld Hades',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 12,
+        y: 8
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 85000,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.CLAW_ATTACK,
+        drops: [
+            {
+                id: 593,
+                chance: 0.05
+            },
+            {
+                id: 3541,
+                chance: 0.01
+            },
+            {
+                id: 3641,
+                chance: 0.01
+            },
+            {
+                id: 3593,
+                chance: 0.01
+            },
+            {
+                id: 3796,
+                chance: 0.005
+            },
+            {
+                id: 3535,
+                chance: 0.01
+            },
+            {
+                id: 3591,
+                chance: 0.01
+            },
+            {
+                id: 3637,
+                chance: 0.01
+            },
+            {
+                id: 3798,
+                chance: 0.005
+            },
+            {
+                id: 3797,
+                chance: 0.005
+            },
+            {
+                id: 3206,
+                chance: 0.05
+            },
+            {
+                id: 3537,
+                chance: 0.01
+            },
+            {
+                id: 3639,
+                chance: 0.01
+            },
+            {
+                id: 3587,
+                chance: 0.01
+            },
+            {
+                id: 4315,
+                chance: 0.005
+            },
+            {
+                id: 4318,
+                chance: 0.005
+            },
+            {
+                id: 4314,
+                chance: 0.0025
+            },
+            {
+                id: 3539,
+                chance: 0.01
+            },
+            {
+                id: 3589,
+                chance: 0.01
+            },
+            {
+                id: 3635,
+                chance: 0.01
+            },
+            {
+                id: 3799,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.005
+            },
+            {
+                id: 4574,
+                chance: 0.15
+            },
+            {
+                id: 5545,
+                chance: 0.1,
+                mon_book_only: !0
+            },
+            {
+                id: 5529,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 85000,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 800,
+        total_defense: 1335,
+        total_strength: 200,
+        total_accuracy: 1420,
+        cooldown: 0.5,
+        magic_block: 10,
+        melee_block: 10,
+        archery_block: 90
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[901] = createObject({
+    b_i: 901,
+    b_t: BASE_TYPE.NPC,
+    name: '[BOSS] Phlegethon Shadow',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 11,
+        y: 8
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        map_random_respawn: !0,
+        health: 65000,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        animation_speed: 230,
+        speed: 100,
+        att_anim: HIT_ANIMATION.CLAW_ATTACK,
+        drops: [
+            {
+                id: 593,
+                chance: 0.05
+            },
+            {
+                id: 3541,
+                chance: 0.005
+            },
+            {
+                id: 3641,
+                chance: 0.005
+            },
+            {
+                id: 3593,
+                chance: 0.005
+            },
+            {
+                id: 3796,
+                chance: 0.005
+            },
+            {
+                id: 3535,
+                chance: 0.005
+            },
+            {
+                id: 3591,
+                chance: 0.005
+            },
+            {
+                id: 3637,
+                chance: 0.005
+            },
+            {
+                id: 3798,
+                chance: 0.005
+            },
+            {
+                id: 3797,
+                chance: 0.005
+            },
+            {
+                id: 3206,
+                chance: 0.05
+            },
+            {
+                id: 3537,
+                chance: 0.005
+            },
+            {
+                id: 3639,
+                chance: 0.005
+            },
+            {
+                id: 3587,
+                chance: 0.005
+            },
+            {
+                id: 4315,
+                chance: 0.005
+            },
+            {
+                id: 4318,
+                chance: 0.005
+            },
+            {
+                id: 4314,
+                chance: 0.0025
+            },
+            {
+                id: 3539,
+                chance: 0.005
+            },
+            {
+                id: 3589,
+                chance: 0.005
+            },
+            {
+                id: 3635,
+                chance: 0.005
+            },
+            {
+                id: 3799,
+                chance: 0.005
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.005
+            },
+            {
+                id: 4574,
+                chance: 0.15
+            },
+            {
+                id: 5545,
+                chance: 0.1,
+                mon_book_only: !0
+            },
+            {
+                id: 5528,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 65000,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 800,
+        total_defense: 1335,
+        total_strength: 180,
+        total_accuracy: 1420,
+        cooldown: 0.5,
+        magic_block: 10,
+        melee_block: 10,
+        archery_block: 90
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[902] = createObject({
+    b_i: 902,
+    b_t: BASE_TYPE.NPC,
+    name: 'Potamoi',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 7,
+        y: 8
+    },
+    params: {
+        no_dungeon: !0,
+        multi_combat: !0,
+        health: 450,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.BURN,
+        drops: [
+            {
+                id: 5526,
+                chance: 0.05
+            },
+            {
+                id: 1390,
+                chance: 0.02
+            },
+            {
+                id: 2153,
+                chance: 0.0025
+            },
+            {
+                id: 421,
+                chance: 0.0025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 3950,
+                chance: 0.0025
+            },
+            {
+                id: 4585,
+                chance: 0.00001
+            },
+            {
+                id: 2179,
+                chance: 0.0025
+            },
+            {
+                id: 461,
+                chance: 0.0025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 2205,
+                chance: 0.0025
+            },
+            {
+                id: 5481,
+                chance: 0.0025
+            },
+            {
+                id: 257,
+                chance: 0.0025
+            },
+            {
+                id: 895,
+                chance: 0.005
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.0025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 3239,
+                chance: 0.0015
+            },
+            {
+                id: 262,
+                chance: 0.0025
+            },
+            {
+                id: 2231,
+                chance: 0.0025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 5482,
+                chance: 0.0025
+            },
+            {
+                id: 4574,
+                chance: 0.0025
+            },
+            {
+                id: 5464,
+                chance: 0.27
+            }
+        ]
+    },
+    temp: {
+        health: 450,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 600,
+        total_defense: 1635,
+        total_strength: 300,
+        total_accuracy: 1513,
+        magic_block: 40,
+        melee_block: 40,
+        archery_block: 80
+    },
+    activities: [
+        ACTIVITIES.ATTACK,
+        ACTIVITIES.INSPECT
+    ]
+}, 1);
+npc_base[903] = createObject({
+    b_i: 903,
+    b_t: BASE_TYPE.NPC,
+    name: '[Rare Elite] Potamoi',
+    type: OBJECT_TYPE.ENEMY,
+    img: {
+        sheet: IMAGE_SHEET.BOSS2,
+        x: 3,
+        y: 8,
+        pos: {
+            _x: 0,
+            _y: -3
+        }
+    },
+    params: {
+        health: 2250,
+        radius: 9,
+        move_radius: 10,
+        aggressive: !0,
+        map_random_respawn: !0,
+        no_dungeon: !0,
+        multi_combat: !0,
+        speed: 100,
+        att_anim: HIT_ANIMATION.BURN,
+        drops: [
+            {
+                id: 5526,
+                chance: 0.12
+            },
+            {
+                id: 1390,
+                chance: 0.2
+            },
+            {
+                id: 2153,
+                chance: 0.025
+            },
+            {
+                id: 421,
+                chance: 0.025
+            },
+            {
+                id: 3796,
+                chance: 0.0008
+            },
+            {
+                id: 3950,
+                chance: 0.025
+            },
+            {
+                id: 4585,
+                chance: 0.0001
+            },
+            {
+                id: 2179,
+                chance: 0.025
+            },
+            {
+                id: 461,
+                chance: 0.025
+            },
+            {
+                id: 3797,
+                chance: 0.0008
+            },
+            {
+                id: 2205,
+                chance: 0.025
+            },
+            {
+                id: 5481,
+                chance: 0.025
+            },
+            {
+                id: 257,
+                chance: 0.0025
+            },
+            {
+                id: 895,
+                chance: 0.05
+            },
+            {
+                id: 3798,
+                chance: 0.0008
+            },
+            {
+                id: 4313,
+                chance: 0.025
+            },
+            {
+                id: 3219,
+                chance: 0.0025
+            },
+            {
+                id: 3239,
+                chance: 0.01
+            },
+            {
+                id: 262,
+                chance: 0.0008
+            },
+            {
+                id: 2231,
+                chance: 0.025
+            },
+            {
+                id: 3799,
+                chance: 0.0008
+            },
+            {
+                id: 5482,
+                chance: 0.025
+            },
+            {
+                id: 4574,
+                chance: 0.025
+            },
+            {
+                id: 5464,
+                chance: 1
+            }
+        ]
+    },
+    temp: {
+        health: 2250,
+        busy: !1,
+        magics: [
+            {
+                id: 25
+            }
+        ],
+        magic: 700,
+        total_defense: 1962,
+        total_strength: 360,
+        total_accuracy: 1537
     },
     activities: [
         ACTIVITIES.ATTACK,

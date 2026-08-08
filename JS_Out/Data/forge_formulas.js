@@ -18371,6 +18371,2323 @@ let FORGE_FORMULAS = {
                 5393
             ]
         ]
+    },
+    1098: {
+        item_id: 5425,
+        level: 120,
+        chance: 0.25,
+        pattern: [
+            [3586,
+                3683,
+                3684,
+                3586]
+        ]
+    },
+    1099: {
+        item_id: 5431,
+        level: 125,
+        chance: 0.25,
+        pattern: [
+            [3586,
+                3685,
+                3685,
+                3586]
+        ]
+    },
+    1100: {
+        item_id: 5437,
+        level: 130,
+        chance: 0.25,
+        pattern: [
+            [3586,
+                3687,
+                3688,
+                3586]
+        ]
+    },
+    1101: {
+        item_id: 5443,
+        level: 135,
+        chance: 0.25,
+        pattern: [
+            [3586,
+                3689,
+                3690,
+                3586]
+        ]
+    },
+    1102: {
+        item_id: 5449,
+        level: 140,
+        chance: 0.35,
+        pattern: [
+            [4574,
+                4574]
+        ]
+    },
+    1103: {
+        item_id: 5455,
+        level: 145,
+        chance: 0.35,
+        pattern: [
+            [4574,
+                4574,
+                4574,
+                4574]
+        ]
+    },
+    1104: {
+        item_id: 5426,
+        level: 120,
+        chance: 0.25,
+        pattern: [
+            [5425],
+            [
+                263
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1105: {
+        item_id: 5426,
+        no_smelt: !0,
+        level: 120,
+        chance: 0.45,
+        pattern: [
+            [5425],
+            [
+                258
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1106: {
+        item_id: 5426,
+        no_smelt: !0,
+        level: 120,
+        chance: 0.65,
+        pattern: [
+            [5425],
+            [
+                257
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1107: {
+        item_id: 5426,
+        no_smelt: !0,
+        level: 120,
+        chance: 0.85,
+        pattern: [
+            [5425],
+            [
+                262
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1108: {
+        item_id: 5428,
+        level: 120,
+        chance: 0.25,
+        pattern: [
+            [5425],
+            [
+                263
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1109: {
+        item_id: 5428,
+        no_smelt: !0,
+        level: 120,
+        chance: 0.45,
+        pattern: [
+            [5425],
+            [
+                258
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1110: {
+        item_id: 5428,
+        no_smelt: !0,
+        level: 120,
+        chance: 0.65,
+        pattern: [
+            [5425],
+            [
+                257
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1111: {
+        item_id: 5428,
+        no_smelt: !0,
+        level: 120,
+        chance: 0.85,
+        pattern: [
+            [5425],
+            [
+                262
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1112: {
+        item_id: 5427,
+        wizardry_level: 120,
+        chance: 0.25,
+        pattern: [
+            [5425],
+            [
+                263
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1113: {
+        item_id: 5427,
+        no_smelt: !0,
+        wizardry_level: 120,
+        chance: 0.45,
+        pattern: [
+            [5425],
+            [
+                258
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1114: {
+        item_id: 5427,
+        no_smelt: !0,
+        wizardry_level: 120,
+        chance: 0.65,
+        pattern: [
+            [5425],
+            [
+                257
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1115: {
+        item_id: 5427,
+        no_smelt: !0,
+        wizardry_level: 120,
+        chance: 0.85,
+        pattern: [
+            [5425],
+            [
+                262
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1116: {
+        item_id: 5430,
+        level: 120,
+        chance: 0.25,
+        pattern: [
+            [5425],
+            [
+                263
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1117: {
+        item_id: 5430,
+        no_smelt: !0,
+        level: 120,
+        chance: 0.45,
+        pattern: [
+            [5425],
+            [
+                258
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1118: {
+        item_id: 5430,
+        no_smelt: !0,
+        level: 120,
+        chance: 0.65,
+        pattern: [
+            [5425],
+            [
+                257
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1119: {
+        item_id: 5430,
+        no_smelt: !0,
+        level: 120,
+        chance: 0.85,
+        pattern: [
+            [5425],
+            [
+                262
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1120: {
+        item_id: 5429,
+        fletching_level: 120,
+        chance: 0.25,
+        pattern: [
+            [5425],
+            [
+                263
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1121: {
+        item_id: 5429,
+        no_smelt: !0,
+        fletching_level: 120,
+        chance: 0.45,
+        pattern: [
+            [5425],
+            [
+                258
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1122: {
+        item_id: 5429,
+        no_smelt: !0,
+        fletching_level: 120,
+        chance: 0.65,
+        pattern: [
+            [5425],
+            [
+                257
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1123: {
+        item_id: 5429,
+        no_smelt: !0,
+        fletching_level: 120,
+        chance: 0.85,
+        pattern: [
+            [5425],
+            [
+                262
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1124: {
+        item_id: 5432,
+        level: 125,
+        chance: 0.25,
+        pattern: [
+            [5431],
+            [
+                263
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1125: {
+        item_id: 5432,
+        no_smelt: !0,
+        level: 125,
+        chance: 0.45,
+        pattern: [
+            [5431],
+            [
+                258
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1126: {
+        item_id: 5432,
+        no_smelt: !0,
+        level: 125,
+        chance: 0.65,
+        pattern: [
+            [5431],
+            [
+                257
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1127: {
+        item_id: 5432,
+        no_smelt: !0,
+        level: 125,
+        chance: 0.85,
+        pattern: [
+            [5431],
+            [
+                262
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1128: {
+        item_id: 5434,
+        level: 125,
+        chance: 0.25,
+        pattern: [
+            [5431],
+            [
+                263
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1129: {
+        item_id: 5434,
+        no_smelt: !0,
+        level: 125,
+        chance: 0.45,
+        pattern: [
+            [5431],
+            [
+                258
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1130: {
+        item_id: 5434,
+        no_smelt: !0,
+        level: 125,
+        chance: 0.65,
+        pattern: [
+            [5431],
+            [
+                257
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1131: {
+        item_id: 5434,
+        no_smelt: !0,
+        level: 125,
+        chance: 0.85,
+        pattern: [
+            [5431],
+            [
+                262
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1132: {
+        item_id: 5433,
+        wizardry_level: 125,
+        chance: 0.25,
+        pattern: [
+            [5431],
+            [
+                263
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1133: {
+        item_id: 5433,
+        no_smelt: !0,
+        wizardry_level: 125,
+        chance: 0.45,
+        pattern: [
+            [5431],
+            [
+                258
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1134: {
+        item_id: 5433,
+        no_smelt: !0,
+        wizardry_level: 125,
+        chance: 0.65,
+        pattern: [
+            [5431],
+            [
+                257
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1135: {
+        item_id: 5433,
+        no_smelt: !0,
+        wizardry_level: 125,
+        chance: 0.85,
+        pattern: [
+            [5431],
+            [
+                262
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1136: {
+        item_id: 5436,
+        level: 125,
+        chance: 0.25,
+        pattern: [
+            [5431],
+            [
+                263
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1137: {
+        item_id: 5436,
+        no_smelt: !0,
+        level: 125,
+        chance: 0.45,
+        pattern: [
+            [5431],
+            [
+                258
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1138: {
+        item_id: 5436,
+        no_smelt: !0,
+        level: 125,
+        chance: 0.65,
+        pattern: [
+            [5431],
+            [
+                257
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1139: {
+        item_id: 5436,
+        no_smelt: !0,
+        level: 125,
+        chance: 0.85,
+        pattern: [
+            [5431],
+            [
+                262
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1140: {
+        item_id: 5435,
+        fletching_level: 125,
+        chance: 0.25,
+        pattern: [
+            [5431],
+            [
+                263
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1141: {
+        item_id: 5435,
+        no_smelt: !0,
+        fletching_level: 125,
+        chance: 0.45,
+        pattern: [
+            [5431],
+            [
+                258
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1142: {
+        item_id: 5435,
+        no_smelt: !0,
+        fletching_level: 125,
+        chance: 0.65,
+        pattern: [
+            [5431],
+            [
+                257
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1143: {
+        item_id: 5435,
+        no_smelt: !0,
+        fletching_level: 125,
+        chance: 0.85,
+        pattern: [
+            [5431],
+            [
+                262
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1144: {
+        item_id: 5438,
+        level: 130,
+        chance: 0.25,
+        pattern: [
+            [5437],
+            [
+                263
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1145: {
+        item_id: 5438,
+        no_smelt: !0,
+        level: 130,
+        chance: 0.45,
+        pattern: [
+            [5437],
+            [
+                258
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1146: {
+        item_id: 5438,
+        no_smelt: !0,
+        level: 130,
+        chance: 0.65,
+        pattern: [
+            [5437],
+            [
+                257
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1147: {
+        item_id: 5438,
+        no_smelt: !0,
+        level: 130,
+        chance: 0.85,
+        pattern: [
+            [5437],
+            [
+                262
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1148: {
+        item_id: 5440,
+        level: 130,
+        chance: 0.25,
+        pattern: [
+            [5437],
+            [
+                263
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1149: {
+        item_id: 5440,
+        no_smelt: !0,
+        level: 130,
+        chance: 0.45,
+        pattern: [
+            [5437],
+            [
+                258
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1150: {
+        item_id: 5440,
+        no_smelt: !0,
+        level: 130,
+        chance: 0.65,
+        pattern: [
+            [5437],
+            [
+                257
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1151: {
+        item_id: 5440,
+        no_smelt: !0,
+        level: 130,
+        chance: 0.85,
+        pattern: [
+            [5437],
+            [
+                262
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1152: {
+        item_id: 5439,
+        wizardry_level: 130,
+        chance: 0.25,
+        pattern: [
+            [5437],
+            [
+                263
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1153: {
+        item_id: 5439,
+        no_smelt: !0,
+        wizardry_level: 130,
+        chance: 0.45,
+        pattern: [
+            [5437],
+            [
+                258
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1154: {
+        item_id: 5439,
+        no_smelt: !0,
+        wizardry_level: 130,
+        chance: 0.65,
+        pattern: [
+            [5437],
+            [
+                257
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1155: {
+        item_id: 5439,
+        no_smelt: !0,
+        wizardry_level: 130,
+        chance: 0.85,
+        pattern: [
+            [5437],
+            [
+                262
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1156: {
+        item_id: 5442,
+        level: 130,
+        chance: 0.25,
+        pattern: [
+            [5437],
+            [
+                263
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1157: {
+        item_id: 5442,
+        no_smelt: !0,
+        level: 130,
+        chance: 0.45,
+        pattern: [
+            [5437],
+            [
+                258
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1158: {
+        item_id: 5442,
+        no_smelt: !0,
+        level: 130,
+        chance: 0.65,
+        pattern: [
+            [5437],
+            [
+                257
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1159: {
+        item_id: 5442,
+        no_smelt: !0,
+        level: 130,
+        chance: 0.85,
+        pattern: [
+            [5437],
+            [
+                262
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1160: {
+        item_id: 5441,
+        fletching_level: 130,
+        chance: 0.25,
+        pattern: [
+            [5437],
+            [
+                263
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1161: {
+        item_id: 5441,
+        no_smelt: !0,
+        fletching_level: 130,
+        chance: 0.45,
+        pattern: [
+            [5437],
+            [
+                258
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1162: {
+        item_id: 5441,
+        no_smelt: !0,
+        fletching_level: 130,
+        chance: 0.65,
+        pattern: [
+            [5437],
+            [
+                257
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1163: {
+        item_id: 5441,
+        no_smelt: !0,
+        fletching_level: 130,
+        chance: 0.85,
+        pattern: [
+            [5437],
+            [
+                262
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1164: {
+        item_id: 5444,
+        level: 135,
+        chance: 0.25,
+        pattern: [
+            [5443],
+            [
+                263
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1165: {
+        item_id: 5444,
+        no_smelt: !0,
+        level: 135,
+        chance: 0.45,
+        pattern: [
+            [5443],
+            [
+                258
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1166: {
+        item_id: 5444,
+        no_smelt: !0,
+        level: 135,
+        chance: 0.65,
+        pattern: [
+            [5443],
+            [
+                257
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1167: {
+        item_id: 5444,
+        no_smelt: !0,
+        level: 135,
+        chance: 0.85,
+        pattern: [
+            [5443],
+            [
+                262
+            ],
+            [
+                197
+            ]
+        ]
+    },
+    1168: {
+        item_id: 5446,
+        level: 135,
+        chance: 0.25,
+        pattern: [
+            [5443],
+            [
+                263
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1169: {
+        item_id: 5446,
+        no_smelt: !0,
+        level: 135,
+        chance: 0.45,
+        pattern: [
+            [5443],
+            [
+                258
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1170: {
+        item_id: 5446,
+        no_smelt: !0,
+        level: 135,
+        chance: 0.65,
+        pattern: [
+            [5443],
+            [
+                257
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1171: {
+        item_id: 5446,
+        no_smelt: !0,
+        level: 135,
+        chance: 0.85,
+        pattern: [
+            [5443],
+            [
+                262
+            ],
+            [
+                201
+            ]
+        ]
+    },
+    1172: {
+        item_id: 5445,
+        wizardry_level: 135,
+        chance: 0.25,
+        pattern: [
+            [5443],
+            [
+                263
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1173: {
+        item_id: 5445,
+        no_smelt: !0,
+        wizardry_level: 135,
+        chance: 0.45,
+        pattern: [
+            [5443],
+            [
+                258
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1174: {
+        item_id: 5445,
+        no_smelt: !0,
+        wizardry_level: 135,
+        chance: 0.65,
+        pattern: [
+            [5443],
+            [
+                257
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1175: {
+        item_id: 5445,
+        no_smelt: !0,
+        wizardry_level: 135,
+        chance: 0.85,
+        pattern: [
+            [5443],
+            [
+                262
+            ],
+            [
+                199
+            ]
+        ]
+    },
+    1176: {
+        item_id: 5448,
+        level: 135,
+        chance: 0.25,
+        pattern: [
+            [5443],
+            [
+                263
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1177: {
+        item_id: 5448,
+        no_smelt: !0,
+        level: 135,
+        chance: 0.45,
+        pattern: [
+            [5443],
+            [
+                258
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1178: {
+        item_id: 5448,
+        no_smelt: !0,
+        level: 135,
+        chance: 0.65,
+        pattern: [
+            [5443],
+            [
+                257
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1179: {
+        item_id: 5448,
+        no_smelt: !0,
+        level: 135,
+        chance: 0.85,
+        pattern: [
+            [5443],
+            [
+                262
+            ],
+            [
+                195
+            ]
+        ]
+    },
+    1180: {
+        item_id: 5447,
+        fletching_level: 135,
+        chance: 0.25,
+        pattern: [
+            [5443],
+            [
+                263
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1181: {
+        item_id: 5447,
+        no_smelt: !0,
+        fletching_level: 135,
+        chance: 0.45,
+        pattern: [
+            [5443],
+            [
+                258
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1182: {
+        item_id: 5447,
+        no_smelt: !0,
+        fletching_level: 135,
+        chance: 0.65,
+        pattern: [
+            [5443],
+            [
+                257
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1183: {
+        item_id: 5447,
+        no_smelt: !0,
+        fletching_level: 135,
+        chance: 0.85,
+        pattern: [
+            [5443],
+            [
+                262
+            ],
+            [
+                1301
+            ]
+        ]
+    },
+    1184: {
+        item_id: 5450,
+        level: 140,
+        chance: 0.25,
+        pattern: [
+            [5449],
+            [
+                263
+            ],
+            [
+                263
+            ],
+            [
+                2921
+            ]
+        ]
+    },
+    1185: {
+        item_id: 5450,
+        no_smelt: !0,
+        level: 140,
+        chance: 0.45,
+        pattern: [
+            [5449],
+            [
+                258
+            ],
+            [
+                258
+            ],
+            [
+                2921
+            ]
+        ]
+    },
+    1186: {
+        item_id: 5450,
+        no_smelt: !0,
+        level: 140,
+        chance: 0.65,
+        pattern: [
+            [5449],
+            [
+                257
+            ],
+            [
+                257
+            ],
+            [
+                2921
+            ]
+        ]
+    },
+    1187: {
+        item_id: 5450,
+        no_smelt: !0,
+        level: 140,
+        chance: 0.85,
+        pattern: [
+            [5449],
+            [
+                262
+            ],
+            [
+                262
+            ],
+            [
+                2921
+            ]
+        ]
+    },
+    1188: {
+        item_id: 5452,
+        level: 140,
+        chance: 0.25,
+        pattern: [
+            [5449],
+            [
+                263
+            ],
+            [
+                263
+            ],
+            [
+                2918
+            ]
+        ]
+    },
+    1189: {
+        item_id: 5452,
+        no_smelt: !0,
+        level: 140,
+        chance: 0.45,
+        pattern: [
+            [5449],
+            [
+                258
+            ],
+            [
+                258
+            ],
+            [
+                2918
+            ]
+        ]
+    },
+    1190: {
+        item_id: 5452,
+        no_smelt: !0,
+        level: 140,
+        chance: 0.65,
+        pattern: [
+            [5449],
+            [
+                257
+            ],
+            [
+                257
+            ],
+            [
+                2918
+            ]
+        ]
+    },
+    1191: {
+        item_id: 5452,
+        no_smelt: !0,
+        level: 140,
+        chance: 0.85,
+        pattern: [
+            [5449],
+            [
+                262
+            ],
+            [
+                262
+            ],
+            [
+                2918
+            ]
+        ]
+    },
+    1192: {
+        item_id: 5451,
+        wizardry_level: 140,
+        chance: 0.25,
+        pattern: [
+            [5449],
+            [
+                263
+            ],
+            [
+                263
+            ],
+            [
+                2919
+            ]
+        ]
+    },
+    1193: {
+        item_id: 5451,
+        no_smelt: !0,
+        wizardry_level: 140,
+        chance: 0.45,
+        pattern: [
+            [5449],
+            [
+                258
+            ],
+            [
+                258
+            ],
+            [
+                2919
+            ]
+        ]
+    },
+    1194: {
+        item_id: 5451,
+        no_smelt: !0,
+        wizardry_level: 140,
+        chance: 0.65,
+        pattern: [
+            [5449],
+            [
+                257
+            ],
+            [
+                257
+            ],
+            [
+                2919
+            ]
+        ]
+    },
+    1195: {
+        item_id: 5451,
+        no_smelt: !0,
+        wizardry_level: 140,
+        chance: 0.85,
+        pattern: [
+            [5449],
+            [
+                262
+            ],
+            [
+                262
+            ],
+            [
+                2919
+            ]
+        ]
+    },
+    1196: {
+        item_id: 5454,
+        level: 140,
+        chance: 0.25,
+        pattern: [
+            [5449],
+            [
+                263
+            ],
+            [
+                263
+            ],
+            [
+                2920
+            ]
+        ]
+    },
+    1197: {
+        item_id: 5454,
+        no_smelt: !0,
+        level: 140,
+        chance: 0.45,
+        pattern: [
+            [5449],
+            [
+                258
+            ],
+            [
+                258
+            ],
+            [
+                2920
+            ]
+        ]
+    },
+    1198: {
+        item_id: 5454,
+        no_smelt: !0,
+        level: 140,
+        chance: 0.65,
+        pattern: [
+            [5449],
+            [
+                257
+            ],
+            [
+                257
+            ],
+            [
+                2920
+            ]
+        ]
+    },
+    1199: {
+        item_id: 5454,
+        no_smelt: !0,
+        level: 140,
+        chance: 0.85,
+        pattern: [
+            [5449],
+            [
+                262
+            ],
+            [
+                262
+            ],
+            [
+                2920
+            ]
+        ]
+    },
+    1200: {
+        item_id: 5453,
+        fletching_level: 140,
+        chance: 0.25,
+        pattern: [
+            [5449],
+            [
+                263
+            ],
+            [
+                263
+            ],
+            [
+                2926
+            ]
+        ]
+    },
+    1201: {
+        item_id: 5453,
+        no_smelt: !0,
+        fletching_level: 140,
+        chance: 0.45,
+        pattern: [
+            [5449],
+            [
+                258
+            ],
+            [
+                258
+            ],
+            [
+                2926
+            ]
+        ]
+    },
+    1202: {
+        item_id: 5453,
+        no_smelt: !0,
+        fletching_level: 140,
+        chance: 0.65,
+        pattern: [
+            [5449],
+            [
+                257
+            ],
+            [
+                257
+            ],
+            [
+                2926
+            ]
+        ]
+    },
+    1203: {
+        item_id: 5453,
+        no_smelt: !0,
+        fletching_level: 140,
+        chance: 0.85,
+        pattern: [
+            [5449],
+            [
+                262
+            ],
+            [
+                262
+            ],
+            [
+                2926
+            ]
+        ]
+    },
+    1204: {
+        item_id: 5456,
+        level: 145,
+        chance: 0.25,
+        pattern: [
+            [5455],
+            [
+                263
+            ],
+            [
+                263
+            ],
+            [
+                2921
+            ]
+        ]
+    },
+    1205: {
+        item_id: 5456,
+        no_smelt: !0,
+        level: 145,
+        chance: 0.45,
+        pattern: [
+            [5455],
+            [
+                258
+            ],
+            [
+                258
+            ],
+            [
+                2921
+            ]
+        ]
+    },
+    1206: {
+        item_id: 5456,
+        no_smelt: !0,
+        level: 145,
+        chance: 0.65,
+        pattern: [
+            [5455],
+            [
+                257
+            ],
+            [
+                257
+            ],
+            [
+                2921
+            ]
+        ]
+    },
+    1207: {
+        item_id: 5456,
+        no_smelt: !0,
+        level: 145,
+        chance: 0.85,
+        pattern: [
+            [5455],
+            [
+                262
+            ],
+            [
+                262
+            ],
+            [
+                2921
+            ]
+        ]
+    },
+    1208: {
+        item_id: 5458,
+        level: 145,
+        chance: 0.25,
+        pattern: [
+            [5455],
+            [
+                263
+            ],
+            [
+                263
+            ],
+            [
+                2918
+            ]
+        ]
+    },
+    1209: {
+        item_id: 5458,
+        no_smelt: !0,
+        level: 145,
+        chance: 0.45,
+        pattern: [
+            [5455],
+            [
+                258
+            ],
+            [
+                258
+            ],
+            [
+                2918
+            ]
+        ]
+    },
+    1210: {
+        item_id: 5458,
+        no_smelt: !0,
+        level: 145,
+        chance: 0.65,
+        pattern: [
+            [5455],
+            [
+                257
+            ],
+            [
+                257
+            ],
+            [
+                2918
+            ]
+        ]
+    },
+    1211: {
+        item_id: 5458,
+        no_smelt: !0,
+        level: 145,
+        chance: 0.85,
+        pattern: [
+            [5455],
+            [
+                262
+            ],
+            [
+                262
+            ],
+            [
+                2918
+            ]
+        ]
+    },
+    1212: {
+        item_id: 5457,
+        wizardry_level: 145,
+        chance: 0.25,
+        pattern: [
+            [5455],
+            [
+                263
+            ],
+            [
+                263
+            ],
+            [
+                2919
+            ]
+        ]
+    },
+    1213: {
+        item_id: 5457,
+        no_smelt: !0,
+        wizardry_level: 145,
+        chance: 0.45,
+        pattern: [
+            [5455],
+            [
+                258
+            ],
+            [
+                258
+            ],
+            [
+                2919
+            ]
+        ]
+    },
+    1214: {
+        item_id: 5457,
+        no_smelt: !0,
+        wizardry_level: 145,
+        chance: 0.65,
+        pattern: [
+            [5455],
+            [
+                257
+            ],
+            [
+                257
+            ],
+            [
+                2919
+            ]
+        ]
+    },
+    1215: {
+        item_id: 5457,
+        no_smelt: !0,
+        wizardry_level: 145,
+        chance: 0.85,
+        pattern: [
+            [5455],
+            [
+                262
+            ],
+            [
+                262
+            ],
+            [
+                2919
+            ]
+        ]
+    },
+    1216: {
+        item_id: 5460,
+        level: 145,
+        chance: 0.25,
+        pattern: [
+            [5455],
+            [
+                263
+            ],
+            [
+                263
+            ],
+            [
+                2920
+            ]
+        ]
+    },
+    1217: {
+        item_id: 5460,
+        no_smelt: !0,
+        level: 145,
+        chance: 0.45,
+        pattern: [
+            [5455],
+            [
+                258
+            ],
+            [
+                258
+            ],
+            [
+                2920
+            ]
+        ]
+    },
+    1218: {
+        item_id: 5460,
+        no_smelt: !0,
+        level: 145,
+        chance: 0.65,
+        pattern: [
+            [5455],
+            [
+                257
+            ],
+            [
+                257
+            ],
+            [
+                2920
+            ]
+        ]
+    },
+    1219: {
+        item_id: 5460,
+        no_smelt: !0,
+        level: 145,
+        chance: 0.85,
+        pattern: [
+            [5455],
+            [
+                262
+            ],
+            [
+                262
+            ],
+            [
+                2920
+            ]
+        ]
+    },
+    1220: {
+        item_id: 5459,
+        fletching_level: 145,
+        chance: 0.25,
+        pattern: [
+            [5455],
+            [
+                263
+            ],
+            [
+                263
+            ],
+            [
+                2926
+            ]
+        ]
+    },
+    1221: {
+        item_id: 5459,
+        no_smelt: !0,
+        fletching_level: 145,
+        chance: 0.45,
+        pattern: [
+            [5455],
+            [
+                258
+            ],
+            [
+                258
+            ],
+            [
+                2926
+            ]
+        ]
+    },
+    1222: {
+        item_id: 5459,
+        no_smelt: !0,
+        fletching_level: 145,
+        chance: 0.65,
+        pattern: [
+            [5455],
+            [
+                257
+            ],
+            [
+                257
+            ],
+            [
+                2926
+            ]
+        ]
+    },
+    1223: {
+        item_id: 5459,
+        no_smelt: !0,
+        fletching_level: 145,
+        chance: 0.85,
+        pattern: [
+            [5455],
+            [
+                262
+            ],
+            [
+                262
+            ],
+            [
+                2926
+            ]
+        ]
+    },
+    1224: {
+        item_id: 5424,
+        level: 1,
+        chance: 1,
+        hidden: !0,
+        pattern: [
+            [5419,
+                5420,
+                5421,
+                5422],
+            [
+                5423
+            ]
+        ]
+    },
+    1225: {
+        item_id: 5418,
+        level: 1,
+        chance: 1,
+        hidden: !0,
+        pattern: [
+            [5413,
+                5414,
+                5415,
+                5416],
+            [
+                5417
+            ]
+        ]
+    },
+    1226: {
+        item_id: 4574,
+        level: 130,
+        chance: 0.15,
+        pattern: [
+            [5482,
+                5482,
+                5482,
+                5482],
+            [
+                5482,
+                5482
+            ]
+        ]
+    },
+    1227: {
+        item_id: 5507,
+        level: 1,
+        chance: 1,
+        hidden: !0,
+        pattern: [
+            [5501,
+                5502,
+                5503,
+                5504],
+            [
+                5505
+            ]
+        ]
+    },
+    1228: {
+        item_id: 5514,
+        level: 1,
+        chance: 1,
+        hidden: !0,
+        pattern: [
+            [5508,
+                5509,
+                5510,
+                5511],
+            [
+                5512
+            ]
+        ]
+    },
+    1229: {
+        item_id: 5521,
+        level: 1,
+        chance: 1,
+        hidden: !0,
+        pattern: [
+            [5515,
+                5516,
+                5517,
+                5518],
+            [
+                5519
+            ]
+        ]
+    },
+    1230: {
+        item_id: 5546,
+        level: 1,
+        chance: 0.1,
+        pattern: [
+            [291,
+                1301,
+                1301]
+        ]
+    },
+    1231: {
+        item_id: 5547,
+        level: 10,
+        chance: 0.2,
+        pattern: [
+            [291,
+                291,
+                291,
+                291],
+            [
+                201,
+                201
+            ]
+        ]
+    },
+    1232: {
+        item_id: 5548,
+        level: 20,
+        chance: 0.3,
+        pattern: [
+            [291,
+                291,
+                291,
+                291],
+            [
+                291,
+                291,
+                199,
+                199
+            ]
+        ]
+    },
+    1233: {
+        item_id: 5549,
+        level: 30,
+        chance: 0.4,
+        pattern: [
+            [291,
+                291,
+                291,
+                291],
+            [
+                291,
+                291,
+                197,
+                197
+            ]
+        ]
+    },
+    1234: {
+        item_id: 5550,
+        level: 40,
+        chance: 0.5,
+        pattern: [
+            [384,
+                384,
+                386,
+                386]
+        ]
+    },
+    1235: {
+        item_id: 5551,
+        level: 50,
+        chance: 0.6,
+        pattern: [
+            [658,
+                658,
+                658,
+                658],
+            [
+                1301,
+                1301,
+                1301,
+                1301
+            ],
+            [
+                1301,
+                1301
+            ]
+        ]
+    },
+    1236: {
+        item_id: 5552,
+        level: 60,
+        chance: 0.7,
+        pattern: [
+            [1448,
+                1448,
+                3343]
+        ]
+    },
+    1237: {
+        item_id: 5553,
+        level: 70,
+        chance: 0.8,
+        pattern: [
+            [1448,
+                1448,
+                968]
+        ]
+    },
+    1238: {
+        item_id: 5554,
+        level: 80,
+        chance: 0.9,
+        pattern: [
+            [5482,
+                968]
+        ]
+    },
+    1239: {
+        item_id: 5546,
+        level: 1,
+        chance: 0.1,
+        pattern: [
+            [291,
+                5555]
+        ]
+    },
+    1240: {
+        item_id: 5547,
+        level: 10,
+        chance: 0.2,
+        pattern: [
+            [291,
+                291,
+                291,
+                291],
+            [
+                5555
+            ]
+        ]
+    },
+    1241: {
+        item_id: 5548,
+        level: 20,
+        chance: 0.3,
+        pattern: [
+            [291,
+                291,
+                291,
+                291],
+            [
+                291,
+                291,
+                5555
+            ]
+        ]
+    },
+    1242: {
+        item_id: 5549,
+        level: 30,
+        chance: 0.4,
+        pattern: [
+            [291,
+                291,
+                291,
+                291],
+            [
+                291,
+                291,
+                5555
+            ]
+        ]
+    },
+    1243: {
+        item_id: 5550,
+        level: 40,
+        chance: 0.5,
+        pattern: [
+            [384,
+                384,
+                5555]
+        ]
+    },
+    1244: {
+        item_id: 5551,
+        level: 50,
+        chance: 0.6,
+        pattern: [
+            [658,
+                658,
+                658,
+                658],
+            [
+                5555
+            ]
+        ]
+    },
+    1245: {
+        item_id: 5552,
+        level: 60,
+        chance: 0.7,
+        pattern: [
+            [1448,
+                1448,
+                5555]
+        ]
+    },
+    1246: {
+        item_id: 5553,
+        level: 70,
+        chance: 0.8,
+        pattern: [
+            [1448,
+                1448,
+                5555]
+        ]
+    },
+    1247: {
+        item_id: 5554,
+        level: 80,
+        chance: 0.9,
+        pattern: [
+            [5482,
+                5555]
+        ]
+    },
+    1248: {
+        item_id: 5567,
+        level: 1,
+        chance: 1,
+        hidden: !0,
+        pattern: [
+            [5562,
+                5563,
+                5564,
+                5565],
+            [
+                5566
+            ]
+        ]
+    },
+    1249: {
+        item_id: 5573,
+        level: 1,
+        chance: 1,
+        hidden: !0,
+        pattern: [
+            [5568,
+                5569,
+                5570,
+                5571],
+            [
+                5572
+            ]
+        ]
+    },
+    1250: {
+        item_id: 5579,
+        level: 1,
+        chance: 1,
+        hidden: !0,
+        pattern: [
+            [5574,
+                5575,
+                5576,
+                5577],
+            [
+                5578
+            ]
+        ]
     }
 }, FORGE_MATERIAL_XP = {
     34: 10,
@@ -18387,6 +20704,7 @@ let FORGE_FORMULAS = {
     4675: 350,
     1448: 90,
     3586: 140,
+    5482: 220,
     219: 40,
     981: 30,
     254: 30,
