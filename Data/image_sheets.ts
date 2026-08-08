@@ -120,7 +120,7 @@ var IMAGE_SHEET = {
   },
   MONSTER332: '18',
   18: {
-    url: 'sheet/dg_monster332.gif',
+    url: 'sheet/dg_monster332.png',
     tile_width: 32,
     tile_height: 32,
     filters: !1
@@ -204,7 +204,7 @@ var IMAGE_SHEET = {
   },
   MAGIC: '30',
   30: {
-    url: 'sheet/magic.gif',
+    url: 'sheet/magic.png',
     tile_width: 32,
     tile_height: 32,
     filters: !1
@@ -274,7 +274,7 @@ var IMAGE_SHEET = {
   },
   BIG_PYRAMID: '40',
   40: {
-    url: 'sheet/big_pyramid.gif',
+    url: 'sheet/big_pyramid.png',
     tile_width: 576,
     tile_height: 335,
     filters: !1
@@ -316,7 +316,7 @@ var IMAGE_SHEET = {
   },
   NEWLAND2: '46',
   46: {
-    url: 'sheet/ground2.gif',
+    url: 'sheet/ground2.png',
     tile_width: 54,
     tile_height: 34,
     filters: !1
@@ -580,6 +580,42 @@ var IMAGE_SHEET = {
     url: 'sheet/mushroom_anim.png',
     tile_width: 35,
     tile_height: 27,
+    filters: !1,
+    load_on_demand: !0
+  },
+  LEFT_HANDS2: '83',
+  83: {
+    url: 'sheet/wearable/left_hands2.png',
+    tile_width: 32,
+    tile_height: 32,
+    filters: !1
+  },
+  RIGHT_HANDS2: '84',
+  84: {
+    url: 'sheet/wearable/right_hands2.png',
+    tile_width: 32,
+    tile_height: 32,
+    filters: !1
+  },
+  LEFT_HANDS2_FEMALE: '85',
+  85: {
+    url: 'sheet/wearable/left_hands2_female.png',
+    tile_width: 32,
+    tile_height: 32,
+    filters: !1
+  },
+  RIGHT_HANDS2_FEMALE: '86',
+  86: {
+    url: 'sheet/wearable/right_hands2_female.png',
+    tile_width: 32,
+    tile_height: 32,
+    filters: !1
+  },
+  EMBERS_ANIM: '87',
+  87: {
+    url: 'sheet/embers_anim.png',
+    tile_width: 37,
+    tile_height: 44,
     filters: !1,
     load_on_demand: !0
   }

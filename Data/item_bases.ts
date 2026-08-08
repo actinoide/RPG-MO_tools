@@ -6360,6 +6360,7 @@ item_base[344] = createObject({
     slot: 6,
     armor: 52,
     speed: 24,
+    ground_lava_block: 40,
     min_defense: 70,
     price: 139876,
     enchant_id: 345
@@ -6383,6 +6384,7 @@ item_base[345] = createObject({
     armor: 65,
     aim: 20,
     speed: 30,
+    ground_lava_block: 45,
     min_defense: 70,
     price: 258770
   }
@@ -11414,6 +11416,7 @@ item_base[579] = createObject({
     no_present: !0,
     min_defense: 45,
     price: 80000,
+    ground_lava_block: 40,
     enchant_bonus: 0.3,
     enchant_id: 580
   }
@@ -11438,6 +11441,7 @@ item_base[580] = createObject({
     min_defense: 55,
     no_present: !0,
     price: 160000,
+    ground_lava_block: 40,
     enchant_bonus: 0.3,
     enchant_id: 1082
   }
@@ -21512,6 +21516,7 @@ item_base[1065] = createObject({
     armor: 55,
     speed: 27,
     min_defense: 70,
+    ground_freeze_block: 40,
     enchant_id: 1881,
     price: 121500
   }
@@ -21564,6 +21569,7 @@ item_base[1067] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 2,
+    ground_freeze_block: 50,
     enchant_id: 1884,
     price: 606614
   }
@@ -21837,6 +21843,7 @@ item_base[1078] = createObject({
     pvp_archery_block: 1,
     pvp_melee_block: 3,
     pvp_magic_block: 2,
+    ground_freeze_block: 50,
     min_magic: 90,
     enchant_id: 1898,
     price: 380584
@@ -21891,6 +21898,7 @@ item_base[1080] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 2,
     pvp_magic_block: 1,
+    ground_poison_block: 40,
     min_defense: 80,
     enchant_id: 1882,
     price: 174960
@@ -21932,6 +21940,7 @@ item_base[1082] = createObject({
     no_present: !0,
     min_defense: 60,
     price: 240000,
+    ground_lava_block: 40,
     enchant_bonus: 0.3,
     enchant_id: 1083
   }
@@ -21959,6 +21968,7 @@ item_base[1083] = createObject({
     enchant_id: 1591,
     no_present: !0,
     min_defense: 70,
+    ground_lava_block: 40,
     price: 360000
   }
 }, 1);
@@ -22768,7 +22778,7 @@ item_base[1128] = createObject({
 item_base[1129] = createObject({
   b_i: 1129,
   b_t: ITEM_CATEGORY.HOUSE,
-  name: 'Tombstone',
+  name: 'Spirit Tombstone',
   img: {
     sheet: IMAGE_SHEET.MISC,
     x: 1,
@@ -22822,7 +22832,7 @@ item_base[1131] = createObject({
 item_base[1132] = createObject({
   b_i: 1132,
   b_t: ITEM_CATEGORY.HOUSE,
-  name: 'Gargoyle Statue',
+  name: 'Broken Gargoyle Statue',
   img: {
     sheet: IMAGE_SHEET.MISC,
     x: 4,
@@ -22858,7 +22868,7 @@ item_base[1133] = createObject({
 item_base[1134] = createObject({
   b_i: 1134,
   b_t: ITEM_CATEGORY.HOUSE,
-  name: 'Gargoyle Statue',
+  name: 'Kneeling Gargoyle Statue',
   img: {
     sheet: IMAGE_SHEET.MISC,
     x: 6,
@@ -22876,7 +22886,7 @@ item_base[1134] = createObject({
 item_base[1135] = createObject({
   b_i: 1135,
   b_t: ITEM_CATEGORY.HOUSE,
-  name: 'Small Tombstone',
+  name: 'Chipped Small Tombstone',
   img: {
     sheet: IMAGE_SHEET.MISC,
     x: 7,
@@ -22894,7 +22904,7 @@ item_base[1135] = createObject({
 item_base[1136] = createObject({
   b_i: 1136,
   b_t: ITEM_CATEGORY.HOUSE,
-  name: 'Small Tombstone',
+  name: 'Unmarked Tombstone',
   img: {
     sheet: IMAGE_SHEET.MISC,
     x: 8,
@@ -32793,6 +32803,7 @@ item_base[1582] = createObject({
     pvp_archery_block: 13,
     pvp_melee_block: 9,
     pvp_magic_block: 5,
+    ground_lava_block: 50,
     min_defense: 110,
     price: 101400,
     enchant_id: 1583
@@ -32819,6 +32830,7 @@ item_base[1583] = createObject({
     pvp_archery_block: 13,
     pvp_melee_block: 9,
     pvp_magic_block: 5,
+    ground_lava_block: 50,
     min_defense: 110,
     price: 187590
   }
@@ -32896,6 +32908,7 @@ item_base[1586] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 2,
+    ground_freeze_block: 55,
     min_defense: 120,
     price: 984557,
     enchant_id: 1587
@@ -32923,6 +32936,7 @@ item_base[1587] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 2,
+    ground_freeze_block: 60,
     min_defense: 120,
     price: 1821430
   }
@@ -33016,6 +33030,7 @@ item_base[1591] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 2,
     pvp_magic_block: 1,
+    ground_lava_block: 40,
     price: 550000
   }
 }, 1);
@@ -33045,6 +33060,7 @@ item_base[1592] = createObject({
     pvp_archery_block: 4,
     pvp_melee_block: 3,
     pvp_magic_block: 2,
+    ground_lava_block: 50,
     price: 748200
   }
 }, 1);
@@ -33074,6 +33090,7 @@ item_base[1593] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 2,
+    ground_lava_block: 50,
     price: 998292
   }
 }, 1);
@@ -33103,6 +33120,7 @@ item_base[1594] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 2,
+    ground_lava_block: 50,
     price: 1425124
   }
 }, 1);
@@ -33132,6 +33150,7 @@ item_base[1595] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 2,
+    ground_lava_block: 50,
     price: 1762882
   }
 }, 1);
@@ -33161,6 +33180,7 @@ item_base[1596] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 2,
+    ground_lava_block: 60,
     price: 2212992
   }
 }, 1);
@@ -33188,6 +33208,7 @@ item_base[1597] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 2,
+    ground_lava_block: 60,
     enchant_bonus: 0.2,
     enchant_id: 3886,
     price: 2678882
@@ -33664,6 +33685,7 @@ item_base[1616] = createObject({
     pvp_archery_block: 4,
     pvp_melee_block: 12,
     pvp_magic_block: 8,
+    ground_poison_block: 50,
     enchant_id: 1617,
     cooldown: 0.05,
     speed: 35,
@@ -33690,6 +33712,7 @@ item_base[1617] = createObject({
     pvp_archery_block: 4,
     pvp_melee_block: 12,
     pvp_magic_block: 8,
+    ground_poison_block: 55,
     min_magic: 110,
     cooldown: 0.05,
     speed: 37,
@@ -38117,6 +38140,7 @@ item_base[1794] = createObject({
     pvp_archery_block: 2,
     pvp_melee_block: 6,
     pvp_magic_block: 4,
+    ground_freeze_block: 55,
     cooldown: 0.05,
     speed: 35,
     price: 1685225
@@ -38144,6 +38168,7 @@ item_base[1795] = createObject({
     pvp_archery_block: 2,
     pvp_melee_block: 6,
     pvp_magic_block: 4,
+    ground_freeze_block: 60,
     speed: 37,
     price: 3117666
   }
@@ -39967,6 +39992,7 @@ item_base[1881] = createObject({
     slot: 6,
     armor: 69,
     speed: 30,
+    ground_freeze_block: 45,
     min_defense: 70,
     price: 224775
   }
@@ -39993,6 +40019,7 @@ item_base[1882] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 2,
     pvp_magic_block: 1,
+    ground_poison_block: 45,
     min_defense: 80,
     price: 323676
   }
@@ -40018,6 +40045,7 @@ item_base[1883] = createObject({
     pvp_archery_block: 4,
     pvp_melee_block: 3,
     pvp_magic_block: 2,
+    ground_freeze_block: 50,
     min_defense: 95,
     price: 645220
   }
@@ -40043,6 +40071,7 @@ item_base[1884] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 2,
+    ground_freeze_block: 55,
     min_defense: 105,
     price: 1122236
   }
@@ -40359,6 +40388,7 @@ item_base[1898] = createObject({
     pvp_archery_block: 1,
     pvp_melee_block: 3,
     pvp_magic_block: 2,
+    ground_freeze_block: 50,
     min_magic: 90,
     price: 704081
   }
@@ -43164,7 +43194,7 @@ item_base[2030] = createObject({
             duration: 100
           },
           {
-            id: 1266,
+            id: 5556,
             level: 1,
             base_chance: 0.05,
             max_chance: 0.05,
@@ -43206,7 +43236,7 @@ item_base[2030] = createObject({
             duration: 100
           },
           {
-            id: 2083,
+            id: 5532,
             level: 1,
             base_chance: 0.05,
             max_chance: 0.05,
@@ -43220,7 +43250,7 @@ item_base[2030] = createObject({
             duration: 100
           },
           {
-            id: 46,
+            id: 5533,
             level: 1,
             base_chance: 0.05,
             max_chance: 0.05,
@@ -43262,7 +43292,7 @@ item_base[2030] = createObject({
             duration: 100
           },
           {
-            id: 433,
+            id: 5534,
             level: 1,
             base_chance: 0.05,
             max_chance: 0.05,
@@ -43427,7 +43457,7 @@ item_base[2031] = createObject({
             duration: 100
           },
           {
-            id: 953,
+            id: 5535,
             level: 1,
             base_chance: 0.02,
             max_chance: 0.02,
@@ -43441,10 +43471,10 @@ item_base[2031] = createObject({
             duration: 100
           },
           {
-            id: 1076,
+            id: 5536,
             level: 1,
-            base_chance: 0.05,
-            max_chance: 0.05,
+            base_chance: 0.02,
+            max_chance: 0.02,
             next: !0,
             consumes: [
               {
@@ -43830,7 +43860,7 @@ item_base[2032] = createObject({
             duration: 100
           },
           {
-            id: 953,
+            id: 5538,
             level: 1,
             base_chance: 0.03,
             max_chance: 0.03,
@@ -48313,6 +48343,7 @@ item_base[2223] = createObject({
     slot: 6,
     armor: 66,
     min_archery: 70,
+    ground_lava_block: 40,
     speed: 27,
     enchant_id: 2224,
     price: 52640
@@ -48335,6 +48366,7 @@ item_base[2224] = createObject({
     slot: 6,
     armor: 82,
     min_archery: 70,
+    ground_lava_block: 45,
     speed: 32,
     price: 97384
   }
@@ -48359,6 +48391,7 @@ item_base[2225] = createObject({
     pvp_archery_block: 2,
     pvp_melee_block: 1,
     pvp_magic_block: 3,
+    ground_poison_block: 40,
     speed: 29,
     enchant_id: 2226,
     price: 56430
@@ -48384,6 +48417,7 @@ item_base[2226] = createObject({
     pvp_archery_block: 2,
     pvp_melee_block: 1,
     pvp_magic_block: 3,
+    ground_poison_block: 45,
     speed: 34,
     price: 104395
   }
@@ -48555,6 +48589,7 @@ item_base[2233] = createObject({
     pvp_archery_block: 4,
     pvp_melee_block: 2,
     pvp_magic_block: 6,
+    ground_freeze_block: 55,
     speed: 41,
     enchant_id: 2234,
     price: 351500
@@ -48580,6 +48615,7 @@ item_base[2234] = createObject({
     pvp_archery_block: 4,
     pvp_melee_block: 2,
     pvp_magic_block: 6,
+    ground_freeze_block: 60,
     speed: 51,
     price: 650275
   }
@@ -49070,6 +49106,7 @@ item_base[2255] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 2,
     pvp_magic_block: 4,
+    ground_lava_block: 50,
     speed: 33,
     enchant_id: 2256,
     price: 112880
@@ -49095,6 +49132,7 @@ item_base[2256] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 2,
     pvp_magic_block: 4,
+    ground_lava_block: 55,
     speed: 36,
     price: 208828
   }
@@ -54146,6 +54184,7 @@ item_base[2479] = createObject({
     speed: 20,
     no_present: !0,
     min_archery: 40,
+    ground_lava_block: 40,
     price: 60000,
     enchant_bonus: 0.3,
     enchant_id: 2480
@@ -54168,6 +54207,7 @@ item_base[2480] = createObject({
     slot: 6,
     armor: 45,
     speed: 22,
+    ground_lava_block: 40,
     no_present: !0,
     min_archery: 45,
     price: 70000,
@@ -54192,6 +54232,7 @@ item_base[2481] = createObject({
     slot: 6,
     armor: 49,
     speed: 26,
+    ground_lava_block: 40,
     no_present: !0,
     min_archery: 50,
     price: 150000,
@@ -54216,6 +54257,7 @@ item_base[2482] = createObject({
     slot: 6,
     armor: 55,
     speed: 28,
+    ground_lava_block: 40,
     no_present: !0,
     min_archery: 60,
     price: 230000,
@@ -54240,6 +54282,7 @@ item_base[2483] = createObject({
     slot: 6,
     armor: 82,
     speed: 30,
+    ground_lava_block: 40,
     no_present: !0,
     min_archery: 70,
     price: 280000,
@@ -54264,6 +54307,7 @@ item_base[2484] = createObject({
     slot: 6,
     armor: 85,
     speed: 32,
+    ground_lava_block: 50,
     no_present: !0,
     min_archery: 80,
     price: 550000,
@@ -54298,6 +54342,7 @@ item_base[2485] = createObject({
     pvp_archery_block: 2,
     pvp_melee_block: 1,
     pvp_magic_block: 3,
+    ground_lava_block: 50,
     enchant_id: 2486
   }
 }, 1);
@@ -54325,6 +54370,7 @@ item_base[2486] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 2,
     pvp_magic_block: 4,
+    ground_lava_block: 50,
     enchant_id: 2487
   }
 }, 1);
@@ -54352,6 +54398,7 @@ item_base[2487] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 2,
     pvp_magic_block: 4,
+    ground_lava_block: 50,
     enchant_id: 2488
   }
 }, 1);
@@ -54379,6 +54426,7 @@ item_base[2488] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 2,
     pvp_magic_block: 4,
+    ground_lava_block: 50,
     enchant_id: 2489
   }
 }, 1);
@@ -54406,6 +54454,7 @@ item_base[2489] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 2,
     pvp_magic_block: 4,
+    ground_lava_block: 60,
     enchant_id: 2490
   }
 }, 1);
@@ -54432,6 +54481,7 @@ item_base[2490] = createObject({
     pvp_melee_block: 2,
     pvp_magic_block: 4,
     enchant_bonus: 0.2,
+    ground_lava_block: 60,
     enchant_id: 3946,
     price: 2678882
   }
@@ -59238,6 +59288,7 @@ item_base[2713] = createObject({
     magic: 27,
     cooldown: 0.02,
     speed: 32,
+    ground_lava_block: 40,
     no_present: !0,
     min_magic: 45,
     price: 80000,
@@ -59264,6 +59315,7 @@ item_base[2714] = createObject({
     magic: 32,
     cooldown: 0.02,
     speed: 34,
+    ground_lava_block: 40,
     no_present: !0,
     min_magic: 55,
     price: 160000,
@@ -59290,6 +59342,7 @@ item_base[2715] = createObject({
     magic: 35,
     cooldown: 0.03,
     speed: 36,
+    ground_lava_block: 40,
     no_present: !0,
     min_magic: 60,
     price: 240000,
@@ -59316,6 +59369,7 @@ item_base[2716] = createObject({
     magic: 40,
     cooldown: 0.03,
     speed: 40,
+    ground_lava_block: 40,
     no_present: !0,
     min_magic: 70,
     price: 360000,
@@ -59346,6 +59400,7 @@ item_base[2717] = createObject({
     pvp_archery_block: 1,
     pvp_melee_block: 3,
     pvp_magic_block: 2,
+    ground_lava_block: 40,
     min_magic: 80,
     price: 550000,
     enchant_bonus: 0.3,
@@ -59375,6 +59430,7 @@ item_base[2718] = createObject({
     pvp_archery_block: 1,
     pvp_melee_block: 3,
     pvp_magic_block: 2,
+    ground_lava_block: 50,
     min_magic: 90,
     price: 748200,
     enchant_bonus: 0.3,
@@ -59404,6 +59460,7 @@ item_base[2719] = createObject({
     pvp_archery_block: 2,
     pvp_melee_block: 4,
     pvp_magic_block: 3,
+    ground_lava_block: 50,
     min_magic: 95,
     price: 998292,
     enchant_bonus: 0.3,
@@ -59433,6 +59490,7 @@ item_base[2720] = createObject({
     pvp_archery_block: 2,
     pvp_melee_block: 6,
     pvp_magic_block: 4,
+    ground_lava_block: 50,
     min_magic: 105,
     price: 1425124,
     enchant_bonus: 0.2,
@@ -59462,6 +59520,7 @@ item_base[2721] = createObject({
     pvp_archery_block: 2,
     pvp_melee_block: 6,
     pvp_magic_block: 4,
+    ground_lava_block: 50,
     min_magic: 110,
     price: 1762882,
     enchant_bonus: 0.2,
@@ -59491,6 +59550,7 @@ item_base[2722] = createObject({
     pvp_archery_block: 2,
     pvp_melee_block: 6,
     pvp_magic_block: 4,
+    ground_lava_block: 60,
     min_magic: 115,
     price: 2212992,
     enchant_bonus: 0.2,
@@ -59518,6 +59578,7 @@ item_base[2723] = createObject({
     pvp_archery_block: 2,
     pvp_melee_block: 6,
     pvp_magic_block: 4,
+    ground_lava_block: 60,
     speed: 40,
     no_present: !0,
     min_magic: 120,
@@ -72756,7 +72817,7 @@ item_base[3360] = createObject({
 item_base[3361] = createObject({
   b_i: 3361,
   b_t: ITEM_CATEGORY.WEAPON,
-  name: 'Balloons Bundle [Kills]',
+  name: 'Festive Balloons Bundle [Kills]',
   img: {
     sheet: IMAGE_SHEET.WEAPONS2,
     x: 2,
@@ -72780,7 +72841,7 @@ item_base[3361] = createObject({
 item_base[3362] = createObject({
   b_i: 3362,
   b_t: ITEM_CATEGORY.WEAPON,
-  name: 'Balloons Bundle [Scavenger]',
+  name: 'Festive Balloons Bundle [Scavenger]',
   img: {
     sheet: IMAGE_SHEET.WEAPONS2,
     x: 3,
@@ -72804,7 +72865,7 @@ item_base[3362] = createObject({
 item_base[3363] = createObject({
   b_i: 3363,
   b_t: ITEM_CATEGORY.WEAPON,
-  name: 'Balloons Bundle [All]',
+  name: 'Festive Balloons Bundle [All]',
   img: {
     sheet: IMAGE_SHEET.WEAPONS2,
     x: 4,
@@ -73825,6 +73886,7 @@ item_base[3413] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 2,
     pvp_magic_block: 1,
+    ground_lava_block: 40,
     min_defense: 80,
     enchant_id: 3414,
     price: 64512
@@ -73851,6 +73913,7 @@ item_base[3414] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 2,
     pvp_magic_block: 1,
+    ground_lava_block: 45,
     min_defense: 80,
     price: 119347
   }
@@ -73876,6 +73939,7 @@ item_base[3415] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 2,
     pvp_magic_block: 1,
+    ground_poison_block: 50,
     min_defense: 85,
     enchant_id: 3416,
     price: 193000
@@ -73902,6 +73966,7 @@ item_base[3416] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 2,
     pvp_magic_block: 1,
+    ground_poison_block: 55,
     min_defense: 85,
     price: 357050
   }
@@ -77086,6 +77151,7 @@ item_base[3565] = createObject({
     pvp_archery_block: 9,
     pvp_melee_block: 6,
     pvp_magic_block: 3,
+    ground_freeze_block: 70,
     min_defense: 140,
     price: 605984,
     enchant_id: 3566
@@ -77113,6 +77179,7 @@ item_base[3566] = createObject({
     pvp_archery_block: 9,
     pvp_melee_block: 6,
     pvp_magic_block: 3,
+    ground_freeze_block: 75,
     min_defense: 140,
     price: 1121070
   }
@@ -77280,6 +77347,7 @@ item_base[3573] = createObject({
     pvp_archery_block: 9,
     pvp_melee_block: 6,
     pvp_magic_block: 3,
+    ground_lava_block: 70,
     min_defense: 145,
     price: 6466046,
     enchant_id: 3574
@@ -77307,6 +77375,7 @@ item_base[3574] = createObject({
     pvp_archery_block: 9,
     pvp_melee_block: 6,
     pvp_magic_block: 3,
+    ground_lava_block: 75,
     min_defense: 145,
     price: 11962185
   }
@@ -77474,6 +77543,7 @@ item_base[3581] = createObject({
     pvp_archery_block: 11,
     pvp_melee_block: 7,
     pvp_magic_block: 4,
+    ground_poison_block: 70,
     min_defense: 150,
     price: 6466046,
     enchant_id: 3582
@@ -77501,6 +77571,7 @@ item_base[3582] = createObject({
     pvp_archery_block: 11,
     pvp_melee_block: 7,
     pvp_magic_block: 4,
+    ground_poison_block: 75,
     min_defense: 150,
     price: 11962185
   }
@@ -78361,6 +78432,7 @@ item_base[3617] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 9,
     pvp_magic_block: 6,
+    ground_freeze_block: 70,
     cooldown: 0.05,
     speed: 39,
     price: 1685225,
@@ -78389,6 +78461,7 @@ item_base[3618] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 9,
     pvp_magic_block: 6,
+    ground_freeze_block: 75,
     speed: 41,
     price: 3117666
   }
@@ -78567,6 +78640,7 @@ item_base[3625] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 9,
     pvp_magic_block: 6,
+    ground_lava_block: 70,
     cooldown: 0.05,
     speed: 40,
     price: 6466046,
@@ -78595,6 +78669,7 @@ item_base[3626] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 9,
     pvp_magic_block: 6,
+    ground_lava_block: 75,
     speed: 42,
     price: 11962185
   }
@@ -78773,6 +78848,7 @@ item_base[3633] = createObject({
     pvp_archery_block: 4,
     pvp_melee_block: 10,
     pvp_magic_block: 7,
+    ground_poison_block: 70,
     cooldown: 0.05,
     speed: 41,
     price: 6466046,
@@ -78801,6 +78877,7 @@ item_base[3634] = createObject({
     pvp_archery_block: 4,
     pvp_melee_block: 10,
     pvp_magic_block: 7,
+    ground_poison_block: 75,
     speed: 43,
     price: 11962185
   }
@@ -79560,6 +79637,7 @@ item_base[3665] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 8,
+    ground_freeze_block: 70,
     speed: 53,
     price: 351500,
     enchant_id: 3666
@@ -79585,6 +79663,7 @@ item_base[3666] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 8,
+    ground_freeze_block: 75,
     speed: 46,
     price: 650275
   }
@@ -79756,6 +79835,7 @@ item_base[3673] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 8,
+    ground_lava_block: 70,
     speed: 43,
     price: 351500,
     enchant_id: 3674
@@ -79781,6 +79861,7 @@ item_base[3674] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 8,
+    ground_lava_block: 75,
     speed: 46,
     price: 650275
   }
@@ -79952,6 +80033,7 @@ item_base[3681] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 8,
+    ground_poison_block: 70,
     speed: 44,
     price: 351500,
     enchant_id: 3682
@@ -79977,6 +80059,7 @@ item_base[3682] = createObject({
     pvp_archery_block: 6,
     pvp_melee_block: 4,
     pvp_magic_block: 8,
+    ground_poison_block: 75,
     speed: 47,
     price: 650275
   }
@@ -80120,8 +80203,8 @@ item_base[3691] = createObject({
   },
   params: {
     wearable: !0,
-    slot: 3,
     min_fletching: 120,
+    slot: 4,
     price: 1460
   }
 }, 1);
@@ -82351,7 +82434,7 @@ item_base[3792] = createObject({
 item_base[3793] = createObject({
   b_i: 3793,
   b_t: ITEM_CATEGORY.SPELL,
-  name: 'Firework',
+  name: 'Red Firework',
   img: {
     sheet: IMAGE_SHEET.MSPELL,
     x: 4,
@@ -85136,6 +85219,7 @@ item_base[3886] = createObject({
     pvp_archery_block: 7,
     pvp_melee_block: 5,
     pvp_magic_block: 3,
+    ground_lava_block: 60,
     enchant_bonus: 0.2,
     enchant_id: 3887,
     price: 4178882
@@ -85165,6 +85249,7 @@ item_base[3887] = createObject({
     pvp_archery_block: 7,
     pvp_melee_block: 5,
     pvp_magic_block: 3,
+    ground_lava_block: 70,
     enchant_bonus: 0.2,
     enchant_id: 3888,
     price: 5678882
@@ -85194,6 +85279,7 @@ item_base[3888] = createObject({
     pvp_archery_block: 7,
     pvp_melee_block: 5,
     pvp_magic_block: 3,
+    ground_lava_block: 70,
     enchant_bonus: 0.2,
     enchant_id: 3889,
     price: 7178882
@@ -85223,6 +85309,7 @@ item_base[3889] = createObject({
     pvp_archery_block: 9,
     pvp_melee_block: 6,
     pvp_magic_block: 3,
+    ground_lava_block: 70,
     enchant_bonus: 0.2,
     enchant_id: 4566,
     price: 8678882
@@ -86744,6 +86831,7 @@ item_base[3946] = createObject({
     pvp_melee_block: 3,
     pvp_magic_block: 5,
     enchant_bonus: 0.2,
+    ground_lava_block: 70,
     enchant_id: 3947,
     price: 4178882
   }
@@ -86771,6 +86859,7 @@ item_base[3947] = createObject({
     pvp_melee_block: 3,
     pvp_magic_block: 5,
     enchant_bonus: 0.2,
+    ground_lava_block: 70,
     enchant_id: 3948,
     price: 5678882
   }
@@ -86798,6 +86887,7 @@ item_base[3948] = createObject({
     pvp_melee_block: 3,
     pvp_magic_block: 5,
     enchant_bonus: 0.2,
+    ground_lava_block: 70,
     enchant_id: 3949,
     price: 7178882
   }
@@ -86824,6 +86914,7 @@ item_base[3949] = createObject({
     pvp_archery_block: 9,
     pvp_melee_block: 3,
     pvp_magic_block: 6,
+    ground_lava_block: 70,
     price: 8678882
   }
 }, 1);
@@ -95342,7 +95433,7 @@ item_base[4331] = createObject({
 item_base[4332] = createObject({
   b_i: 4332,
   b_t: ITEM_CATEGORY.SPELL,
-  name: 'Firework',
+  name: 'Pink Firework',
   img: {
     sheet: IMAGE_SHEET.MSPELL,
     x: 0,
@@ -100467,6 +100558,7 @@ item_base[4566] = createObject({
     pvp_melee_block: 6,
     pvp_magic_block: 3,
     enchant_bonus: 0.2,
+    ground_lava_block: 70,
     enchant_id: 4567,
     price: 10178882
   }
@@ -100495,6 +100587,7 @@ item_base[4567] = createObject({
     pvp_archery_block: 11,
     pvp_melee_block: 6,
     pvp_magic_block: 4,
+    ground_lava_block: 70,
     price: 11678882
   }
 }, 1);
@@ -100653,6 +100746,7 @@ item_base[4574] = createObject({
     wearable: !0,
     slot: 3,
     min_forging: 120,
+    no_smelt: !0,
     price: 1959408
   }
 }, 1);
@@ -101114,6 +101208,7 @@ item_base[4593] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 7,
     pvp_magic_block: 5,
+    ground_lava_block: 60,
     speed: 40,
     no_present: !0,
     min_magic: 125,
@@ -101143,6 +101238,7 @@ item_base[4594] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 7,
     pvp_magic_block: 5,
+    ground_lava_block: 70,
     speed: 40,
     no_present: !0,
     min_magic: 130,
@@ -101172,6 +101268,7 @@ item_base[4595] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 7,
     pvp_magic_block: 5,
+    ground_lava_block: 70,
     speed: 40,
     no_present: !0,
     min_magic: 135,
@@ -101201,6 +101298,7 @@ item_base[4596] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 9,
     pvp_magic_block: 6,
+    ground_lava_block: 70,
     speed: 41,
     no_present: !0,
     min_magic: 140,
@@ -101230,6 +101328,7 @@ item_base[4597] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 9,
     pvp_magic_block: 6,
+    ground_lava_block: 70,
     speed: 42,
     no_present: !0,
     min_magic: 145,
@@ -101259,6 +101358,7 @@ item_base[4598] = createObject({
     pvp_archery_block: 3,
     pvp_melee_block: 9,
     pvp_magic_block: 6,
+    ground_lava_block: 70,
     speed: 43,
     no_present: !0,
     min_magic: 150,
@@ -110189,7 +110289,7 @@ item_base[5010] = createObject({
     wearable: !1,
     no_smelt: !0,
     slot: 9,
-    price: 1600,
+    price: 2400,
     contains: [
       260,
       260,
@@ -113999,7 +114099,7 @@ item_base[5172] = createObject({
   params: {
     wearable: !0,
     slot: 3,
-    price: 350000,
+    price: 400000,
     carpentry_type: BASE_TYPE.OBJECT,
     carpentry_id: 1065,
     no_present: !0,
@@ -119128,6 +119228,4021 @@ item_base[5411] = createObject({
     no_present: !0,
     carpentry_id: 1079,
     size: 4,
+    desc: 'Place it on your island. Decorative item.'
+  }
+}, 1);
+item_base[5412] = createObject({
+  b_i: 5412,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Frozen Sunken Treasure',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 5,
+    y: 1
+  },
+  params: {
+    wearable: !1,
+    slot: 19,
+    price: 200000,
+    results: [
+      {
+        requires: [],
+        skill: 'health',
+        continuous: !1,
+        returns: [
+          {
+            id: 2698,
+            level: 1,
+            base_chance: 0.2,
+            max_chance: 0.2,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 203,
+            level: 1,
+            base_chance: 0.15,
+            max_chance: 0.15,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 1902,
+            level: 1,
+            base_chance: 0.15,
+            max_chance: 0.15,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 1905,
+            level: 1,
+            base_chance: 0.15,
+            max_chance: 0.15,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 1908,
+            level: 1,
+            base_chance: 0.15,
+            max_chance: 0.15,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 1911,
+            level: 1,
+            base_chance: 0.1,
+            max_chance: 0.1,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 202,
+            level: 1,
+            base_chance: 0.1,
+            max_chance: 0.1,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 485,
+            level: 1,
+            base_chance: 0.1,
+            max_chance: 0.1,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 1914,
+            level: 1,
+            base_chance: 0.1,
+            max_chance: 0.1,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 372,
+            level: 1,
+            base_chance: 0.1,
+            max_chance: 0.1,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 384,
+            level: 1,
+            base_chance: 0.1,
+            max_chance: 0.1,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 658,
+            level: 1,
+            base_chance: 0.05,
+            max_chance: 0.05,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 1917,
+            level: 1,
+            base_chance: 0.1,
+            max_chance: 0.1,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 1920,
+            level: 1,
+            base_chance: 0.1,
+            max_chance: 0.1,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 1266,
+            level: 1,
+            base_chance: 0.5,
+            max_chance: 0.5,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 1400,
+            level: 1,
+            base_chance: 0.025,
+            max_chance: 0.025,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 2022,
+            level: 1,
+            base_chance: 0.025,
+            max_chance: 0.025,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 3150,
+            level: 1,
+            base_chance: 0.025,
+            max_chance: 0.025,
+            next: !0,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          },
+          {
+            id: 68,
+            level: 1,
+            base_chance: 1,
+            max_chance: 1,
+            next: !1,
+            consumes: [
+              {
+                id: 5412,
+                count: 1
+              }
+            ],
+            duration: 100
+          }
+        ]
+      }
+    ]
+  }
+}, 1);
+item_base[5413] = createObject({
+  b_i: 5413,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Christmas Cheer Helmet',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 0,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      helmet: 303
+    },
+    slot: 0,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5414] = createObject({
+  b_i: 5414,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Christmas Cheer Shirt',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 1,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      body: 314
+    },
+    slot: 2,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5415] = createObject({
+  b_i: 5415,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Christmas Cheer Pants',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 2,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      pants: 276
+    },
+    slot: 11,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5416] = createObject({
+  b_i: 5416,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Christmas Cheer Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 4,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 126
+    },
+    slot: 5,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5417] = createObject({
+  b_i: 5417,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Christmas Cheer Boots',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 3,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      boots: 158
+    },
+    slot: 6,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5418] = createObject({
+  b_i: 5418,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Christmas Cheer Outfit Box',
+  img: {
+    sheet: IMAGE_SHEET.BOX_SETS,
+    x: 3,
+    y: 10
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    slot: 9,
+    price: 1,
+    contains: [
+      5413,
+      5414,
+      5415,
+      5416,
+      5417
+    ]
+  }
+}, 1);
+item_base[5419] = createObject({
+  b_i: 5419,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Rudolph Helmet',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 5,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      helmet: 304
+    },
+    slot: 0,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5420] = createObject({
+  b_i: 5420,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Rudolph Shirt',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 6,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      body: 315
+    },
+    slot: 2,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5421] = createObject({
+  b_i: 5421,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Rudolph Pants',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 7,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      pants: 277
+    },
+    slot: 11,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5422] = createObject({
+  b_i: 5422,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Rudolph Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 9,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 127
+    },
+    slot: 5,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5423] = createObject({
+  b_i: 5423,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Rudolph Boots',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 8,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      boots: 159
+    },
+    slot: 6,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5424] = createObject({
+  b_i: 5424,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Rudolph Outfit Box',
+  img: {
+    sheet: IMAGE_SHEET.BOX_SETS,
+    x: 4,
+    y: 10
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    slot: 9,
+    price: 1,
+    contains: [
+      5419,
+      5420,
+      5421,
+      5422,
+      5423
+    ]
+  }
+}, 1);
+item_base[5425] = createObject({
+  b_i: 5425,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Redemption Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 10,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 128
+    },
+    slot: 5,
+    armor: 135,
+    aim: 100,
+    pvp_archery_block: 7,
+    pvp_melee_block: 5,
+    pvp_magic_block: 3,
+    min_defense: 125,
+    price: 521360
+  }
+}, 1);
+item_base[5426] = createObject({
+  b_i: 5426,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Redemption Gloves of Power',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 11,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 128
+    },
+    slot: 5,
+    armor: 135,
+    power: 90,
+    aim: 100,
+    pvp_archery_block: 7,
+    pvp_melee_block: 5,
+    pvp_magic_block: 3,
+    min_defense: 125,
+    price: 964516
+  }
+}, 1);
+item_base[5427] = createObject({
+  b_i: 5427,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Redemption Gloves of Magic',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 12,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 128
+    },
+    slot: 5,
+    armor: 135,
+    magic: 90,
+    aim: 100,
+    pvp_archery_block: 3,
+    pvp_melee_block: 7,
+    pvp_magic_block: 5,
+    min_magic: 125,
+    price: 964516
+  }
+}, 1);
+item_base[5428] = createObject({
+  b_i: 5428,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Redemption Gloves of Defense',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 13,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 128
+    },
+    slot: 5,
+    armor: 220,
+    aim: 100,
+    pvp_archery_block: 7,
+    pvp_melee_block: 5,
+    pvp_magic_block: 3,
+    min_defense: 125,
+    price: 964516
+  }
+}, 1);
+item_base[5429] = createObject({
+  b_i: 5429,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Redemption Gloves of Archery',
+  img: {
+    sheet: IMAGE_SHEET.ARCHERY,
+    x: 14,
+    y: 19
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 128
+    },
+    slot: 5,
+    armor: 135,
+    archery: 185,
+    pvp_archery_block: 5,
+    pvp_melee_block: 3,
+    pvp_magic_block: 7,
+    min_archery: 125,
+    price: 964516
+  }
+}, 1);
+item_base[5430] = createObject({
+  b_i: 5430,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Redemption Gloves of Accuracy',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 15,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 128
+    },
+    slot: 5,
+    armor: 135,
+    aim: 185,
+    pvp_archery_block: 7,
+    pvp_melee_block: 5,
+    pvp_magic_block: 3,
+    min_defense: 125,
+    price: 964516
+  }
+}, 1);
+item_base[5431] = createObject({
+  b_i: 5431,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Incarnation Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 16,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 129
+    },
+    slot: 5,
+    armor: 150,
+    aim: 110,
+    pvp_archery_block: 7,
+    pvp_melee_block: 5,
+    pvp_magic_block: 3,
+    min_defense: 130,
+    price: 591360
+  }
+}, 1);
+item_base[5432] = createObject({
+  b_i: 5432,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Incarnation Gloves of Power',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 17,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 129
+    },
+    slot: 5,
+    armor: 150,
+    power: 100,
+    aim: 110,
+    pvp_archery_block: 7,
+    pvp_melee_block: 5,
+    pvp_magic_block: 3,
+    min_defense: 130,
+    price: 1094016
+  }
+}, 1);
+item_base[5433] = createObject({
+  b_i: 5433,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Incarnation Gloves of Magic',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 18,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 129
+    },
+    slot: 5,
+    armor: 150,
+    magic: 100,
+    aim: 110,
+    pvp_archery_block: 3,
+    pvp_melee_block: 7,
+    pvp_magic_block: 5,
+    min_magic: 130,
+    price: 1094016
+  }
+}, 1);
+item_base[5434] = createObject({
+  b_i: 5434,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Incarnation Gloves of Defense',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 19,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 129
+    },
+    slot: 5,
+    armor: 235,
+    aim: 110,
+    pvp_archery_block: 7,
+    pvp_melee_block: 5,
+    pvp_magic_block: 3,
+    min_defense: 130,
+    price: 1094016
+  }
+}, 1);
+item_base[5435] = createObject({
+  b_i: 5435,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Incarnation Gloves of Archery',
+  img: {
+    sheet: IMAGE_SHEET.ARCHERY,
+    x: 15,
+    y: 19
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 129
+    },
+    slot: 5,
+    armor: 150,
+    archery: 200,
+    pvp_archery_block: 5,
+    pvp_melee_block: 3,
+    pvp_magic_block: 7,
+    min_archery: 130,
+    price: 1094016
+  }
+}, 1);
+item_base[5436] = createObject({
+  b_i: 5436,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Incarnation Gloves of Accuracy',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 21,
+    y: 24
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 129
+    },
+    slot: 5,
+    armor: 150,
+    aim: 200,
+    pvp_archery_block: 7,
+    pvp_melee_block: 5,
+    pvp_magic_block: 3,
+    min_defense: 130,
+    price: 1094016
+  }
+}, 1);
+item_base[5437] = createObject({
+  b_i: 5437,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Feral Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 0
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 130
+    },
+    slot: 5,
+    armor: 165,
+    aim: 120,
+    pvp_archery_block: 7,
+    pvp_melee_block: 5,
+    pvp_magic_block: 3,
+    min_defense: 135,
+    price: 661360
+  }
+}, 1);
+item_base[5438] = createObject({
+  b_i: 5438,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Feral Gloves of Power',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 1
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 130
+    },
+    slot: 5,
+    armor: 165,
+    power: 110,
+    aim: 120,
+    pvp_archery_block: 7,
+    pvp_melee_block: 5,
+    pvp_magic_block: 3,
+    min_defense: 135,
+    price: 1223516
+  }
+}, 1);
+item_base[5439] = createObject({
+  b_i: 5439,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Feral Gloves of Magic',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 2
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 130
+    },
+    slot: 5,
+    armor: 165,
+    magic: 110,
+    aim: 120,
+    pvp_archery_block: 3,
+    pvp_melee_block: 7,
+    pvp_magic_block: 5,
+    min_magic: 135,
+    price: 1223516
+  }
+}, 1);
+item_base[5440] = createObject({
+  b_i: 5440,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Feral Gloves of Defense',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 3
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 130
+    },
+    slot: 5,
+    armor: 250,
+    aim: 120,
+    pvp_archery_block: 7,
+    pvp_melee_block: 5,
+    pvp_magic_block: 3,
+    min_defense: 135,
+    price: 1223516
+  }
+}, 1);
+item_base[5441] = createObject({
+  b_i: 5441,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Feral Gloves of Archery',
+  img: {
+    sheet: IMAGE_SHEET.ARCHERY,
+    x: 16,
+    y: 19
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 130
+    },
+    slot: 5,
+    armor: 165,
+    archery: 215,
+    pvp_archery_block: 5,
+    pvp_melee_block: 3,
+    pvp_magic_block: 7,
+    min_archery: 135,
+    price: 1223516
+  }
+}, 1);
+item_base[5442] = createObject({
+  b_i: 5442,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Feral Gloves of Accuracy',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 5
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 130
+    },
+    slot: 5,
+    armor: 165,
+    aim: 215,
+    pvp_archery_block: 7,
+    pvp_melee_block: 5,
+    pvp_magic_block: 3,
+    min_defense: 135,
+    price: 1223516
+  }
+}, 1);
+item_base[5443] = createObject({
+  b_i: 5443,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Edoylerite Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 6
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 131
+    },
+    slot: 5,
+    armor: 180,
+    aim: 130,
+    pvp_archery_block: 9,
+    pvp_melee_block: 6,
+    pvp_magic_block: 3,
+    min_defense: 140,
+    price: 731360
+  }
+}, 1);
+item_base[5444] = createObject({
+  b_i: 5444,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Edoylerite Gloves of Power',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 7
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 131
+    },
+    slot: 5,
+    armor: 180,
+    power: 120,
+    aim: 130,
+    pvp_archery_block: 9,
+    pvp_melee_block: 6,
+    pvp_magic_block: 3,
+    min_defense: 140,
+    price: 1353016
+  }
+}, 1);
+item_base[5445] = createObject({
+  b_i: 5445,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Edoylerite Gloves of Magic',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 8
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 131
+    },
+    slot: 5,
+    armor: 180,
+    magic: 120,
+    aim: 130,
+    pvp_archery_block: 3,
+    pvp_melee_block: 9,
+    pvp_magic_block: 6,
+    min_magic: 140,
+    price: 1353016
+  }
+}, 1);
+item_base[5446] = createObject({
+  b_i: 5446,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Edoylerite Gloves of Defense',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 9
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 131
+    },
+    slot: 5,
+    armor: 265,
+    aim: 130,
+    pvp_archery_block: 9,
+    pvp_melee_block: 6,
+    pvp_magic_block: 3,
+    min_defense: 140,
+    price: 1353016
+  }
+}, 1);
+item_base[5447] = createObject({
+  b_i: 5447,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Edoylerite Gloves of Archery',
+  img: {
+    sheet: IMAGE_SHEET.ARCHERY,
+    x: 17,
+    y: 19
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 131
+    },
+    slot: 5,
+    armor: 180,
+    archery: 230,
+    pvp_archery_block: 6,
+    pvp_melee_block: 3,
+    pvp_magic_block: 9,
+    min_archery: 140,
+    price: 1353016
+  }
+}, 1);
+item_base[5448] = createObject({
+  b_i: 5448,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Edoylerite Gloves of Accuracy',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 131
+    },
+    slot: 5,
+    armor: 180,
+    aim: 230,
+    pvp_archery_block: 9,
+    pvp_melee_block: 6,
+    pvp_magic_block: 3,
+    min_defense: 140,
+    price: 1353016
+  }
+}, 1);
+item_base[5449] = createObject({
+  b_i: 5449,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Obsidian Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 12
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 132
+    },
+    slot: 5,
+    armor: 195,
+    aim: 140,
+    pvp_archery_block: 9,
+    pvp_melee_block: 6,
+    pvp_magic_block: 3,
+    min_defense: 145,
+    price: 6466046
+  }
+}, 1);
+item_base[5450] = createObject({
+  b_i: 5450,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Obsidian Gloves of Power',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 13
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 132
+    },
+    slot: 5,
+    armor: 195,
+    power: 130,
+    aim: 140,
+    pvp_archery_block: 9,
+    pvp_melee_block: 6,
+    pvp_magic_block: 3,
+    min_defense: 145,
+    price: 11962185
+  }
+}, 1);
+item_base[5451] = createObject({
+  b_i: 5451,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Obsidian Gloves of Magic',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 14
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 132
+    },
+    slot: 5,
+    armor: 195,
+    magic: 130,
+    aim: 140,
+    pvp_archery_block: 3,
+    pvp_melee_block: 9,
+    pvp_magic_block: 6,
+    min_magic: 145,
+    price: 11962185
+  }
+}, 1);
+item_base[5452] = createObject({
+  b_i: 5452,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Obsidian Gloves of Defense',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 15
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 132
+    },
+    slot: 5,
+    armor: 280,
+    aim: 140,
+    pvp_archery_block: 9,
+    pvp_melee_block: 6,
+    pvp_magic_block: 3,
+    min_defense: 145,
+    price: 11962185
+  }
+}, 1);
+item_base[5453] = createObject({
+  b_i: 5453,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Obsidian Gloves of Archery',
+  img: {
+    sheet: IMAGE_SHEET.ARCHERY,
+    x: 18,
+    y: 19
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 132
+    },
+    slot: 5,
+    armor: 195,
+    archery: 245,
+    pvp_archery_block: 6,
+    pvp_melee_block: 3,
+    pvp_magic_block: 9,
+    min_archery: 145,
+    price: 11962185
+  }
+}, 1);
+item_base[5454] = createObject({
+  b_i: 5454,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Obsidian Gloves of Accuracy',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 17
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 132
+    },
+    slot: 5,
+    armor: 195,
+    aim: 245,
+    pvp_archery_block: 9,
+    pvp_melee_block: 6,
+    pvp_magic_block: 3,
+    min_defense: 145,
+    price: 11962185
+  }
+}, 1);
+item_base[5455] = createObject({
+  b_i: 5455,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Ender Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 18
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 133
+    },
+    slot: 5,
+    armor: 219,
+    aim: 150,
+    pvp_archery_block: 11,
+    pvp_melee_block: 7,
+    pvp_magic_block: 4,
+    min_defense: 150,
+    price: 12932092
+  }
+}, 1);
+item_base[5456] = createObject({
+  b_i: 5456,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Ender Gloves of Power',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 19
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 133
+    },
+    slot: 5,
+    armor: 219,
+    power: 130,
+    aim: 150,
+    pvp_archery_block: 11,
+    pvp_melee_block: 7,
+    pvp_magic_block: 4,
+    min_defense: 150,
+    price: 23924371
+  }
+}, 1);
+item_base[5457] = createObject({
+  b_i: 5457,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Ender Gloves of Magic',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 20
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 133
+    },
+    slot: 5,
+    armor: 219,
+    magic: 130,
+    aim: 150,
+    pvp_archery_block: 4,
+    pvp_melee_block: 11,
+    pvp_magic_block: 7,
+    min_magic: 150,
+    price: 23924371
+  }
+}, 1);
+item_base[5458] = createObject({
+  b_i: 5458,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Ender Gloves of Defense',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 21
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 133
+    },
+    slot: 5,
+    armor: 280,
+    aim: 150,
+    pvp_archery_block: 11,
+    pvp_melee_block: 7,
+    pvp_magic_block: 4,
+    min_defense: 150,
+    price: 23924371
+  }
+}, 1);
+item_base[5459] = createObject({
+  b_i: 5459,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Ender Gloves of Archery',
+  img: {
+    sheet: IMAGE_SHEET.ARCHERY,
+    x: 19,
+    y: 19
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 133
+    },
+    slot: 5,
+    armor: 219,
+    archery: 245,
+    pvp_archery_block: 7,
+    pvp_melee_block: 4,
+    pvp_magic_block: 11,
+    min_archery: 150,
+    price: 23924371
+  }
+}, 1);
+item_base[5460] = createObject({
+  b_i: 5460,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Ender Gloves of Accuracy',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 23
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 133
+    },
+    slot: 5,
+    armor: 219,
+    aim: 245,
+    pvp_archery_block: 11,
+    pvp_melee_block: 7,
+    pvp_magic_block: 4,
+    min_defense: 150,
+    price: 23924371
+  }
+}, 1);
+item_base[5461] = createObject({
+  b_i: 5461,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Low Quality Charon Obol',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 18
+  },
+  params: {
+    wearable: !0,
+    no_present: !0,
+    no_buy: !0,
+    slot: 3,
+    price: 37500,
+    desc: 'Their final payment rests with me.'
+  }
+}, 1);
+item_base[5462] = createObject({
+  b_i: 5462,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Medium Quality Charon Obol',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 19
+  },
+  params: {
+    wearable: !0,
+    no_present: !0,
+    no_buy: !0,
+    slot: 3,
+    price: 56250,
+    desc: 'Their final payment rests with me.'
+  }
+}, 1);
+item_base[5463] = createObject({
+  b_i: 5463,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'High Quality Charon Obol',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 20
+  },
+  params: {
+    wearable: !0,
+    no_present: !0,
+    no_buy: !0,
+    slot: 3,
+    price: 75000,
+    desc: 'Their final payment rests with me.'
+  }
+}, 1);
+item_base[5464] = createObject({
+  b_i: 5464,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Superior Quality Charon Obol',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 21
+  },
+  params: {
+    wearable: !0,
+    no_present: !0,
+    no_buy: !0,
+    slot: 3,
+    price: 120000,
+    desc: 'Their final payment rests with me.'
+  }
+}, 1);
+item_base[5465] = createObject({
+  b_i: 5465,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Bag of Superior Quality Charon Obols [L]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 24
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    no_present: !0,
+    slot: 9,
+    price: 1200000,
+    contains: [
+      5464,
+      5464,
+      5464,
+      5464,
+      5464,
+      5464,
+      5464,
+      5464,
+      5464,
+      5464
+    ]
+  }
+}, 1);
+item_base[5466] = createObject({
+  b_i: 5466,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Bag of Superior Quality Charon Obols [S]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 25
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    no_present: !0,
+    slot: 9,
+    price: 360000,
+    contains: [
+      5464,
+      5464,
+      5464
+    ]
+  }
+}, 1);
+item_base[5467] = createObject({
+  b_i: 5467,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Bag of Superior Quality Charon Obols [M]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 26
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    no_present: !0,
+    slot: 9,
+    price: 600000,
+    contains: [
+      5464,
+      5464,
+      5464,
+      5464,
+      5464
+    ]
+  }
+}, 1);
+item_base[5468] = createObject({
+  b_i: 5468,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Krampus [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 23
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 1,
+    speed: 30,
+    min_health: 20,
+    pet: 467,
+    no_present: !0
+  }
+}, 1);
+item_base[5469] = createObject({
+  b_i: 5469,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Christmas Krampus [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 22
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 1,
+    speed: 30,
+    min_health: 20,
+    pet: 468,
+    no_present: !0
+  }
+}, 1);
+item_base[5470] = createObject({
+  b_i: 5470,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Arachnida [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 0
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    min_health: 122,
+    price: 10148060,
+    aim: 202,
+    magic: 260,
+    armor: 202,
+    pvp_archery_block: 10,
+    pvp_melee_block: 14,
+    pvp_magic_block: 12,
+    melee_block: 10,
+    magic_block: 8,
+    pet: 485
+  }
+}, 1);
+item_base[5471] = createObject({
+  b_i: 5471,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Elder Arachnida [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 1
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    min_health: 122,
+    price: 10148060,
+    aim: 247,
+    magic: 305,
+    armor: 247,
+    pvp_archery_block: 10,
+    pvp_melee_block: 14,
+    pvp_magic_block: 12,
+    melee_block: 10,
+    magic_block: 8,
+    pet: 469
+  }
+}, 1);
+item_base[5472] = createObject({
+  b_i: 5472,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Demonic Bear [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 2
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    min_health: 124,
+    price: 10284284,
+    archery: 250,
+    speed: 25,
+    armor: 238,
+    pvp_archery_block: 11,
+    pvp_melee_block: 10,
+    pvp_magic_block: 13,
+    melee_block: 7,
+    magic_block: 10,
+    pet: 470
+  }
+}, 1);
+item_base[5473] = createObject({
+  b_i: 5473,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Elder Demonic Bear [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 3
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    min_health: 124,
+    price: 10284284,
+    archery: 295,
+    speed: 25,
+    armor: 293,
+    pvp_archery_block: 11,
+    pvp_melee_block: 10,
+    pvp_magic_block: 13,
+    melee_block: 7,
+    magic_block: 10,
+    pet: 471
+  }
+}, 1);
+item_base[5474] = createObject({
+  b_i: 5474,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Avolion [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 4
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    min_health: 126,
+    price: 10768524,
+    aim: 170,
+    power: 220,
+    armor: 170,
+    speed: 20,
+    pvp_archery_block: 14,
+    pvp_melee_block: 12,
+    pvp_magic_block: 10,
+    melee_block: 9,
+    magic_block: 7,
+    pet: 472
+  }
+}, 1);
+item_base[5475] = createObject({
+  b_i: 5475,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Elder Avolion [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 5
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    min_health: 126,
+    price: 10768524,
+    aim: 210,
+    power: 260,
+    armor: 210,
+    speed: 20,
+    pvp_archery_block: 14,
+    pvp_melee_block: 12,
+    pvp_magic_block: 10,
+    melee_block: 9,
+    magic_block: 7,
+    pet: 473
+  }
+}, 1);
+item_base[5476] = createObject({
+  b_i: 5476,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Chaos Protector [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 6
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    min_health: 128,
+    price: 11745282,
+    archery: 275,
+    speed: 25,
+    armor: 263,
+    pvp_archery_block: 12,
+    pvp_melee_block: 11,
+    pvp_magic_block: 14,
+    melee_block: 8,
+    magic_block: 11,
+    pet: 474
+  }
+}, 1);
+item_base[5477] = createObject({
+  b_i: 5477,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Elder Chaos Protector [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 7
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    min_health: 128,
+    price: 11745282,
+    archery: 320,
+    speed: 25,
+    armor: 308,
+    pvp_archery_block: 12,
+    pvp_melee_block: 11,
+    pvp_magic_block: 14,
+    melee_block: 8,
+    magic_block: 11,
+    pet: 475
+  }
+}, 1);
+item_base[5478] = createObject({
+  b_i: 5478,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Saint Golem [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 8
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    min_health: 130,
+    price: 18857845,
+    power: 230,
+    armor: 300,
+    speed: - 20,
+    pvp_archery_block: 13,
+    pvp_melee_block: 11,
+    pvp_magic_block: 10,
+    melee_block: 9,
+    magic_block: 8,
+    pet: 476
+  }
+}, 1);
+item_base[5479] = createObject({
+  b_i: 5479,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Elder Saint Golem [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 9
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    min_health: 130,
+    price: 18857845,
+    power: 280,
+    armor: 350,
+    speed: - 10,
+    pvp_archery_block: 13,
+    pvp_melee_block: 11,
+    pvp_magic_block: 10,
+    melee_block: 9,
+    magic_block: 8,
+    pet: 477
+  }
+}, 1);
+item_base[5480] = createObject({
+  b_i: 5480,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Sky Charger [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 10
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    min_health: 126,
+    price: 11484526,
+    aim: 222,
+    magic: 280,
+    armor: 222,
+    speed: 20,
+    pvp_archery_block: 10,
+    pvp_melee_block: 14,
+    pvp_magic_block: 12,
+    melee_block: 10,
+    magic_block: 8,
+    pet: 478
+  }
+}, 1);
+item_base[5481] = createObject({
+  b_i: 5481,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Obsidian Chunk',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 12
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    min_forging: 120,
+    no_present: !0,
+    price: 4000
+  }
+}, 1);
+item_base[5482] = createObject({
+  b_i: 5482,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Obsidian Bar',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    slot: 4,
+    min_forging: 120,
+    no_present: !0,
+    price: 172800
+  }
+}, 1);
+item_base[5483] = createObject({
+  b_i: 5483,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Corrupted Obsidian Chunk',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 13
+  },
+  params: {
+    wearable: !0,
+    slot: 4,
+    min_forging: 120,
+    no_present: !0,
+    price: 3000
+  }
+}, 1);
+item_base[5484] = createObject({
+  b_i: 5484,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Frozen Humpback Anglerfish',
+  img: {
+    sheet: IMAGE_SHEET.FISH,
+    x: 7,
+    y: 0
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    min_cooking: 140,
+    price: 1080
+  }
+}, 1);
+item_base[5485] = createObject({
+  b_i: 5485,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Frozen Devils Hole Pupfish',
+  img: {
+    sheet: IMAGE_SHEET.FISH,
+    x: 7,
+    y: 1
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    min_cooking: 138,
+    price: 1038
+  }
+}, 1);
+item_base[5486] = createObject({
+  b_i: 5486,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Frozen Fangtooth',
+  img: {
+    sheet: IMAGE_SHEET.FISH,
+    x: 7,
+    y: 2
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    min_cooking: 136,
+    price: 996
+  }
+}, 1);
+item_base[5487] = createObject({
+  b_i: 5487,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Frozen Dumbo Octopus',
+  img: {
+    sheet: IMAGE_SHEET.FISH,
+    x: 7,
+    y: 3
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    min_cooking: 134,
+    price: 954
+  }
+}, 1);
+item_base[5488] = createObject({
+  b_i: 5488,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Frozen Leafy Sea Dragon',
+  img: {
+    sheet: IMAGE_SHEET.FISH,
+    x: 7,
+    y: 4
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    min_cooking: 132,
+    price: 912
+  }
+}, 1);
+item_base[5489] = createObject({
+  b_i: 5489,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Frozen Stargazer',
+  img: {
+    sheet: IMAGE_SHEET.FISH,
+    x: 7,
+    y: 5
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    min_cooking: 130,
+    price: 870
+  }
+}, 1);
+item_base[5490] = createObject({
+  b_i: 5490,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Frozen Glass Squid',
+  img: {
+    sheet: IMAGE_SHEET.FISH,
+    x: 7,
+    y: 6
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    min_cooking: 128,
+    price: 828
+  }
+}, 1);
+item_base[5491] = createObject({
+  b_i: 5491,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Frozen Black Chimaera',
+  img: {
+    sheet: IMAGE_SHEET.FISH,
+    x: 7,
+    y: 7
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    min_cooking: 126,
+    price: 786
+  }
+}, 1);
+item_base[5492] = createObject({
+  b_i: 5492,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Frozen Giant Hatchetfish',
+  img: {
+    sheet: IMAGE_SHEET.FISH,
+    x: 7,
+    y: 8
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    min_cooking: 124,
+    price: 744
+  }
+}, 1);
+item_base[5493] = createObject({
+  b_i: 5493,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Frozen Lizardfish',
+  img: {
+    sheet: IMAGE_SHEET.FISH,
+    x: 7,
+    y: 9
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    min_cooking: 122,
+    price: 702
+  }
+}, 1);
+item_base[5494] = createObject({
+  b_i: 5494,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Salt',
+  img: {
+    sheet: IMAGE_SHEET.ALCHEMY,
+    x: 16,
+    y: 18
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    min_cooking: 1,
+    price: 200
+  }
+}, 1);
+item_base[5495] = createObject({
+  b_i: 5495,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Demonic Bear [Egg]',
+  img: {
+    sheet: IMAGE_SHEET.ALCHEMY,
+    x: 3,
+    y: 8
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 9854522,
+    min_health: 124,
+    pet: 479,
+    no_present: !0
+  }
+}, 1);
+item_base[5496] = createObject({
+  b_i: 5496,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Arachnida [Egg]',
+  img: {
+    sheet: IMAGE_SHEET.ALCHEMY,
+    x: 3,
+    y: 8
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 10148060,
+    min_health: 122,
+    pet: 480,
+    no_present: !0
+  }
+}, 1);
+item_base[5497] = createObject({
+  b_i: 5497,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Avolion [Egg]',
+  img: {
+    sheet: IMAGE_SHEET.ALCHEMY,
+    x: 3,
+    y: 8
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 10768524,
+    min_health: 126,
+    pet: 481,
+    no_present: !0
+  }
+}, 1);
+item_base[5498] = createObject({
+  b_i: 5498,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Sky Charger [Egg]',
+  img: {
+    sheet: IMAGE_SHEET.ALCHEMY,
+    x: 3,
+    y: 8
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 11484526,
+    min_health: 126,
+    pet: 482,
+    no_present: !0
+  }
+}, 1);
+item_base[5499] = createObject({
+  b_i: 5499,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Chaos Protector [Egg]',
+  img: {
+    sheet: IMAGE_SHEET.ALCHEMY,
+    x: 3,
+    y: 8
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 11745282,
+    min_health: 128,
+    pet: 483,
+    no_present: !0
+  }
+}, 1);
+item_base[5500] = createObject({
+  b_i: 5500,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Saint Golem [Egg]',
+  img: {
+    sheet: IMAGE_SHEET.ALCHEMY,
+    x: 3,
+    y: 8
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 18857845,
+    min_health: 130,
+    pet: 484,
+    no_present: !0
+  }
+}, 1);
+item_base[5501] = createObject({
+  b_i: 5501,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Rose Crystal Plate Helmet',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 2,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      helmet: 305
+    },
+    slot: 0,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5502] = createObject({
+  b_i: 5502,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Rose Crystal Platemail',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 1,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      body: 316
+    },
+    slot: 2,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5503] = createObject({
+  b_i: 5503,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Rose Crystal Plate Pants',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 4,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      pants: 278
+    },
+    slot: 11,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5504] = createObject({
+  b_i: 5504,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Rose Crystal Plate Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 5,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 134
+    },
+    slot: 5,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5505] = createObject({
+  b_i: 5505,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Rose Crystal Plate Boots',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 0,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      boots: 160
+    },
+    slot: 6,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5506] = createObject({
+  b_i: 5506,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Rose Crystal Plate Cape',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 3,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      cape: 242
+    },
+    slot: 1,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5507] = createObject({
+  b_i: 5507,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Rose Crystal Plate Outfit Box',
+  img: {
+    sheet: IMAGE_SHEET.BOX_SETS,
+    x: 5,
+    y: 10
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    slot: 9,
+    price: 1,
+    contains: [
+      5501,
+      5502,
+      5503,
+      5504,
+      5505
+    ]
+  }
+}, 1);
+item_base[5508] = createObject({
+  b_i: 5508,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Emerald Night Hat',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 8,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      helmet: 306
+    },
+    slot: 0,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5509] = createObject({
+  b_i: 5509,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Emerald Night Robe',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 7,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      body: 317
+    },
+    slot: 2,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5510] = createObject({
+  b_i: 5510,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Emerald Night Robe Bottom',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 10,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      pants: 279
+    },
+    slot: 11,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5511] = createObject({
+  b_i: 5511,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Emerald Night Plate Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 11,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 135
+    },
+    slot: 5,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5512] = createObject({
+  b_i: 5512,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Emerald Night Plate Boots',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 6,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      boots: 161
+    },
+    slot: 6,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5513] = createObject({
+  b_i: 5513,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Emerald Night Plate Cape',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 9,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      cape: 243
+    },
+    slot: 1,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5514] = createObject({
+  b_i: 5514,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Emerald Night Outfit Box',
+  img: {
+    sheet: IMAGE_SHEET.BOX_SETS,
+    x: 6,
+    y: 10
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    slot: 9,
+    price: 1,
+    contains: [
+      5508,
+      5509,
+      5510,
+      5511,
+      5512
+    ]
+  }
+}, 1);
+item_base[5515] = createObject({
+  b_i: 5515,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Night Love Plate Helmet',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 14,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      helmet: 307
+    },
+    slot: 0,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5516] = createObject({
+  b_i: 5516,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Night Love Platemail',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 13,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      body: 318
+    },
+    slot: 2,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5517] = createObject({
+  b_i: 5517,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Night Love Plate Pants',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 16,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      pants: 280
+    },
+    slot: 11,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5518] = createObject({
+  b_i: 5518,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Night Love Plate Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 15,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 136
+    },
+    slot: 5,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5519] = createObject({
+  b_i: 5519,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Night Love Plate Boots',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 12,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      boots: 162
+    },
+    slot: 6,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5520] = createObject({
+  b_i: 5520,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Night Love Plate Cape',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 17,
+    y: 25
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      cape: 244
+    },
+    slot: 1,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5521] = createObject({
+  b_i: 5521,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Night Love Plate Outfit Box',
+  img: {
+    sheet: IMAGE_SHEET.BOX_SETS,
+    x: 7,
+    y: 10
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    slot: 9,
+    price: 1,
+    contains: [
+      5515,
+      5516,
+      5517,
+      5518,
+      5519
+    ]
+  }
+}, 1);
+item_base[5522] = createObject({
+  b_i: 5522,
+  b_t: ITEM_CATEGORY.WEAPON,
+  name: 'Emerald Night Wand',
+  img: {
+    sheet: IMAGE_SHEET.MWEAPONS,
+    x: 11,
+    y: 3
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      left_hand: 2,
+      weapon: 630
+    },
+    slot: 4,
+    aim: 30,
+    magic: 50,
+    min_magic: 50,
+    cooldown: 0.08,
+    min_accuracy: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5523] = createObject({
+  b_i: 5523,
+  b_t: ITEM_CATEGORY.WEAPON,
+  name: 'Night Love Sword',
+  img: {
+    sheet: IMAGE_SHEET.WEAPONS,
+    x: 15,
+    y: 3
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      left_hand: 2,
+      weapon: 631
+    },
+    slot: 4,
+    aim: 50,
+    power: 40,
+    min_accuracy: 20,
+    no_present: !0,
+    price: 1,
+    att_anim: HIT_ANIMATION.QUICK_WEAPON
+  }
+}, 1);
+item_base[5524] = createObject({
+  b_i: 5524,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Night Love Shield',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 24,
+    y: 4
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 1,
+      shield: 167
+    },
+    slot: 3,
+    armor: 25,
+    power: 15,
+    min_defense: 20,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5525] = createObject({
+  b_i: 5525,
+  b_t: ITEM_CATEGORY.WEAPON,
+  name: 'Rose Crystal Sword',
+  img: {
+    sheet: IMAGE_SHEET.WEAPONS,
+    x: 15,
+    y: 4
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      left_hand: 2,
+      weapon: 632
+    },
+    slot: 4,
+    aim: 40,
+    power: 50,
+    min_accuracy: 20,
+    no_present: !0,
+    price: 1,
+    att_anim: HIT_ANIMATION.QUICK_WEAPON
+  }
+}, 1);
+item_base[5526] = createObject({
+  b_i: 5526,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Ancient Quality Charon Obol',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 27
+  },
+  params: {
+    wearable: !0,
+    no_present: !0,
+    no_buy: !0,
+    slot: 3,
+    price: 140000,
+    desc: 'Their final payment rests with me.'
+  }
+}, 1);
+item_base[5527] = createObject({
+  b_i: 5527,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Bag of Ancient Quality Charon Obols [S]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 28
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    no_present: !0,
+    slot: 9,
+    price: 420000,
+    contains: [
+      5526,
+      5526,
+      5526
+    ]
+  }
+}, 1);
+item_base[5528] = createObject({
+  b_i: 5528,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Bag of Ancient Quality Charon Obols [M]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 29
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    no_present: !0,
+    slot: 9,
+    price: 700000,
+    contains: [
+      5526,
+      5526,
+      5526,
+      5526,
+      5526
+    ]
+  }
+}, 1);
+item_base[5529] = createObject({
+  b_i: 5529,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Bag of Ancient Quality Charon Obols [L]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 30
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    no_present: !0,
+    slot: 9,
+    price: 1400000,
+    contains: [
+      5526,
+      5526,
+      5526,
+      5526,
+      5526,
+      5526,
+      5526,
+      5526,
+      5526,
+      5526
+    ]
+  }
+}, 1);
+item_base[5530] = createObject({
+  b_i: 5530,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Ember Log',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 16,
+    y: 31
+  },
+  params: {
+    wearable: !0,
+    slot: 4,
+    min_fletching: 120,
+    price: 2600
+  }
+}, 1);
+item_base[5531] = createObject({
+  b_i: 5531,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Pet Skin Token',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 0,
+    y: 12
+  },
+  params: {
+    wearable: !0,
+    slot: 4,
+    price: 1560000,
+    no_present: !0,
+    desc: 'Used to unlock pet skins via Monster Statue. One use only.'
+  }
+}, 1);
+item_base[5532] = createObject({
+  b_i: 5532,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Moldy Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 2,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 170
+    },
+    slot: 3,
+    min_breeding: 10,
+    price: 10000
+  }
+}, 1);
+item_base[5533] = createObject({
+  b_i: 5533,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Monster Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 0,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 168
+    },
+    slot: 3,
+    min_breeding: 20,
+    price: 20000
+  }
+}, 1);
+item_base[5534] = createObject({
+  b_i: 5534,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Moss Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 1,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 171
+    },
+    slot: 3,
+    min_breeding: 30,
+    price: 30000
+  }
+}, 1);
+item_base[5535] = createObject({
+  b_i: 5535,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Gold Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 4,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 172
+    },
+    slot: 3,
+    min_breeding: 40,
+    price: 40000
+  }
+}, 1);
+item_base[5536] = createObject({
+  b_i: 5536,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Emerald Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 10,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 182
+    },
+    slot: 3,
+    min_breeding: 50,
+    price: 50000
+  }
+}, 1);
+item_base[5537] = createObject({
+  b_i: 5537,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Ruby Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 3,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 173
+    },
+    slot: 3,
+    min_breeding: 60,
+    price: 60000
+  }
+}, 1);
+item_base[5538] = createObject({
+  b_i: 5538,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Amethyst Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 6,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 174
+    },
+    slot: 3,
+    min_breeding: 70,
+    price: 70000
+  }
+}, 1);
+item_base[5539] = createObject({
+  b_i: 5539,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: '7 Souls Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 5,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 175
+    },
+    slot: 3,
+    min_breeding: 80,
+    price: 80000
+  }
+}, 1);
+item_base[5540] = createObject({
+  b_i: 5540,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Poisoned Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 8,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 176
+    },
+    slot: 3,
+    min_breeding: 90,
+    price: 90000
+  }
+}, 1);
+item_base[5541] = createObject({
+  b_i: 5541,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Ossified Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 9,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 177
+    },
+    slot: 3,
+    min_breeding: 100,
+    price: 100000
+  }
+}, 1);
+item_base[5542] = createObject({
+  b_i: 5542,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Frozen Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 13,
+    y: 10
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 178
+    },
+    slot: 3,
+    min_breeding: 110,
+    price: 110000
+  }
+}, 1);
+item_base[5543] = createObject({
+  b_i: 5543,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Bone Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 14,
+    y: 10
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 179
+    },
+    slot: 3,
+    min_breeding: 120,
+    price: 120000
+  }
+}, 1);
+item_base[5544] = createObject({
+  b_i: 5544,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Resurrection Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 11,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 180
+    },
+    slot: 3,
+    min_breeding: 130,
+    price: 130000
+  }
+}, 1);
+item_base[5545] = createObject({
+  b_i: 5545,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Accursed Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 12,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 181
+    },
+    slot: 3,
+    min_breeding: 140,
+    price: 140000
+  }
+}, 1);
+item_base[5546] = createObject({
+  b_i: 5546,
+  b_t: ITEM_CATEGORY.WEAPON,
+  name: 'Steel Crystal Knife',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 4,
+    y: 10
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      left_hand: 2,
+      weapon: 641
+    },
+    slot: 4,
+    min_breeding: 1,
+    price: 6574,
+    no_smelt: !0,
+    att_anim: HIT_ANIMATION.SMALL_WEAPON
+  }
+}, 1);
+item_base[5547] = createObject({
+  b_i: 5547,
+  b_t: ITEM_CATEGORY.WEAPON,
+  name: 'Sapphire Crystal Knife',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 5,
+    y: 10
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      left_hand: 2,
+      weapon: 633
+    },
+    slot: 4,
+    min_breeding: 20,
+    price: 13392,
+    no_smelt: !0,
+    att_anim: HIT_ANIMATION.SMALL_WEAPON
+  }
+}, 1);
+item_base[5548] = createObject({
+  b_i: 5548,
+  b_t: ITEM_CATEGORY.WEAPON,
+  name: 'Emerald Crystal Knife',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 8,
+    y: 10
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      left_hand: 2,
+      weapon: 634
+    },
+    slot: 4,
+    min_breeding: 30,
+    price: 19992,
+    no_smelt: !0,
+    att_anim: HIT_ANIMATION.SMALL_WEAPON
+  }
+}, 1);
+item_base[5549] = createObject({
+  b_i: 5549,
+  b_t: ITEM_CATEGORY.WEAPON,
+  name: 'Ruby Crystal Knife',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 6,
+    y: 10
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      left_hand: 2,
+      weapon: 635
+    },
+    slot: 4,
+    min_breeding: 40,
+    price: 25216,
+    no_smelt: !0,
+    att_anim: HIT_ANIMATION.SMALL_WEAPON
+  }
+}, 1);
+item_base[5550] = createObject({
+  b_i: 5550,
+  b_t: ITEM_CATEGORY.WEAPON,
+  name: 'Amethyst Crystal Knife',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 10,
+    y: 10
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      left_hand: 2,
+      weapon: 636
+    },
+    slot: 4,
+    min_breeding: 50,
+    price: 46800,
+    no_smelt: !0,
+    att_anim: HIT_ANIMATION.SMALL_WEAPON
+  }
+}, 1);
+item_base[5551] = createObject({
+  b_i: 5551,
+  b_t: ITEM_CATEGORY.WEAPON,
+  name: 'Fire Stone Crystal Knife',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 12,
+    y: 10
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      left_hand: 2,
+      weapon: 637
+    },
+    slot: 4,
+    min_breeding: 70,
+    price: 75012,
+    no_smelt: !0,
+    att_anim: HIT_ANIMATION.SMALL_WEAPON
+  }
+}, 1);
+item_base[5552] = createObject({
+  b_i: 5552,
+  b_t: ITEM_CATEGORY.WEAPON,
+  name: 'Dragonstone Crystal Knife',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 11,
+    y: 10
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      left_hand: 2,
+      weapon: 638
+    },
+    slot: 4,
+    min_breeding: 90,
+    price: 125060,
+    no_smelt: !0,
+    att_anim: HIT_ANIMATION.SMALL_WEAPON
+  }
+}, 1);
+item_base[5553] = createObject({
+  b_i: 5553,
+  b_t: ITEM_CATEGORY.WEAPON,
+  name: '7 Souls Crystal Knife',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 7,
+    y: 10
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      left_hand: 2,
+      weapon: 639
+    },
+    slot: 4,
+    min_breeding: 110,
+    price: 450876,
+    no_smelt: !0,
+    att_anim: HIT_ANIMATION.SMALL_WEAPON
+  }
+}, 1);
+item_base[5554] = createObject({
+  b_i: 5554,
+  b_t: ITEM_CATEGORY.WEAPON,
+  name: 'Obsidian Crystal Knife',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 9,
+    y: 10
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      left_hand: 2,
+      weapon: 640
+    },
+    slot: 4,
+    min_breeding: 130,
+    price: 547063,
+    no_smelt: !0,
+    att_anim: HIT_ANIMATION.SMALL_WEAPON
+  }
+}, 1);
+item_base[5555] = createObject({
+  b_i: 5555,
+  b_t: ITEM_CATEGORY.WEAPON,
+  name: 'Broken Crystal Knife',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 13,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    slot: 4,
+    min_breeding: 1,
+    price: 10000,
+    no_smelt: !0,
+    att_anim: HIT_ANIMATION.SMALL_WEAPON
+  }
+}, 1);
+item_base[5556] = createObject({
+  b_i: 5556,
+  b_t: ITEM_CATEGORY.MATERIAL,
+  name: 'Rotten Heart',
+  img: {
+    sheet: IMAGE_SHEET.TOOLS,
+    x: 7,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      right_hand: 0,
+      shield: 169
+    },
+    slot: 3,
+    min_breeding: 1,
+    price: 1000
+  }
+}, 1);
+item_base[5557] = createObject({
+  b_i: 5557,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Honey Guardian [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 14
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 1,
+    speed: 30,
+    min_health: 20,
+    pet: 486,
+    no_present: !0
+  }
+}, 1);
+item_base[5558] = createObject({
+  b_i: 5558,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Jack Nibbler [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 15
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 1,
+    speed: 30,
+    min_health: 20,
+    pet: 487,
+    no_present: !0
+  }
+}, 1);
+item_base[5559] = createObject({
+  b_i: 5559,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Agent Pinky [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 16
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 1,
+    speed: 30,
+    min_health: 20,
+    pet: 488,
+    no_present: !0
+  }
+}, 1);
+item_base[5560] = createObject({
+  b_i: 5560,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Hutch Slick Ears [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 17
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 1,
+    speed: 30,
+    min_health: 20,
+    pet: 489,
+    no_present: !0
+  }
+}, 1);
+item_base[5561] = createObject({
+  b_i: 5561,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Daisy Hopper [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 18
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 1,
+    speed: 30,
+    min_health: 20,
+    pet: 490,
+    no_present: !0
+  }
+}, 1);
+item_base[5562] = createObject({
+  b_i: 5562,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Sunbaked Mummy Helmet',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 0
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      helmet: 308
+    },
+    slot: 0,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5563] = createObject({
+  b_i: 5563,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Sunbaked Mummy Shirt',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 1
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      body: 319
+    },
+    slot: 2,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5564] = createObject({
+  b_i: 5564,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Sunbaked Mummy Pants',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 2
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      pants: 281
+    },
+    slot: 11,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5565] = createObject({
+  b_i: 5565,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Sunbaked Mummy Plate Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 3
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 137
+    },
+    slot: 5,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5566] = createObject({
+  b_i: 5566,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Sunbaked Mummy Plate Boots',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 4
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      boots: 163
+    },
+    slot: 6,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5567] = createObject({
+  b_i: 5567,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Sunbaked Mummy Outfit Box',
+  img: {
+    sheet: IMAGE_SHEET.BOX_SETS,
+    x: 8,
+    y: 10
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    slot: 9,
+    price: 1,
+    contains: [
+      5562,
+      5563,
+      5564,
+      5565,
+      5566
+    ]
+  }
+}, 1);
+item_base[5568] = createObject({
+  b_i: 5568,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Gilded Summer Archer Helmet',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 10
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      helmet: 309
+    },
+    slot: 0,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5569] = createObject({
+  b_i: 5569,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Gilded Summer Archer Shirt',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 11
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      body: 320
+    },
+    slot: 2,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5570] = createObject({
+  b_i: 5570,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Gilded Summer Archer Pants',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 12
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      pants: 282
+    },
+    slot: 11,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5571] = createObject({
+  b_i: 5571,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Gilded Summer Archer Plate Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 13
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 138
+    },
+    slot: 5,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5572] = createObject({
+  b_i: 5572,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Gilded Summer Archer Plate Boots',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 14
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      boots: 164
+    },
+    slot: 6,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5573] = createObject({
+  b_i: 5573,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Gilded Summer Archer Outfit Box',
+  img: {
+    sheet: IMAGE_SHEET.BOX_SETS,
+    x: 10,
+    y: 10
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    slot: 9,
+    price: 1,
+    contains: [
+      5568,
+      5569,
+      5570,
+      5571,
+      5572
+    ]
+  }
+}, 1);
+item_base[5574] = createObject({
+  b_i: 5574,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Summer Archer Helmet',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 5
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      helmet: 310
+    },
+    slot: 0,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5575] = createObject({
+  b_i: 5575,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Summer Archer Shirt',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 6
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      body: 321
+    },
+    slot: 2,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5576] = createObject({
+  b_i: 5576,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Summer Archer Pants',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 7
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      pants: 283
+    },
+    slot: 11,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5577] = createObject({
+  b_i: 5577,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Summer Archer Plate Gloves',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 8
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      hands: 139
+    },
+    slot: 5,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5578] = createObject({
+  b_i: 5578,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Summer Archer Plate Boots',
+  img: {
+    sheet: IMAGE_SHEET.ARMOR2,
+    x: 25,
+    y: 9
+  },
+  params: {
+    wearable: !0,
+    visible: {
+      boots: 165
+    },
+    slot: 6,
+    armor: 1,
+    min_defense: 1,
+    no_present: !0,
+    price: 1
+  }
+}, 1);
+item_base[5579] = createObject({
+  b_i: 5579,
+  b_t: ITEM_CATEGORY.ARMOR,
+  name: 'Summer Archer Outfit Box',
+  img: {
+    sheet: IMAGE_SHEET.BOX_SETS,
+    x: 9,
+    y: 10
+  },
+  params: {
+    wearable: !1,
+    no_smelt: !0,
+    slot: 9,
+    price: 1,
+    contains: [
+      5574,
+      5575,
+      5576,
+      5577,
+      5578
+    ]
+  }
+}, 1);
+item_base[5580] = createObject({
+  b_i: 5580,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Elephant [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 19
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 1,
+    armor: 40,
+    power: 20,
+    min_health: 20,
+    pet: 491,
+    no_present: !0
+  }
+}, 1);
+item_base[5581] = createObject({
+  b_i: 5581,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Fennec Fox [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 20
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 1,
+    speed: 25,
+    aim: 40,
+    min_health: 20,
+    pet: 492,
+    no_present: !0
+  }
+}, 1);
+item_base[5582] = createObject({
+  b_i: 5582,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Treasure Chest [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 22
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 1,
+    armor: 60,
+    min_health: 20,
+    pet: 493,
+    no_present: !0
+  }
+}, 1);
+item_base[5583] = createObject({
+  b_i: 5583,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Beach Chest [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 21
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 1,
+    speed: 25,
+    magic: 30,
+    aim: 20,
+    min_health: 20,
+    pet: 494,
+    no_present: !0
+  }
+}, 1);
+item_base[5584] = createObject({
+  b_i: 5584,
+  b_t: ITEM_CATEGORY.PET,
+  name: 'Sand Chest [Ancient]',
+  img: {
+    sheet: IMAGE_SHEET.MISC,
+    x: 17,
+    y: 23
+  },
+  params: {
+    wearable: !0,
+    slot: 12,
+    price: 1,
+    speed: 30,
+    min_health: 20,
+    pet: 495,
+    no_present: !0
+  }
+}, 1);
+item_base[5585] = createObject({
+  b_i: 5585,
+  b_t: ITEM_CATEGORY.HOUSE,
+  name: 'Fir Bathtub',
+  img: {
+    sheet: IMAGE_SHEET.HOUSE_INV,
+    x: 7,
+    y: 12
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    price: 1,
+    carpentry_type: BASE_TYPE.OBJECT,
+    no_present: !0,
+    carpentry_id: 1105,
+    size: 6,
+    desc: 'Place it on your island. Decorative item.'
+  }
+}, 1);
+item_base[5586] = createObject({
+  b_i: 5586,
+  b_t: ITEM_CATEGORY.HOUSE,
+  name: 'Fir Shower Cabin',
+  img: {
+    sheet: IMAGE_SHEET.HOUSE_INV,
+    x: 7,
+    y: 13
+  },
+  params: {
+    wearable: !0,
+    slot: 3,
+    price: 1,
+    carpentry_type: BASE_TYPE.OBJECT,
+    no_present: !0,
+    carpentry_id: 1106,
+    size: 10,
     desc: 'Place it on your island. Decorative item.'
   }
 }, 1);

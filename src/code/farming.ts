@@ -124,10 +124,12 @@ let farming_initialize = () => {
       table_content_container.innerHTML += farmable_list + "</tbody></table>";
     if (farming_bush_input.checked)
       table_content_container.innerHTML += harvestable_list + "</tbody></table>";
-    //@ts-ignore
-    sorttable.makeSortable(document.getElementById("farming_bush_output_table"));
-    //@ts-ignore
-    sorttable.makeSortable(document.getElementById("farming_field_output_table"));
+    if (farming_field_input.checked)
+      //@ts-ignore
+      sorttable.makeSortable(document.getElementById("farming_field_output_table"));
+    if (farming_bush_input.checked)
+      //@ts-ignore
+      sorttable.makeSortable(document.getElementById("farming_bush_output_table"));
 
   });
 };

@@ -918,7 +918,7 @@ let destroy_br_script = function (a, b) {
 }
 `, 7);
 
-extract_file_segment(`npc_base[0] = createObject({`, `for (i = 0; i < npc_base.length; i++);`, "./Data/npc_bases.ts", `//@ts-nocheck
+extract_file_segment(`npc_base[0] = createObject({`, `for (i = 0; i < npc_base.length; i++)`, "./Data/npc_bases.ts", `//@ts-nocheck
 let npc_base:any[] = []
 let cow_image = {
   sheet: IMAGE_SHEET.ANIMALS,

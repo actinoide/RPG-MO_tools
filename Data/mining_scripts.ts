@@ -54,6 +54,18 @@ mining_vein_requires_one_from = [
   5130,
   5131
 ],
+sand_digging_requires_one_from = [
+  286,
+  2807,
+  5007,
+  5008,
+  5034,
+  5035,
+  5116,
+  5117,
+  5397,
+  5398
+],
 clay_ore_script = {
   desc: 'Clay is used for jewelry. Requires level 1 mining.',
   results: [
@@ -103,16 +115,7 @@ sand_ore_script = {
   desc: 'Sand is used for alchemy. Requires level 1 mining. Contains a crystal gem.',
   results: [
     {
-      requires_one_from: [
-        286,
-        2807,
-        5007,
-        5008,
-        5034,
-        5035,
-        5116,
-        5117
-      ],
+      requires_one_from: sand_digging_requires_one_from,
       skill: 'mining',
       continuous: !0,
       returns: [
@@ -168,16 +171,7 @@ sand_ore_script_tutorial = {
   desc: 'Sand is used for alchemy. Requires level 1 mining.',
   results: [
     {
-      requires_one_from: [
-        286,
-        2807,
-        5007,
-        5008,
-        5034,
-        5035,
-        5116,
-        5117
-      ],
+      requires_one_from: sand_digging_requires_one_from,
       skill: 'mining',
       continuous: !0,
       returns: [
@@ -1481,16 +1475,7 @@ graveyard_script = {
   desc: 'Bones are used for alchemy. Requires level 15 mining.',
   results: [
     {
-      requires_one_from: [
-        286,
-        2807,
-        5007,
-        5008,
-        5034,
-        5035,
-        5116,
-        5117
-      ],
+      requires_one_from: sand_digging_requires_one_from,
       skill: 'mining',
       continuous: !0,
       returns: [
@@ -1547,16 +1532,7 @@ swamp_script = {
   desc: 'Fangs are used for alchemy. Requires level 35 mining.',
   results: [
     {
-      requires_one_from: [
-        286,
-        2807,
-        5007,
-        5008,
-        5034,
-        5035,
-        5116,
-        5117
-      ],
+      requires_one_from: sand_digging_requires_one_from,
       skill: 'mining',
       continuous: !0,
       returns: [
@@ -1830,6 +1806,46 @@ blood_crystal_script = {
           next: !1,
           duration: 2000,
           xp: 300
+        }
+      ]
+    }
+  ]
+},
+obsidian_ore_script = {
+  desc: 'Obsidian is used for forging. Requires level 140 mining.',
+  results: [
+    {
+      requires_one_from: mining_requires_one_from,
+      skill: 'mining',
+      continuous: !0,
+      returns: [
+        {
+          id: 5481,
+          level: 140,
+          base_chance: 0.02,
+          next: !1,
+          duration: 2000,
+          xp: 1200
+        }
+      ]
+    }
+  ]
+},
+obsidian_corrupt_ore_script = {
+  desc: 'Obsidian is used for forging. Requires level 140 mining.',
+  results: [
+    {
+      requires_one_from: mining_requires_one_from,
+      skill: 'mining',
+      continuous: !0,
+      returns: [
+        {
+          id: 5483,
+          level: 140,
+          base_chance: 0.05,
+          next: !1,
+          duration: 2000,
+          xp: 1500
         }
       ]
     }
