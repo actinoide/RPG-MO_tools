@@ -48,7 +48,8 @@ let wizardry_initialize = () => {
         let spell_results = [];
         altar_ids.forEach((altar_id) => {
             object_base[altar_id].params.results.forEach((result) => {
-                spell_results.push(result);
+                if (result.skill == "wizardry")
+                    spell_results.push(result);
             });
         });
         let craftable_list = `<table style="color: #dddce0; width: 100%;" class="sortable" id="wizardry_output_table"><thead style="position:sticky; top:-1px;background:#1f1b26"><tr><th>name</th><th>level</th><th>base success</th><th>current success</th><th>xp per success</th><th>xp per craft</th><th>number required</th><th>number produced</th></tr></thead><tbody>`;

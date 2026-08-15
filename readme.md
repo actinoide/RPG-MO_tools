@@ -10,7 +10,6 @@ This tool was created by actinoide, reachable under that name both ingame and vi
 #### skilling changes
 - implement potions including variable new potion times
 - spore only mode for fungiculture
-- implement hearts for breeding
 
 #### new features
 - SQ support
@@ -30,3 +29,4 @@ This tool was created by actinoide, reachable under that name both ingame and vi
 - rare key drops
 - retal key drops
 - PQ rewards
+- implement hearts for breeding

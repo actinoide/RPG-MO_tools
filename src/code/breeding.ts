@@ -6,6 +6,10 @@ let breeding_initialize = () => {
   <input type="number" placeholder="target level" value="" id="breeding_target_level_input" class="input-number" step = "1">
   <label class="input-checkbox-label">
   <input type="checkbox" id="breeding_2x_input" class="input-checkbox"><span class="input-checkbox-span">2x</span></label>
+  <label class="input-checkbox-label">
+  <input type="checkbox" id="breeding_animal_input" class="input-checkbox"><span class="input-checkbox-span">animals</span></label>
+  <label class="input-checkbox-label">
+  <input type="checkbox" id="breeding_heart_input" class="input-checkbox"><span class="input-checkbox-span">hearts</span></label>
   <button id="breeding_input_button" class="input-button">calculate</button></div>`;
 
   let breeding_exp_input = document.getElementById("breeding_exp_input") as HTMLInputElement;
@@ -13,6 +17,8 @@ let breeding_initialize = () => {
   let breeding_target_level_input = document.getElementById("breeding_target_level_input") as HTMLInputElement;
   let breeding_input_button = document.getElementById("breeding_input_button") as HTMLButtonElement;
   let breeding_2x_input = document.getElementById("breeding_2x_input") as HTMLInputElement;
+  let breeding_animal_input = document.getElementById("breeding_animal_input") as HTMLInputElement;
+  let breeding_heart_input = document.getElementById("breeding_heart_input") as HTMLInputElement;
 
   get_stored_level("breeding").then((level) => {
     breeding_level_input.value = level.toString();
@@ -39,34 +45,75 @@ let breeding_initialize = () => {
     let level = breeding_level_input.valueAsNumber;
     let xp_required = total_exp_for_level(breeding_target_level_input.valueAsNumber) - (breeding_exp_input.value === "" ? total_exp_for_level(breeding_level_input.valueAsNumber) : breeding_exp_input.value.replace(/[,]/g, "") as unknown as number);
 
-    let breedable_string = `<table style="color: #dddce0; width: 100%;" class="sortable" id="breeding_output_table"><thead style="position:sticky; top:-1px;background:#1f1b26"><tr><th>name</th><th>level</th><th>xp per attempt</th><th>lost pets</th><th>insurance cost</th></tr></thead><tbody>`;
+    table_content_container.innerHTML = "";
 
-    pets.forEach((value) => {
-      if (!(typeof value.params.likes === "undefined")) {
-        value.params.likes.forEach((sub_value: any) => {
-          breedable_string += "<tr><td>" + get_image_div(value.params.item_id) + get_image_div(pets[sub_value.pet_id].params.item_id) + "</td>";
-          breedable_string += "<td>" + value.params.breeding_level + "</td>";
-          let xp_per_tick = 0;
-          let chance_of_path = 1;
-          sub_value.returns.forEach((partner: any) => {
-            let current_chance = calculate_success(partner.base_chance, partner.max_chance, value.params.breeding_level, level);
-            xp_per_tick += chance_of_path * current_chance * sub_value.xp;
-            chance_of_path -= chance_of_path * current_chance;
+    if (breeding_animal_input.checked) {
+
+      let breedable_string = `<table style="color: #dddce0; width: 100%;" class="sortable" id="breeding_output_table"><thead style="position:sticky; top:-1px;background:#1f1b26"><tr><th>name</th><th>level</th><th>xp per attempt</th><th>lost pets</th><th>insurance cost</th></tr></thead><tbody>`;
+
+      pets.forEach((value) => {
+        if (!(typeof value.params.likes === "undefined")) {
+          value.params.likes.forEach((sub_value: any) => {
+            breedable_string += "<tr><td>" + get_image_div(value.params.item_id) + get_image_div(pets[sub_value.pet_id].params.item_id) + "</td>";
+            breedable_string += "<td>" + value.params.breeding_level + "</td>";
+            let xp_per_tick = 0;
+            let chance_of_path = 1;
+            sub_value.returns.forEach((partner: any) => {
+              let current_chance = calculate_success(partner.base_chance, partner.max_chance, value.params.breeding_level, level);
+              xp_per_tick += chance_of_path * current_chance * sub_value.xp;
+              chance_of_path -= chance_of_path * current_chance;
+            });
+            breedable_string += "<td>" + Math.round(xp_per_tick) * (1 + (breeding_2x_input.checked ? 1 : 0)) + "</td>";
+            breedable_string += "<td>" + "<div style=\"height:32px;float:left;\">" + Math.round(0.25 * xp_required / (xp_per_tick * (1 + (breeding_2x_input.checked ? 1 : 0)))) + get_image_div(value.params.item_id) + "</div><div style=\"height:32px;float:left;\">" + Math.round(0.25 * xp_required / (xp_per_tick * (1 + (breeding_2x_input.checked ? 1 : 0)))) + get_image_div(pets[sub_value.pet_id].params.item_id) + "</div></td>";
+            breedable_string += "<td>" + Math.round(xp_required / (xp_per_tick * (1 + (breeding_2x_input.checked ? 1 : 0))) * (value.params.insurance_cost[0] + pets[sub_value.pet_id].params.insurance_cost[0])).toLocaleString("en-GB") + " coins or " + Math.round(xp_required / (xp_per_tick * (1 + (breeding_2x_input.checked ? 1 : 0))) * (value.params.insurance_cost[1] + pets[sub_value.pet_id].params.insurance_cost[1])).toLocaleString("en-GB") + " mos" + "</td>";
+
+            breedable_string += "</tr>";
+
           });
-          breedable_string += "<td>" + Math.round(xp_per_tick) * (1 + (breeding_2x_input.checked ? 1 : 0)) + "</td>";
-          breedable_string += "<td>" + "<div style=\"height:32px;float:left;\">" + Math.round(0.25 * xp_required / (xp_per_tick * (1 + (breeding_2x_input.checked ? 1 : 0)))) + get_image_div(value.params.item_id) + "</div><div style=\"height:32px;float:left;\">" + Math.round(0.25 * xp_required / (xp_per_tick * (1 + (breeding_2x_input.checked ? 1 : 0)))) + get_image_div(pets[sub_value.pet_id].params.item_id) + "</div></td>";
-          breedable_string += "<td>" + Math.round(xp_required / (xp_per_tick * (1 + (breeding_2x_input.checked ? 1 : 0))) * (value.params.insurance_cost[0] + pets[sub_value.pet_id].params.insurance_cost[0])).toLocaleString("en-GB") + " coins or " + Math.round(xp_required / (xp_per_tick * (1 + (breeding_2x_input.checked ? 1 : 0))) * (value.params.insurance_cost[1] + pets[sub_value.pet_id].params.insurance_cost[1])).toLocaleString("en-GB") + " mos" + "</td>";
+        }
+      });
 
-          breedable_string += "</tr>";
+      table_content_container.innerHTML += breedable_string + "</tbody></table>";
 
+      //@ts-ignore
+      sorttable.makeSortable(document.getElementById("breeding_output_table"));
+    }
+    if (breeding_heart_input.checked) {
+      let altar_ids: number[] = [];
+      object_base.forEach((value) => {
+        if (value.name.includes("Altar"))
+          altar_ids.push(value.b_i);
+      });
+      let heart_results: result[] = [];
+      altar_ids.forEach((altar_id) => {
+        object_base[altar_id].params.results.forEach((result) => {
+          if (result.skill == "breeding")
+            heart_results.push(result);
         });
-      }
-    });
+      });
 
-    table_content_container.innerHTML = breedable_string + "</tbody></table>";
-
-    //@ts-ignore
-    sorttable.makeSortable(document.getElementById("breeding_output_table"));
-
+      // name, level, xp per success, number requiered, number produced?
+      let heart_string = `<table style="color: #dddce0; width: 100%;" class="sortable" id="heart_output_table"><thead style="position:sticky; top:-1px;background:#1f1b26"><tr><th>name</th><th>level</th><th>xp per attempt</th><th>number requiered</th><th>number produced</th></tr></thead><tbody>`;
+      heart_results.forEach((heart_result) => {
+        heart_string += "<tr><td>";
+        heart_result.requires.forEach((item) => {
+          heart_string += get_image_div(item);
+        });
+        heart_string += "</td><td>" + heart_result.returns[0].level + "</td>";
+        let xp_per_tick = 0;
+        let chance_of_path = 1;
+        heart_result.returns.forEach((value) => {
+          let current_chance = calculate_success(value.base_chance, value.max_chance, value.level, level);
+          xp_per_tick += chance_of_path * current_chance * value.xp;
+          chance_of_path -= chance_of_path * current_chance;
+        });
+        heart_string += "<td>" + xp_per_tick + "</td><td>";
+        heart_result.returns[0].consumes.forEach((value) => {
+          heart_string += "<div style=\"height:32px;float:left;\">" + Math.ceil((value.count * xp_required / xp_per_tick) / (1 + (breeding_2x_input.checked === true ? 1 : 0))).toLocaleString("en-GB") + get_image_div(value.id) + "</div>";
+        });
+        heart_string += "</td><td>" + "<div style=\"height:32px;float:left;\">" + Math.ceil((xp_required / xp_per_tick) / (1 + (breeding_2x_input.checked === true ? 1 : 0))).toLocaleString("en-GB") + get_image_div(heart_result.returns[0].id) + "</div>" + "</td></tr>";
+      });
+      table_content_container.innerHTML += heart_string + "</tbody></table>";
+    }
   });
 };

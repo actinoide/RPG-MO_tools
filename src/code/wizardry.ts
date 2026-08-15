@@ -54,7 +54,8 @@ let wizardry_initialize = () => {
     let spell_results: result[] = [];
     altar_ids.forEach((altar_id) => {
       object_base[altar_id].params.results.forEach((result) => {
-        spell_results.push(result);
+        if (result.skill == "wizardry")
+          spell_results.push(result);
       });
     });
 
